@@ -10,6 +10,13 @@ from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
 from utils.web_utils import download_json
 
+lang_mappings = {
+    "ja": "ja",
+    "en": "en",
+    "zh-hant": "zh-tw",
+    "zh-hans": "zh-cn",
+}
+
 
 class BlueArchiveResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
@@ -40,8 +47,8 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
             char = Character(
                 key,
-                {k: names["last_name"][k] + " " + names["first_name"][k] for k in ["ja", "en"]},
-                {k: names["first_name"][k] for k in ["ja", "en"]},
+                {mapped: " ".join([names["last_name"][k], names["first_name"][k]]).strip() for k, mapped in lang_mappings.items()},
+                {mapped: names["first_name"][k] for k, mapped in lang_mappings.items()},
                 [],
                 [ch["school"], *ch["club"]],
             )
@@ -76,8 +83,8 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         if has_update:
             write_json(img_mappings_file, img_mappings)
 
-        # add other languages
-        for lang in ["zh-cn", "zh-tw"]:
+        # overrides
+        for lang in ["zh-cn"]:
             res_file = script_dir / f"lang/{lang}.json"
             res_data = read_json(res_file, dict)
             has_update = False
@@ -85,8 +92,10 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 if ch.id not in res_data:
                     res_data[ch.id] = {"name": "", "short_name": ""}
                     has_update = True
-                ch.names[lang] = res_data[ch.id]["name"]
-                ch.short_names[lang] = res_data[ch.id]["short_name"]
+                if len(res_data[ch.id]["name"]) > 0:
+                    ch.names[lang] = res_data[ch.id]["name"]
+                if len(res_data[ch.id]["short_name"]) > 0:
+                    ch.short_names[lang] = res_data[ch.id]["short_name"]
             if has_update:
                 write_json(res_file, res_data)
 
@@ -97,13 +106,6 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         return sorted(glob.glob(str(in_root / "*_Jp.png")))
 
     def get_filters(self) -> List[FilterGroup]:
-        lang_mappings = {
-            "ja": "ja",
-            "en": "en",
-            "zh-hant": "zh-tw",
-            "zh-hans": "zh-cn",
-        }
-
         def make_group(key, names, data: Dict[str, Dict[str, str]]):
             data_keys = sorted(list(data.keys()))
             return FilterGroup(
