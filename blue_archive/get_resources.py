@@ -14,10 +14,10 @@ from utils.web_utils import download_json
 class BlueArchiveResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
         super().__init__("ba")
-        self.res_root = Path(self.args.resources)
+        self.res_root = Path(self.args.resources) / "Assets/_MX/AddressableAsset/UIs/01_Common"
 
     def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
-        parser.add_argument("--resources", default="G:\\Games\\BuruakaResources\\assets\\Assets\\_MX\\AddressableAsset\\UIs\\01_Common")
+        parser.add_argument("resources", help="Path to BuruakaResources assets folder")
         return parser
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:

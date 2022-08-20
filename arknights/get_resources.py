@@ -17,7 +17,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
         self.res_root = Path(self.args.resources)
 
     def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
-        parser.add_argument("--resources", default="G:\\Games\\AknResources\\cn\\assets")
+        parser.add_argument("resources", help="Path to AknResources assets folder")
         return parser
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
