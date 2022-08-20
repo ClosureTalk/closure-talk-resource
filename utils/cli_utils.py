@@ -14,5 +14,8 @@ def create_common_parser(output_name: str) -> ArgumentParser:
     )
     parser.add_argument("--avatar_size", type=int, default=128)
     parser.add_argument("--stamp_size", type=int, default=200)
+    parser.add_argument("--skip_chars", action="store_true")
+    parser.add_argument("--skip_stamps", action="store_true")
+    parser.add_argument("--skip_filters", action="store_true")
 
     return parser

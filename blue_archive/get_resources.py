@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 from utils.json_utils import read_json, write_json
-from utils.models import Character
+from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
 from utils.web_utils import download_json
 
@@ -40,8 +40,8 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
             char = Character(
                 key,
-                { k: names["last_name"][k] + " " + names["first_name"][k] for k in ["ja", "en"] },
-                { k: names["first_name"][k] for k in ["ja", "en"] },
+                {k: names["last_name"][k] + " " + names["first_name"][k] for k in ["ja", "en"]},
+                {k: names["first_name"][k] for k in ["ja", "en"]},
                 [],
                 [ch["school"], *ch["club"]],
             )
@@ -64,7 +64,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                         found = True
                         break
 
-                if not found and (img not in img_mappings or len(img_mappings[img]) > 0) :
+                if not found and (img not in img_mappings or len(img_mappings[img]) > 0):
                     img_mappings[img] = ""
                     has_update = True
 
@@ -95,6 +95,56 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
     def get_stamps(self) -> List[str]:
         in_root = self.res_root / "31_ClanEmoji"
         return sorted(glob.glob(str(in_root / "*_Jp.png")))
+
+    def get_filters(self) -> List[FilterGroup]:
+        lang_mappings = {
+            "ja": "ja",
+            "en": "en",
+            "zh-hant": "zh-tw",
+            "zh-hans": "zh-cn",
+        }
+
+        def make_group(key, names, data: Dict[str, Dict[str, str]]):
+            data_keys = sorted(list(data.keys()))
+            return FilterGroup(
+                key,
+                names,
+                data_keys,
+                [
+                    {
+                        lang_mappings[k]: v for k, v in data[data_key].items() if k in lang_mappings
+                    }
+                    for data_key in data_keys
+                ],
+                [False] * len(data_keys)
+            )
+
+        schools = download_json("https://raw.githubusercontent.com/YuzuTalk/translation/main/json/schools.json")
+        clubs = download_json("https://raw.githubusercontent.com/YuzuTalk/translation/main/json/clubs.json")
+
+        return [
+            make_group(
+                "schools",
+                {
+                    "zh-cn": "学校",
+                    "ja": "学校",
+                    "en": "School",
+                    "zh-tw": "学校",
+                },
+                schools,
+            ),
+            make_group(
+                "clubs",
+                {
+                    "zh-cn": "社团",
+                    "ja": "クラブ",
+                    "en": "Club",
+                    "zh-tw": "社團",
+                },
+                clubs,
+            ),
+        ]
+
 
 if __name__ == "__main__":
     BlueArchiveResourceProcessor().main()

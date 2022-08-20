@@ -1,16 +1,17 @@
 import logging
 import os
+from argparse import ArgumentParser
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 from tqdm import tqdm
 
-from utils.image_utils import process_image
-from utils.logging_utils import setup_logging
-from utils.models import Character
-from utils.json_utils import write_json, write_list
 from utils.cli_utils import create_common_parser
-from argparse import ArgumentParser
+from utils.image_utils import process_image
+from utils.json_utils import write_json, write_list
+from utils.logging_utils import setup_logging
+from utils.models import Character, FilterGroup
+
 
 def char_json_path(out_root: Path):
     return out_root / "char.json"
@@ -19,6 +20,9 @@ def char_json_path(out_root: Path):
 def stamps_json_path(out_root: Path):
     return out_root / "stamps.json"
 
+
+def filters_json_path(out_root: Path):
+    return out_root / "filters.json"
 
 class ResourceProcessor:
     def __init__(self, key: str) -> None:
@@ -39,10 +43,18 @@ class ResourceProcessor:
     def get_stamps(self) -> List[str]:
         raise NotImplementedError()
 
+    def get_filters(self) -> List[FilterGroup]:
+        raise NotImplementedError()
+
     def main(self):
-        characters, avatar_paths = self._process_chars()
-        self._process_avatars(characters, avatar_paths)
-        self._process_stamps(self.get_stamps())
+        args = self.args
+        if not args.skip_chars:
+            characters, avatar_paths = self._process_chars()
+            self._process_avatars(characters, avatar_paths)
+        if not args.skip_stamps:
+            self._process_stamps(self.get_stamps())
+        if not args.skip_filters:
+            self._process_filters()
 
     def _process_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         out_root = self.out_root
@@ -95,3 +107,9 @@ class ResourceProcessor:
             except:
                 logging.error(f"Failed: {src} -> {dst}")
                 raise
+
+    def _process_filters(self):
+        logging.info("Get filters")
+        filters = self.get_filters()
+        logging.info(f"Save {len(filters)} filters")
+        write_list(FilterGroup, filters_json_path(self.out_root), filters)

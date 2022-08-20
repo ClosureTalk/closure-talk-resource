@@ -6,7 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-from utils.models import Character
+from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
 from utils.web_utils import download_json
 
@@ -43,6 +43,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
         characters = []
         avatar_files = {}
         appellations = defaultdict(str)
+        ch_types = set()
 
         for k, v in sorted(char_tables["zh-cn"].items(), key=lambda pair: pair[0]):
             name = v["name"]
@@ -52,7 +53,9 @@ class ArknightsResourceProcessor(ResourceProcessor):
                 continue
 
             avatar_files[k] = basic_sprite
-            ch = Character(k, { "zh-cn": name }, { "zh-cn": name }, [k], [v["appellation"]])
+            ch_type = k.split("_")[0]
+            ch_types.add(ch_type)
+            ch = Character(k, {"zh-cn": name}, {"zh-cn": name}, [k], [v["appellation"], f":#type-{ch_type}"])
             appellations[ch.id] = v["appellation"]
 
             # E2 and skins
@@ -65,6 +68,8 @@ class ArknightsResourceProcessor(ResourceProcessor):
 
             characters.append(ch)
 
+        logging.info(f"All ch types: {ch_types}")
+
         for k, v in sorted(enemy_tables["zh-cn"].items(), key=lambda pair: pair[0]):
             name = v["name"]
             if name == "-":
@@ -76,7 +81,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
                 continue
 
             avatar_files[k] = basic_sprite
-            characters.append(Character(k, { "zh-cn": name }, { "zh-cn": name }, [k], []))
+            characters.append(Character(k, {"zh-cn": name}, {"zh-cn": name}, [k], [":#type-enemy"]))
 
         # add other languages
         all_tables = char_tables
@@ -96,11 +101,11 @@ class ArknightsResourceProcessor(ResourceProcessor):
         closure_id = "char_007_closre"
         if closure_id not in avatar_files:
             closure_name = {
-                    "zh-cn": "可露希尔",
-                    "zh-tw": "可露希爾",
-                    "ja": "クロージャ",
-                    "en": "Closure",
-                }
+                "zh-cn": "可露希尔",
+                "zh-tw": "可露希爾",
+                "ja": "クロージャ",
+                "en": "Closure",
+            }
             characters = [Character(
                 closure_id,
                 closure_name,
@@ -114,6 +119,41 @@ class ArknightsResourceProcessor(ResourceProcessor):
 
     def get_stamps(self) -> List[str]:
         return []
+
+    def get_filters(self) -> List[FilterGroup]:
+        type_filter = FilterGroup(
+            "type",
+            {
+                "zh-cn": "类型",
+                "zh-tw": "",
+                "ja": "",
+                "en": "Type",
+            },
+            [":#type-char", ":#type-token", ":#type-enemy"],
+            [
+                {
+                    "zh-cn": "干员",
+                    "zh-tw": "",
+                    "ja": "",
+                    "en": "Operator",
+                },
+                {
+                    "zh-cn": "Token",
+                    "zh-tw": "",
+                    "ja": "",
+                    "en": "Token",
+                },
+                {
+                    "zh-cn": "敌方",
+                    "zh-tw": "",
+                    "ja": "",
+                    "en": "Enemy",
+                },
+            ],
+            [True, False, False],
+        )
+        return [type_filter]
+
 
 if __name__ == "__main__":
     ArknightsResourceProcessor().main()
