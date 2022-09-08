@@ -6,6 +6,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+from utils.json_utils import read_json
 from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
 from utils.web_utils import download_json
@@ -31,13 +32,30 @@ class ArknightsResourceProcessor(ResourceProcessor):
             "en": "en_US",
             "zh-tw": "zh_TW",
         }
+        res_keys = {
+            "zh-cn": "cn",
+            "ja": "jp",
+            "en": "us",
+            "zh-tw": "tw",
+        }
         char_tables = {}
         enemy_tables = {}
         for lang in langs:
-            logging.info(f"Download {lang} tables")
-            path = f"https://github.com/Kengxxiao/ArknightsGameData/blob/master/{lang_keys[lang]}/gamedata/excel"
-            char_tables[lang] = download_json(f"{path}/character_table.json?raw=true")
-            enemy_tables[lang] = download_json(f"{path}/enemy_handbook_table.json?raw=true")
+            for tables, name in [
+                [char_tables, "character_table.json"],
+                [enemy_tables, "enemy_handbook_table.json"],
+            ]:
+                local_file = res_root / f"{res_keys[lang]}/assets/gamedata/excel/{name}"
+                if os.path.isfile(local_file):
+                    logging.info(f"Read {lang} table {name}")
+                    tables[lang] = read_json(local_file, None)
+                else:
+                    logging.info(f"Download {lang} table {name}")
+                    url = f"https://github.com/Kengxxiao/ArknightsGameData/blob/master/{lang_keys[lang]}/gamedata/excel/{name}?raw=true"
+                    tables[lang] = download_json(url)
+
+        # get all avatars from cn
+        res_root = res_root / "cn/assets"
 
         # add characters with avatars
         characters = []
