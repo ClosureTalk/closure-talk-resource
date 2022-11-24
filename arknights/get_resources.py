@@ -21,6 +21,12 @@ class ArknightsResourceProcessor(ResourceProcessor):
         parser.add_argument("resources", help="Path to AknResources assets folder")
         return parser
 
+    def get_versions(self) -> Dict[str, str]:
+        res_vers = read_json(self.res_root / "versions.json", None)
+        return {
+            f"ak-{k}": v for k, v in res_vers.items()
+        }
+
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         res_root = self.res_root
 

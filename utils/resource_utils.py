@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 from utils.cli_utils import create_common_parser
 from utils.image_utils import process_image
-from utils.json_utils import write_json, write_list
+from utils.json_utils import read_json, write_json, write_list
 from utils.logging_utils import setup_logging
 from utils.models import Character, FilterGroup
 
@@ -24,6 +24,7 @@ def stamps_json_path(out_root: Path):
 def filters_json_path(out_root: Path):
     return out_root / "filters.json"
 
+
 class ResourceProcessor:
     def __init__(self, key: str) -> None:
         self.key = key
@@ -37,6 +38,9 @@ class ResourceProcessor:
     def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
         return parser
 
+    def get_versions(self) -> Dict[str, str]:
+        raise NotImplementedError()
+
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         raise NotImplementedError()
 
@@ -48,6 +52,7 @@ class ResourceProcessor:
 
     def main(self):
         args = self.args
+        self._process_versions()
         if not args.skip_chars:
             characters, avatar_paths = self._process_chars()
             self._process_avatars(characters, avatar_paths)
@@ -55,6 +60,11 @@ class ResourceProcessor:
             self._process_stamps(self.get_stamps())
         if not args.skip_filters:
             self._process_filters()
+
+    def _process_versions(self):
+        all_vers = read_json(self.out_root.parent / "versions.json", dict)
+        all_vers.update(self.get_versions())
+        write_json(self.out_root.parent / "versions.json", all_vers)
 
     def _process_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         out_root = self.out_root

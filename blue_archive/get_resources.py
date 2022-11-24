@@ -21,11 +21,17 @@ lang_mappings = {
 class BlueArchiveResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
         super().__init__("ba")
-        self.res_root = Path(self.args.resources) / "Assets/_MX/AddressableAsset/UIs/01_Common"
+        self.res_root = Path(self.args.resources) / "assets/Assets/_MX/AddressableAsset/UIs/01_Common"
 
     def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
-        parser.add_argument("resources", help="Path to BuruakaResources assets folder")
+        parser.add_argument("resources", help="Path to BuruakaResources data folder")
         return parser
+
+    def get_versions(self) -> Dict[str, str]:
+        with open(Path(self.args.resources) / "version.txt", "r") as f:
+            return {
+                "ba": f.read().strip()
+            }
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         res_root = self.res_root
@@ -47,7 +53,8 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
             char = Character(
                 key,
-                {mapped: " ".join([names["last_name"][k], names["first_name"][k]]).strip() for k, mapped in lang_mappings.items()},
+                {mapped: " ".join([names["last_name"][k], names["first_name"][k]]).strip()
+                 for k, mapped in lang_mappings.items()},
                 {mapped: names["first_name"][k] for k, mapped in lang_mappings.items()},
                 [],
                 [ch["school"], *ch["club"]],
