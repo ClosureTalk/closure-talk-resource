@@ -34,12 +34,13 @@ class ResourceProcessor:
         parser = self.configure_parser(create_common_parser(key))
         self.args = parser.parse_args()
         self.out_root = Path(self.args.output)
+        self.res_root = Path(self.args.astgenne) / self.key
+
+        if not os.path.isdir(self.args.astgenne):
+            raise ValueError("Astgenne folder does not exist")
 
     def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
         return parser
-
-    def get_versions(self) -> Dict[str, str]:
-        raise NotImplementedError()
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         raise NotImplementedError()
@@ -52,7 +53,6 @@ class ResourceProcessor:
 
     def main(self):
         args = self.args
-        self._process_versions()
         if not args.skip_chars:
             characters, avatar_paths = self._process_chars()
             self._process_avatars(characters, avatar_paths)
@@ -60,11 +60,18 @@ class ResourceProcessor:
             self._process_stamps(self.get_stamps())
         if not args.skip_filters:
             self._process_filters()
+        self._process_versions()
 
     def _process_versions(self):
         all_vers = read_json(self.out_root.parent / "versions.json", dict)
-        all_vers.update(self.get_versions())
+        all_vers.update(self._get_versions())
         write_json(self.out_root.parent / "versions.json", all_vers)
+
+    def _get_versions(self) -> Dict[str, str]:
+        res_vers = read_json(self.res_root.parent / "versions.json", None)
+        return {
+            f"{self.key}-{k}": v for k, v in res_vers[self.key].items()
+        }
 
     def _process_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         out_root = self.out_root

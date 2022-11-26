@@ -1,7 +1,6 @@
 import glob
 import logging
 import os
-from argparse import ArgumentParser
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -21,20 +20,9 @@ lang_mappings = {
 class BlueArchiveResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
         super().__init__("ba")
-        self.res_root = Path(self.args.resources) / "assets/Assets/_MX/AddressableAsset/UIs/01_Common"
-
-    def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
-        parser.add_argument("resources", help="Path to BuruakaResources data folder")
-        return parser
-
-    def get_versions(self) -> Dict[str, str]:
-        with open(Path(self.args.resources) / "version.txt", "r") as f:
-            return {
-                "ba": f.read().strip()
-            }
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
-        res_root = self.res_root
+        res_root = self.res_root / "assets/UIs/01_Common"
         script_dir = Path(os.path.split(__file__)[0])
 
         data = download_json("https://raw.githubusercontent.com/YuzuTalk/translation/main/json/characters.json")
@@ -65,7 +53,9 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                     f"NPC_Portrait_{img}.png",
                     f"NPC_Portrait_{img}1.png",
                     f"Student_Portrait_{img}.png",
+                    f"Student_Portrait_{img.replace('Swimsuit', 'swimsuit')}.png",
                     f"Student_Portrait_{img}_Small.png",
+                    f"Student_Portrait_{img.replace('Swimsuit', 'swimsuit')}_Small.png",
                 ]
                 if img in img_mappings and len(img_mappings[img]) > 0:
                     choices += [img_mappings[img] + ".png"]
@@ -81,6 +71,12 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 if not found and (img not in img_mappings or len(img_mappings[img]) > 0):
                     img_mappings[img] = ""
                     has_update = True
+                if found and len(img_mappings.get(img, "--")) == 0:
+                    del img_mappings[img]
+                    has_update = True
+
+                if not found:
+                    logging.info(f"Not found: {img}")
 
             if len(char.images) > 0:
                 characters.append(char)
@@ -109,7 +105,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         return characters, avatar_files
 
     def get_stamps(self) -> List[str]:
-        in_root = self.res_root / "31_ClanEmoji"
+        in_root = self.res_root / "assets/UIs/01_Common/31_ClanEmoji"
         return sorted(glob.glob(str(in_root / "*_Jp.png")))
 
     def get_filters(self) -> List[FilterGroup]:

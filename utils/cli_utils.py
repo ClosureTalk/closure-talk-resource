@@ -1,16 +1,19 @@
 from argparse import ArgumentParser
 from pathlib import Path
-import os
 
 
 def create_common_parser(output_name: str) -> ArgumentParser:
     parser = ArgumentParser()
 
-    # output defaults to Github page resources folder
-    script_foler = Path(os.path.split(__file__)[0])
+    resource_project_foler = Path(__file__).parent.parent
     parser.add_argument(
-        "--output",
-        default=(script_foler / f"../../closuretalk.github.io/resources/{output_name}").resolve(),
+        "-a", "--astgenne",
+        default=(resource_project_foler.parent.parent.parent / "Data/Astgenne")
+    )
+    # output defaults to Github page resources folder
+    parser.add_argument(
+        "-o", "--output",
+        default=(resource_project_foler.parent / f"closuretalk.github.io/resources/{output_name}").resolve(),
     )
     parser.add_argument("--avatar_size", type=int, default=128)
     parser.add_argument("--stamp_size", type=int, default=200)

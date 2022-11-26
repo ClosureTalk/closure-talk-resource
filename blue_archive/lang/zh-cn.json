@@ -203,11 +203,19 @@
     "name": "勇美 枫",
     "short_name": "枫"
   },
+  "Kaho": {
+    "name": "",
+    "short_name": ""
+  },
   "Kaiser_PMC_Director": {
     "name": "",
     "short_name": ""
   },
   "Kaitenger": {
+    "name": "",
+    "short_name": ""
+  },
+  "Kanna": {
     "name": "",
     "short_name": ""
   },
@@ -230,6 +238,10 @@
   "Koharu": {
     "name": "下江 小春",
     "short_name": "小春"
+  },
+  "Kokona": {
+    "name": "",
+    "short_name": ""
   },
   "Kotama": {
     "name": "音濑 小玉",
@@ -327,6 +339,14 @@
     "name": "美甘 尼禄",
     "short_name": "尼禄"
   },
+  "Niya": {
+    "name": "",
+    "short_name": ""
+  },
+  "Noa": {
+    "name": "",
+    "short_name": ""
+  },
   "Nodoka": {
     "name": "天见 和香",
     "short_name": "和香"
@@ -350,6 +370,14 @@
   "Pina": {
     "name": "朝比奈 菲娜",
     "short_name": "菲娜"
+  },
+  "Rabu": {
+    "name": "",
+    "short_name": ""
+  },
+  "Reisa": {
+    "name": "",
+    "short_name": ""
   },
   "Rin": {
     "name": "",
@@ -446,6 +474,10 @@
   "Tsubaki": {
     "name": "春日 椿",
     "short_name": "椿"
+  },
+  "Tsukuyo": {
+    "name": "",
+    "short_name": ""
   },
   "Tsurugi": {
     "name": "剑先 鹤城",

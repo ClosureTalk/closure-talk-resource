@@ -1,7 +1,6 @@
 import glob
 import logging
 import os
-from argparse import ArgumentParser
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple
@@ -15,17 +14,6 @@ from utils.web_utils import download_json
 class ArknightsResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
         super().__init__("ak")
-        self.res_root = Path(self.args.resources)
-
-    def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
-        parser.add_argument("resources", help="Path to AknResources assets folder")
-        return parser
-
-    def get_versions(self) -> Dict[str, str]:
-        res_vers = read_json(self.res_root / "versions.json", None)
-        return {
-            f"ak-{k}": v for k, v in res_vers.items()
-        }
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         res_root = self.res_root
@@ -71,7 +59,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
 
         for k, v in sorted(char_tables["zh-cn"].items(), key=lambda pair: pair[0]):
             name = v["name"]
-            basic_sprite = res_root / f"spritepack/ui_char_avatar_h1_0/Sprite/{k}.png"
+            basic_sprite = res_root / f"spritepack/ui_char_avatar_h1_0/{k}.png"
             if not os.path.isfile(basic_sprite):
                 logging.warning(f"Skip: {k} {name}")
                 continue
@@ -83,8 +71,8 @@ class ArknightsResourceProcessor(ResourceProcessor):
             appellations[ch.id] = v["appellation"]
 
             # E2 and skins
-            additional = glob.glob(str(res_root / f"spritepack/ui_char_avatar_h1_elite_0/Sprite/{k}*.png")) + \
-                glob.glob(str(res_root / f"spritepack/ui_char_avatar_h1_skins_0/Sprite/{k}*.png"))
+            additional = glob.glob(str(res_root / f"spritepack/ui_char_avatar_h1_elite_0/{k}*.png")) + \
+                glob.glob(str(res_root / f"spritepack/ui_char_avatar_h1_skins_0/{k}*.png"))
             for file in additional:
                 img_name = os.path.splitext(os.path.split(file)[1])[0]
                 avatar_files[img_name] = file
@@ -99,7 +87,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
             if name == "-":
                 continue
 
-            basic_sprite = res_root / f"spritepack/icon_enemies_h2_0/Sprite/{k}.png"
+            basic_sprite = res_root / f"spritepack/icon_enemies_h2_0/{k}.png"
             if not os.path.isfile(basic_sprite):
                 logging.warning(f"Skip: {k} {name}")
                 continue
@@ -137,7 +125,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
                 [closure_id],
                 []
             )] + characters
-            avatar_files[closure_id] = res_root / f"spritepack/ui_char_avatar_h1_0/Sprite/{closure_id}_1.png"
+            avatar_files[closure_id] = res_root / f"spritepack/ui_char_avatar_h1_0/{closure_id}_1.png"
 
         return characters, avatar_files
 
