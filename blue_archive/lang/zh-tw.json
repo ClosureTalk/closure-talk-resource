@@ -1,0 +1,510 @@
+{
+  "Airi": {
+    "name": "栗村 愛莉",
+    "short_name": "愛莉"
+  },
+  "Akane": {
+    "name": "室笠 朱音",
+    "short_name": "朱音"
+  },
+  "Akari": {
+    "name": "鰐渕 亞伽里",
+    "short_name": "亞伽里"
+  },
+  "Ako": {
+    "name": "天雨 亞子",
+    "short_name": "亞子"
+  },
+  "Alice": {
+    "name": "天童 愛麗絲",
+    "short_name": "愛麗絲"
+  },
+  "Android": {
+    "name": "機器人",
+    "short_name": "機器人"
+  },
+  "Arona": {
+    "name": "彩奈",
+    "short_name": "彩奈"
+  },
+  "Aru": {
+    "name": "陸八魔 亞瑠",
+    "short_name": "亞瑠"
+  },
+  "Asuna": {
+    "name": "一之瀬 明日奈",
+    "short_name": "明日奈"
+  },
+  "Atsuko": {
+    "name": "秤 亞津子",
+    "short_name": "亞津子"
+  },
+  "Ayane": {
+    "name": "奧空 綾音",
+    "short_name": "綾音"
+  },
+  "Ayumu": {
+    "name": "岩櫃 步",
+    "short_name": "步"
+  },
+  "Azusa": {
+    "name": "白洲 梓",
+    "short_name": "梓"
+  },
+  "Binah": {
+    "name": "Binah",
+    "short_name": "Binah"
+  },
+  "Black_Suit": {
+    "name": "黑服",
+    "short_name": "黑服"
+  },
+  "Cherino": {
+    "name": "連河 潔莉諾",
+    "short_name": "潔莉諾"
+  },
+  "Chesed": {
+    "name": "Chesed",
+    "short_name": "Chesed"
+  },
+  "Chihiro": {
+    "name": "各務 千尋",
+    "short_name": "千尋"
+  },
+  "Chinatsu": {
+    "name": "火宮 千夏",
+    "short_name": "千夏"
+  },
+  "Chise": {
+    "name": "和樂 知世",
+    "short_name": "知世"
+  },
+  "Citizen": {
+    "name": "奇普托斯市民",
+    "short_name": "奇普托斯市民"
+  },
+  "Disciplinary_Committee_Member": {
+    "name": "風紀委員",
+    "short_name": "風紀委員"
+  },
+  "Décalcomanie": {
+    "name": "Décalcomanie",
+    "short_name": "Décalcomanie"
+  },
+  "Eimi": {
+    "name": "和泉元 英美",
+    "short_name": "英美"
+  },
+  "Fubuki": {
+    "name": "合歓垣 吹雪",
+    "short_name": "吹雪"
+  },
+  "Fuuka": {
+    "name": "愛清 風華",
+    "short_name": "風華"
+  },
+  "Golconde": {
+    "name": "Golconde",
+    "short_name": "Golconde"
+  },
+  "Hanae": {
+    "name": "朝顔 花繪",
+    "short_name": "花繪"
+  },
+  "Hanako": {
+    "name": "浦和 花子",
+    "short_name": "花子"
+  },
+  "Hare": {
+    "name": "小鉤 晴",
+    "short_name": "晴"
+  },
+  "Haruka": {
+    "name": "伊草 遙香",
+    "short_name": "遙香"
+  },
+  "Haruna": {
+    "name": "黑館 羽留奈",
+    "short_name": "羽留奈"
+  },
+  "Hasumi": {
+    "name": "羽川 蓮實",
+    "short_name": "蓮實"
+  },
+  "Helmet_Dan": {
+    "name": "頭盔團",
+    "short_name": "頭盔團"
+  },
+  "Hibiki": {
+    "name": "猫塚 響",
+    "short_name": "響"
+  },
+  "Hieronymus": {
+    "name": "Hieronymus",
+    "short_name": "Hieronymus"
+  },
+  "Hifumi": {
+    "name": "阿慈谷 日步美",
+    "short_name": "日步美"
+  },
+  "Hina": {
+    "name": "空崎 陽奈",
+    "short_name": "陽奈"
+  },
+  "Hinata": {
+    "name": "若葉 日向",
+    "short_name": "日向"
+  },
+  "Hiyori": {
+    "name": "槌永 日和",
+    "short_name": "日和"
+  },
+  "Hod": {
+    "name": "Hod",
+    "short_name": "Hod"
+  },
+  "Hoshino": {
+    "name": "小鳥游 星野",
+    "short_name": "星野"
+  },
+  "Iori": {
+    "name": "銀鏡 伊織",
+    "short_name": "伊織"
+  },
+  "Iroha": {
+    "name": "棗 伊呂波",
+    "short_name": "伊呂波"
+  },
+  "Izumi": {
+    "name": "獅子堂 泉",
+    "short_name": "泉"
+  },
+  "Izuna": {
+    "name": "久田 伊樹菜",
+    "short_name": "伊樹菜"
+  },
+  "Junko": {
+    "name": "赤司 淳子",
+    "short_name": "淳子"
+  },
+  "Juri": {
+    "name": "牛牧 茱莉",
+    "short_name": "茱莉"
+  },
+  "Justice_Task_Force_Member": {
+    "name": "實現正義部成員",
+    "short_name": "實現正義部成員"
+  },
+  "KAITEN_FX_Mk_0": {
+    "name": "KAITEN FX Mk.0",
+    "short_name": "KAITEN FX Mk.0"
+  },
+  "Kaede": {
+    "name": "勇美 楓",
+    "short_name": "楓"
+  },
+  "Kaho": {
+    "name": "桑上 嘉穗",
+    "short_name": "嘉穗"
+  },
+  "Kaiser_PMC_Director": {
+    "name": "凱薩PMC理事",
+    "short_name": "凱薩PMC理事"
+  },
+  "Kaitenger": {
+    "name": "凱坦澤",
+    "short_name": "凱坦澤"
+  },
+  "Kanna": {
+    "name": "尾刃 神奈",
+    "short_name": "神奈"
+  },
+  "Karin": {
+    "name": "角楯 花凛",
+    "short_name": "花凛"
+  },
+  "Kayoko": {
+    "name": "鬼方 佳世子",
+    "short_name": "佳世子"
+  },
+  "Kazusa": {
+    "name": "Kyouyama Kazusa",
+    "short_name": "Kazusa"
+  },
+  "Kirino": {
+    "name": "中務 桐乃",
+    "short_name": "桐乃"
+  },
+  "Koharu": {
+    "name": "下江 小春",
+    "short_name": "小春"
+  },
+  "Kokona": {
+    "name": "春原 Kokona",
+    "short_name": "Kokona"
+  },
+  "Kotama": {
+    "name": "音瀬 小玉",
+    "short_name": "小玉"
+  },
+  "Kotori": {
+    "name": "豊見 亞都梨",
+    "short_name": "亞都梨"
+  },
+  "Kuro": {
+    "name": "黑",
+    "short_name": "黑"
+  },
+  "Maestro": {
+    "name": "Maestro",
+    "short_name": "Maestro"
+  },
+  "Maki": {
+    "name": "小塗 真紀",
+    "short_name": "真紀"
+  },
+  "Mari": {
+    "name": "伊落 瑪麗",
+    "short_name": "瑪麗"
+  },
+  "Marina": {
+    "name": "池倉 瑪麗娜",
+    "short_name": "瑪麗娜"
+  },
+  "Mashiro": {
+    "name": "静山 麻白",
+    "short_name": "麻白"
+  },
+  "Megu": {
+    "name": "下倉 惠",
+    "short_name": "惠"
+  },
+  "Michiru": {
+    "name": "千鳥 滿",
+    "short_name": "滿"
+  },
+  "Midori": {
+    "name": "才羽 綠",
+    "short_name": "綠"
+  },
+  "Mika": {
+    "name": "聖園 彌香",
+    "short_name": "彌香"
+  },
+  "Mimori": {
+    "name": "水羽 三森",
+    "short_name": "三森"
+  },
+  "Minori": {
+    "name": "安守 實里",
+    "short_name": "實里"
+  },
+  "Misaki": {
+    "name": "戒野 美咲",
+    "short_name": "美咲"
+  },
+  "Miyako": {
+    "name": "月雪 宫子",
+    "short_name": "宫子"
+  },
+  "Miyu": {
+    "name": "霞澤 美遊",
+    "short_name": "美遊"
+  },
+  "Moe": {
+    "name": "風倉 萌繪",
+    "short_name": "萌繪"
+  },
+  "Momoi": {
+    "name": "才羽 桃井",
+    "short_name": "桃井"
+  },
+  "Momoka": {
+    "name": "由良木 桃香",
+    "short_name": "桃香"
+  },
+  "Mutsuki": {
+    "name": "浅黃 無月",
+    "short_name": "無月"
+  },
+  "Nagisa": {
+    "name": "桐藤 渚",
+    "short_name": "渚"
+  },
+  "Natsu": {
+    "name": "柚鳥 夏",
+    "short_name": "夏"
+  },
+  "Neru": {
+    "name": "美甘 寧瑠",
+    "short_name": "寧瑠"
+  },
+  "Niya": {
+    "name": "天地 妮婭",
+    "short_name": "妮婭"
+  },
+  "Noa": {
+    "name": "Ushio Noa",
+    "short_name": "Noa"
+  },
+  "Nodoka": {
+    "name": "天見 和香",
+    "short_name": "和香"
+  },
+  "Nonomi": {
+    "name": "十六夜 野乃美",
+    "short_name": "野乃美"
+  },
+  "Nyantenmaru": {
+    "name": "喵天丸",
+    "short_name": "喵天丸"
+  },
+  "Peroro_Sama": {
+    "name": "佩洛洛大人",
+    "short_name": "佩洛洛大人"
+  },
+  "Perorozilla": {
+    "name": "佩洛洛斯拉",
+    "short_name": "佩洛洛斯拉"
+  },
+  "Pina": {
+    "name": "朝比奈 菲娜",
+    "short_name": "菲娜"
+  },
+  "Rabu": {
+    "name": "Komakaze Rabu",
+    "short_name": "Rabu"
+  },
+  "Reisa": {
+    "name": "Uzawa Reisa",
+    "short_name": "Reisa"
+  },
+  "Rin": {
+    "name": "七神 琳",
+    "short_name": "琳"
+  },
+  "Saki": {
+    "name": "空井 咲",
+    "short_name": "咲"
+  },
+  "Saori": {
+    "name": "錠前 沙織",
+    "short_name": "沙織"
+  },
+  "Saya": {
+    "name": "薬子 沙耶",
+    "short_name": "沙耶"
+  },
+  "Seia": {
+    "name": "百合園 聖亞",
+    "short_name": "聖亞"
+  },
+  "Sena": {
+    "name": "冰室 瀨奈",
+    "short_name": "瀨奈"
+  },
+  "Serika": {
+    "name": "黑見 茜香",
+    "short_name": "茜香"
+  },
+  "Serina": {
+    "name": "鷲見 芹奈",
+    "short_name": "芹奈"
+  },
+  "Shibaseki_Master": {
+    "name": "柴大将",
+    "short_name": "柴大将"
+  },
+  "Shigure": {
+    "name": "間宵 時雨",
+    "short_name": "時雨"
+  },
+  "Shimiko": {
+    "name": "円堂 志美子",
+    "short_name": "志美子"
+  },
+  "Shiro": {
+    "name": "白",
+    "short_name": "白"
+  },
+  "Shiroko": {
+    "name": "砂狼 白子",
+    "short_name": "白子"
+  },
+  "Shizuko": {
+    "name": "河和 靜子",
+    "short_name": "靜子"
+  },
+  "Shun": {
+    "name": "春原 旬",
+    "short_name": "旬"
+  },
+  "Sisterhood": {
+    "name": "修女會",
+    "short_name": "修女會"
+  },
+  "Sora": {
+    "name": "小空",
+    "short_name": "小空"
+  },
+  "Sudama_ichiza": {
+    "name": "魑魅一座",
+    "short_name": "魑魅一座"
+  },
+  "Sukeban": {
+    "name": "Chimpira",
+    "short_name": "Chimpira"
+  },
+  "Sumire": {
+    "name": "乙花 堇",
+    "short_name": "堇"
+  },
+  "Suzumi": {
+    "name": "守月 鈴美",
+    "short_name": "鈴美"
+  },
+  "Tea_party": {
+    "name": "茶會",
+    "short_name": "茶會"
+  },
+  "Tomoe": {
+    "name": "佐城 智惠",
+    "short_name": "智惠"
+  },
+  "Tsubaki": {
+    "name": "春日 椿",
+    "short_name": "椿"
+  },
+  "Tsukuyo": {
+    "name": "大野 築夜",
+    "short_name": "築夜"
+  },
+  "Tsurugi": {
+    "name": "剣先 弦生",
+    "short_name": "弦生"
+  },
+  "Ui": {
+    "name": "古関 憂",
+    "short_name": "憂"
+  },
+  "Utaha": {
+    "name": "白石 詠葉",
+    "short_name": "詠葉"
+  },
+  "Wakamo": {
+    "name": "狐坂 若藻",
+    "short_name": "若藻"
+  },
+  "Yoshimi": {
+    "name": "伊原木 喜美",
+    "short_name": "喜美"
+  },
+  "Yuuka": {
+    "name": "早瀬 優香",
+    "short_name": "優香"
+  },
+  "Yuzu": {
+    "name": "花岡 柚子",
+    "short_name": "柚子"
+  }
+}
