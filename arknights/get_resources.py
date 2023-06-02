@@ -10,6 +10,8 @@ from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
 from utils.web_utils import download_json
 
+use_local_tables = False
+
 
 class ArknightsResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
@@ -39,8 +41,13 @@ class ArknightsResourceProcessor(ResourceProcessor):
                 [char_tables, "character_table.json"],
                 [enemy_tables, "enemy_handbook_table.json"],
             ]:
+                # Skip until supported by data provider
+                if lang == "zh-tw":
+                    tables[lang] = {}
+                    continue
+
                 local_file = res_root / f"{res_keys[lang]}/assets/gamedata/excel/{name}"
-                if os.path.isfile(local_file):
+                if use_local_tables and os.path.isfile(local_file):
                     logging.info(f"Read {lang} table {name}")
                     tables[lang] = read_json(local_file, None)
                 else:
