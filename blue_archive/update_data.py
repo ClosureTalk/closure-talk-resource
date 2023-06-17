@@ -3,15 +3,77 @@ from argparse import ArgumentParser
 from collections import defaultdict
 from pathlib import Path
 
-from blue_archive.common import (CharData, LocalizeCharProfile,
-                                 ScenarioCharacterName, load_excel_table_list,
-                                 name_to_id)
+from omegaconf import OmegaConf
+
+from blue_archive.common import (CharData, LocalizeCharProfile, ManualPortrait,
+                                 ManualProfile, ScenarioCharacterName,
+                                 load_excel_table_list, name_to_id)
 from utils.json_utils import read_json, write_list
 
 
-def add_custom_portrait_images(portrait_images: dict[str, set]):
-    if "スズミ" not in portrait_images:
-        portrait_images["スズミ"] = {"UIs/01_Common/01_Character/Student_Portrait_Suzumi_Small"}
+def add_manual_data(profiles: list[LocalizeCharProfile], portrait_images: defaultdict[str, set[str]]):
+    root = Path(__file__).parent / "manual"
+    manual_profiles: list[ManualProfile] = OmegaConf.load(root / "profiles.yaml")
+    for prof in manual_profiles:
+        assert prof.personal_name is not None and len(prof.personal_name) > 0
+        profiles.append(LocalizeCharProfile(
+            -1,
+            prof.family_name or "",
+            prof.family_name_ruby or "",
+            prof.personal_name,
+        ))
+
+    profile_names = set((prof.PersonalNameJp for prof in profiles))
+
+    manual_portraits: list[ManualPortrait] = OmegaConf.load(root / "portraits.yaml")
+    for portrait in manual_portraits:
+        name = portrait.name
+
+        if name not in profile_names:
+            assert hasattr(portrait, "id") and len(portrait.id) > 0, f"Need id for {name}"
+            profile_names.add(name)
+            profiles.append(LocalizeCharProfile(
+                -1,
+                "",
+                "",
+                name,
+                portrait.id,
+            ))
+
+        images = portrait_images[portrait.name]
+        for img in portrait.images:
+            if "/" not in img:
+                img = f"UIs/01_Common/01_Character/{img}"
+            images.add(img)
+
+
+def generate_manual_data(result: list[CharData]):
+    root = Path(__file__).parent / "manual"
+    manual_profiles = []
+    manual_portraits = []
+
+    # students have katakana names
+    # (also handles things like プレジデント)
+    def is_student_name(s: str):
+        return all((0x30A0 <= ord(c) <= 0x30FF for c in s))
+
+    for char in result:
+        if char.id != "$$$":
+            continue
+
+        is_student = char.image_files[0].startswith("Student_Portrait") or \
+            is_student_name(char.personal_name)
+
+        if is_student:
+            manual_profiles.append(OmegaConf.structured(ManualProfile("", "", char.personal_name)))
+        else:
+            images = [f.split("/")[-1] if f.startswith("UIs/01_Common/01_Character") else f for f in char.image_files]
+            manual_portraits.append(OmegaConf.structured(ManualPortrait("|".join([*char.aka, char.personal_name]), images, "")))
+
+    with open(root / "profiles.generated.yaml", "w", encoding="utf-8") as f:
+        f.write(OmegaConf.to_yaml(manual_profiles) + "\n")
+    with open(root / "portraits.generated.yaml", "w", encoding="utf-8") as f:
+        f.write(OmegaConf.to_yaml(manual_portraits) + "\n")
 
 
 def main():
@@ -37,13 +99,9 @@ def main():
         if not obj.SmallPortrait.split("/")[-1] in portrait_files:
             continue
         portrait_images[obj.NameJP].add(obj.SmallPortrait)
-    add_custom_portrait_images(portrait_images)
+    add_manual_data(profiles, portrait_images)
 
     id_mappings = read_json(script_dir / "data/id_mapping.json", None)
-
-    def get_id(prof: LocalizeCharProfile):
-        cid = name_to_id(prof.PersonalNameJp)
-        return id_mappings.get(cid, cid)
 
     # For every profile, gather images
     used_images = set()
@@ -55,11 +113,16 @@ def main():
         if len(key) == 0:
             continue
 
-        cid = get_id(prof)
+        if len(prof.IdOverride) > 0:
+            cid = prof.IdOverride
+        else:
+            cid = name_to_id(prof.PersonalNameJp)
+            cid = id_mappings.get(cid, cid)
 
         images = set()
         if prof.PersonalNameJp in portrait_images:
             images |= portrait_images[prof.PersonalNameJp]
+
         if f"Student_Portrait_{cid}" in portrait_files:
             images.add(f"UIs/01_Common/01_Character/Student_Portrait_{cid}")
 
@@ -166,6 +229,10 @@ def main():
         )
         result.append(char)
         result_map[char.id] = char
+        generated_chars.append(char)
+
+    for char in generated_chars:
+        char.id = "$$$"
 
     # Create profiles for unused images for completeness
     unused_portrait_files = sorted(portrait_files - set((Path(f).stem for f in used_images)))
@@ -175,7 +242,7 @@ def main():
 
         print(f"Unused portrait file: {file}")
         char = CharData(
-            file,
+            "$$$",
             -1,
             "",
             "",
@@ -187,6 +254,9 @@ def main():
         result_map[file] = file
 
     write_list(CharData, script_dir / "data/char_data.json", result)
+
+    # Generate suggested yaml template
+    generate_manual_data(result)
 
 
 if __name__ == "__main__":

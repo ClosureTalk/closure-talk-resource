@@ -1,6 +1,6 @@
 import json
-from dataclasses import dataclass
-from typing import Callable, TypeVar
+from dataclasses import dataclass, field
+from typing import Callable, Optional, TypeVar
 
 import romkan
 from dataclasses_json import Undefined, dataclass_json
@@ -15,6 +15,7 @@ class LocalizeCharProfile:
     FamilyNameJp: str
     FamilyNameRubyJp: str
     PersonalNameJp: str
+    IdOverride: str = field(default="")
 
 
 @dataclass_json(undefined=Undefined.EXCLUDE)
@@ -34,6 +35,20 @@ class CharData:
     personal_name: str
     image_files: list[str]
     aka: list[str]
+
+
+@dataclass
+class ManualProfile:
+    family_name: str
+    family_name_ruby: str
+    personal_name: str
+
+
+@dataclass
+class ManualPortrait:
+    name: str
+    images: list[str]
+    id: str
 
 
 def load_excel_table_list(cls: Callable[[], T], file: str) -> list[T]:
