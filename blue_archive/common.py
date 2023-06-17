@@ -33,6 +33,7 @@ class CharData:
     family_name_ruby: str
     personal_name: str
     image_files: list[str]
+    aka: list[str]
 
 
 def load_excel_table_list(cls: Callable[[], T], file: str) -> list[T]:
