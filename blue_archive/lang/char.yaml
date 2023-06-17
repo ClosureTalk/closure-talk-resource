@@ -1,0 +1,1398 @@
+- id: Airi
+  name:
+    en: Kurimura Airi
+    ja: 栗村 アイリ
+    zh-cn: 栗村 爱莉
+    zh-tw: 栗村 愛莉
+  short_name:
+    en: Airi
+    ja: アイリ
+    zh-cn: 爱莉
+    zh-tw: 愛莉
+- id: Akane
+  name:
+    en: Murokasa Akane
+    ja: 室笠 アカネ
+    zh-cn: 室笠 茜
+    zh-tw: 室笠 朱音
+  short_name:
+    en: Akane
+    ja: アカネ
+    zh-cn: 茜
+    zh-tw: 朱音
+- id: Akari
+  name:
+    en: Wanibuchi Akari
+    ja: 鰐渕 アカリ
+    zh-cn: 鳄渊 茜里
+    zh-tw: 鰐渕 亞伽里
+  short_name:
+    en: Akari
+    ja: アカリ
+    zh-cn: 茜里
+    zh-tw: 亞伽里
+- id: Ako
+  name:
+    en: Amau Ako
+    ja: 天雨 アコ
+    zh-cn: 天雨 亚子
+    zh-tw: 天雨 亞子
+  short_name:
+    en: Ako
+    ja: アコ
+    zh-cn: 亚子
+    zh-tw: 亞子
+- id: Alice
+  name:
+    en: Tendou Alice
+    ja: 天童 アリス
+    zh-cn: 天童 爱丽丝
+    zh-tw: 天童 愛麗絲
+  short_name:
+    en: Alice
+    ja: アリス
+    zh-cn: 爱丽丝
+    zh-tw: 愛麗絲
+- id: Android
+  name:
+    en: Android
+    ja: アンドロイド
+    zh-cn: 机器人
+    zh-tw: 機器人
+  short_name:
+    en: Android
+    ja: アンドロイド
+    zh-cn: 机器人
+    zh-tw: 機器人
+- id: Arona
+  name:
+    en: Arona
+    ja: アロナ
+    zh-cn: 彩奈
+    zh-tw: 彩奈
+  short_name:
+    en: Arona
+    ja: アロナ
+    zh-cn: 彩奈
+    zh-tw: 彩奈
+- id: Aru
+  name:
+    en: Rikuhachima Aru
+    ja: 陸八魔 アル
+    zh-cn: 陆八魔 阿露
+    zh-tw: 陸八魔 亞瑠
+  short_name:
+    en: Aru
+    ja: アル
+    zh-cn: 阿露
+    zh-tw: 亞瑠
+- id: Asuna
+  name:
+    en: Ichinose Asuna
+    ja: 一之瀬 アスナ
+    zh-cn: 一之濑 明日奈
+    zh-tw: 一之瀬 明日奈
+  short_name:
+    en: Asuna
+    ja: アスナ
+    zh-cn: 明日奈
+    zh-tw: 明日奈
+- id: Atsuko
+  name:
+    en: Hakari Atsuko
+    ja: 秤 アツコ
+    zh-cn: 秤 亚津子
+    zh-tw: 秤 亞津子
+  short_name:
+    en: Atsuko
+    ja: アツコ
+    zh-cn: 亚津子
+    zh-tw: 亞津子
+- id: Ayane
+  name:
+    en: Okusora Ayane
+    ja: 奥空 アヤネ
+    zh-cn: 奥空 绫音
+    zh-tw: 奧空 綾音
+  short_name:
+    en: Ayane
+    ja: アヤネ
+    zh-cn: 绫音
+    zh-tw: 綾音
+- id: Ayumu
+  name:
+    en: Iwabitsu Ayumu
+    ja: 岩櫃 アユム
+    zh-cn: 岩柜 步
+    zh-tw: 岩櫃 步
+  short_name:
+    en: Ayumu
+    ja: アユム
+    zh-cn: 步
+    zh-tw: 步
+- id: Azusa
+  name:
+    en: Shirasu Azusa
+    ja: 白洲 アズサ
+    zh-cn: 白洲 梓
+    zh-tw: 白洲 梓
+  short_name:
+    en: Azusa
+    ja: アズサ
+    zh-cn: 梓
+    zh-tw: 梓
+- id: Binah
+  name:
+    en: Binah
+    ja: ビナー
+    zh-cn: Binah
+    zh-tw: Binah
+  short_name:
+    en: Binah
+    ja: ビナー
+    zh-cn: Binah
+    zh-tw: Binah
+- id: Black_Suit
+  name:
+    en: Black Suit
+    ja: 黒服
+    zh-cn: 黑服
+    zh-tw: 黑服
+  short_name:
+    en: Black Suit
+    ja: 黒服
+    zh-cn: 黑服
+    zh-tw: 黑服
+- id: Cherino
+  name:
+    en: Renkawa Cherino
+    ja: 連河 チェリノ
+    zh-cn: 连河 切里诺
+    zh-tw: 連河 潔莉諾
+  short_name:
+    en: Cherino
+    ja: チェリノ
+    zh-cn: 切里诺
+    zh-tw: 潔莉諾
+- id: Chesed
+  name:
+    en: Chesed
+    ja: ケセド
+    zh-cn: Chesed
+    zh-tw: Chesed
+  short_name:
+    en: Chesed
+    ja: ケセド
+    zh-cn: Chesed
+    zh-tw: Chesed
+- id: Chihiro
+  name:
+    en: Kagami Chihiro
+    ja: 各務 チヒロ
+    zh-cn: 各务 千寻
+    zh-tw: 各務 千尋
+  short_name:
+    en: Chihiro
+    ja: チヒロ
+    zh-cn: 千寻
+    zh-tw: 千尋
+- id: Chinatsu
+  name:
+    en: Hinomiya Chinatsu
+    ja: 火宮 チナツ
+    zh-cn: 火宫 千夏
+    zh-tw: 火宮 千夏
+  short_name:
+    en: Chinatsu
+    ja: チナツ
+    zh-cn: 千夏
+    zh-tw: 千夏
+- id: Chise
+  name:
+    en: Waraku Chise
+    ja: 和楽 チセ
+    zh-cn: 和乐 千世
+    zh-tw: 和樂 知世
+  short_name:
+    en: Chise
+    ja: チセ
+    zh-cn: 千世
+    zh-tw: 知世
+- id: Citizen
+  name:
+    en: Kivotos Citizen
+    ja: キヴォトス市民
+    zh-cn: 奇普托斯市民
+    zh-tw: 奇普托斯市民
+  short_name:
+    en: Kivotos Citizen
+    ja: キヴォトス市民
+    zh-cn: 奇普托斯市民
+    zh-tw: 奇普托斯市民
+- id: Disciplinary_Committee_Member
+  name:
+    en: Disciplinary Committee Member
+    ja: 風紀委員
+    zh-cn: 风纪委员
+    zh-tw: 風紀委員
+  short_name:
+    en: Disciplinary Committee Member
+    ja: 風紀委員
+    zh-cn: 风纪委员
+    zh-tw: 風紀委員
+- id: Décalcomanie
+  name:
+    en: Décalcomanie
+    ja: デカルコマニー
+    zh-cn: Décalcomanie
+    zh-tw: Décalcomanie
+  short_name:
+    en: Décalcomanie
+    ja: デカルコマニー
+    zh-cn: Décalcomanie
+    zh-tw: Décalcomanie
+- id: Eimi
+  name:
+    en: Izumimoto Eimi
+    ja: 和泉元 エイミ
+    zh-cn: 和泉元 艾米
+    zh-tw: 和泉元 英美
+  short_name:
+    en: Eimi
+    ja: エイミ
+    zh-cn: 艾米
+    zh-tw: 英美
+- id: Fubuki
+  name:
+    en: Nemugaki Fubuki
+    ja: 合歓垣 フブキ
+    zh-cn: 合欢垣 吹雪
+    zh-tw: 合歓垣 吹雪
+  short_name:
+    en: Fubuki
+    ja: フブキ
+    zh-cn: 吹雪
+    zh-tw: 吹雪
+- id: Fuuka
+  name:
+    en: Aikiyo Fuuka
+    ja: 愛清 フウカ
+    zh-cn: 爱清 风香
+    zh-tw: 愛清 風華
+  short_name:
+    en: Fuuka
+    ja: フウカ
+    zh-cn: 风香
+    zh-tw: 風華
+- id: Golconde
+  name:
+    en: Golconde
+    ja: ゴルコンダ
+    zh-cn: Golconde
+    zh-tw: Golconde
+  short_name:
+    en: Golconde
+    ja: ゴルコンダ
+    zh-cn: Golconde
+    zh-tw: Golconde
+- id: Hanae
+  name:
+    en: Asagao Hanae
+    ja: 朝顔 ハナエ
+    zh-cn: 朝颜 花江
+    zh-tw: 朝顔 花繪
+  short_name:
+    en: Hanae
+    ja: ハナエ
+    zh-cn: 花江
+    zh-tw: 花繪
+- id: Hanako
+  name:
+    en: Urawa Hanako
+    ja: 浦和 ハナコ
+    zh-cn: 浦和 花子
+    zh-tw: 浦和 花子
+  short_name:
+    en: Hanako
+    ja: ハナコ
+    zh-cn: 花子
+    zh-tw: 花子
+- id: Hare
+  name:
+    en: Omagari Hare
+    ja: 小鈎 ハレ
+    zh-cn: 小钩 晴
+    zh-tw: 小鉤 晴
+  short_name:
+    en: Hare
+    ja: ハレ
+    zh-cn: 晴
+    zh-tw: 晴
+- id: Haruka
+  name:
+    en: Igusa Haruka
+    ja: 伊草 ハルカ
+    zh-cn: 伊草 春香
+    zh-tw: 伊草 遙香
+  short_name:
+    en: Haruka
+    ja: ハルカ
+    zh-cn: 春香
+    zh-tw: 遙香
+- id: Haruna
+  name:
+    en: Kurodate Haruna
+    ja: 黒館 ハルナ
+    zh-cn: 黑馆 晴奈
+    zh-tw: 黑館 羽留奈
+  short_name:
+    en: Haruna
+    ja: ハルナ
+    zh-cn: 晴奈
+    zh-tw: 羽留奈
+- id: Hasumi
+  name:
+    en: Hanekawa Hasumi
+    ja: 羽川 ハスミ
+    zh-cn: 羽川 莲见
+    zh-tw: 羽川 蓮實
+  short_name:
+    en: Hasumi
+    ja: ハスミ
+    zh-cn: 莲见
+    zh-tw: 蓮實
+- id: Helmet_Dan
+  name:
+    en: Helmet Dan
+    ja: ヘルメット団
+    zh-cn: 头盔团
+    zh-tw: 頭盔團
+  short_name:
+    en: Helmet Dan
+    ja: ヘルメット団
+    zh-cn: 头盔团
+    zh-tw: 頭盔團
+- id: Hibiki
+  name:
+    en: Nekozuka Hibiki
+    ja: 猫塚 ヒビキ
+    zh-cn: 猫冢 响
+    zh-tw: 猫塚 響
+  short_name:
+    en: Hibiki
+    ja: ヒビキ
+    zh-cn: 响
+    zh-tw: 響
+- id: Hieronymus
+  name:
+    en: Hieronymus
+    ja: ヒエロニムス
+    zh-cn: Hieronymus
+    zh-tw: Hieronymus
+  short_name:
+    en: Hieronymus
+    ja: ヒエロニムス
+    zh-cn: Hieronymus
+    zh-tw: Hieronymus
+- id: Hifumi
+  name:
+    en: Ajitani Hifumi
+    ja: 阿慈谷 ヒフミ
+    zh-cn: 阿慈谷 日富美
+    zh-tw: 阿慈谷 日步美
+  short_name:
+    en: Hifumi
+    ja: ヒフミ
+    zh-cn: 日富美
+    zh-tw: 日步美
+- id: Hina
+  name:
+    en: Sorasaki Hina
+    ja: 空崎 ヒナ
+    zh-cn: 空崎 日奈
+    zh-tw: 空崎 陽奈
+  short_name:
+    en: Hina
+    ja: ヒナ
+    zh-cn: 日奈
+    zh-tw: 陽奈
+- id: Hinata
+  name:
+    en: Wakaba Hinata
+    ja: 若葉 ヒナタ
+    zh-cn: 若叶 日向
+    zh-tw: 若葉 日向
+  short_name:
+    en: Hinata
+    ja: ヒナタ
+    zh-cn: 日向
+    zh-tw: 日向
+- id: Hiyori
+  name:
+    en: Tsuchinaga Hiyori
+    ja: 槌永 ヒヨリ
+    zh-cn: 槌永 日和
+    zh-tw: 槌永 日和
+  short_name:
+    en: Hiyori
+    ja: ヒヨリ
+    zh-cn: 日和
+    zh-tw: 日和
+- id: Hod
+  name:
+    en: Hod
+    ja: ホド
+    zh-cn: Hod
+    zh-tw: Hod
+  short_name:
+    en: Hod
+    ja: ホド
+    zh-cn: Hod
+    zh-tw: Hod
+- id: Hoshino
+  name:
+    en: Takanashi Hoshino
+    ja: 小鳥遊 ホシノ
+    zh-cn: 小鸟游 星野
+    zh-tw: 小鳥游 星野
+  short_name:
+    en: Hoshino
+    ja: ホシノ
+    zh-cn: 星野
+    zh-tw: 星野
+- id: Iori
+  name:
+    en: Shiromi Iori
+    ja: 銀鏡 イオリ
+    zh-cn: 银镜 伊织
+    zh-tw: 銀鏡 伊織
+  short_name:
+    en: Iori
+    ja: イオリ
+    zh-cn: 伊织
+    zh-tw: 伊織
+- id: Iroha
+  name:
+    en: Natsume Iroha
+    ja: 棗 イロハ
+    zh-cn: 枣 伊吕波
+    zh-tw: 棗 伊呂波
+  short_name:
+    en: Iroha
+    ja: イロハ
+    zh-cn: 伊吕波
+    zh-tw: 伊呂波
+- id: Izumi
+  name:
+    en: Shishidou Izumi
+    ja: 獅子堂 イズミ
+    zh-cn: 狮子堂 泉
+    zh-tw: 獅子堂 泉
+  short_name:
+    en: Izumi
+    ja: イズミ
+    zh-cn: 泉
+    zh-tw: 泉
+- id: Izuna
+  name:
+    en: Kuda Izuna
+    ja: 久田 イズナ
+    zh-cn: 久田 泉奈
+    zh-tw: 久田 伊樹菜
+  short_name:
+    en: Izuna
+    ja: イズナ
+    zh-cn: 泉奈
+    zh-tw: 伊樹菜
+- id: Junko
+  name:
+    en: Akashi Junko
+    ja: 赤司 ジュンコ
+    zh-cn: 赤司 纯子
+    zh-tw: 赤司 淳子
+  short_name:
+    en: Junko
+    ja: ジュンコ
+    zh-cn: 纯子
+    zh-tw: 淳子
+- id: Juri
+  name:
+    en: Ushimaki Juri
+    ja: 牛牧 ジュリ
+    zh-cn: 牛牧 朱莉
+    zh-tw: 牛牧 茱莉
+  short_name:
+    en: Juri
+    ja: ジュリ
+    zh-cn: 朱莉
+    zh-tw: 茱莉
+- id: Justice_Task_Force_Member
+  name:
+    en: Justice Task Force Member
+    ja: 正義実現委員会部員
+    zh-cn: 实现正义部成员
+    zh-tw: 實現正義部成員
+  short_name:
+    en: Justice Task Force Member
+    ja: 正義実現委員会部員
+    zh-cn: 实现正义部成员
+    zh-tw: 實現正義部成員
+- id: KAITEN_FX_Mk_0
+  name:
+    en: KAITEN FX Mk.0
+    ja: KAITEN FX Mk.0
+    zh-cn: KAITEN FX Mk.0
+    zh-tw: KAITEN FX Mk.0
+  short_name:
+    en: KAITEN FX Mk.0
+    ja: KAITEN FX Mk.0
+    zh-cn: KAITEN FX Mk.0
+    zh-tw: KAITEN FX Mk.0
+- id: Kaede
+  name:
+    en: Isami Kaede
+    ja: 勇美 カエデ
+    zh-cn: 勇美 枫
+    zh-tw: 勇美 楓
+  short_name:
+    en: Kaede
+    ja: カエデ
+    zh-cn: 枫
+    zh-tw: 楓
+- id: Kaho
+  name:
+    en: Kuwakami Kaho
+    ja: 桑上 カホ
+    zh-cn: 桑上 嘉穗
+    zh-tw: 桑上 嘉穗
+  short_name:
+    en: Kaho
+    ja: カホ
+    zh-cn: 嘉穗
+    zh-tw: 嘉穗
+- id: Kaiser_PMC_Director
+  name:
+    en: Kaiser PMC Director
+    ja: カイザーPMC理事
+    zh-cn: 凯萨PMC理事
+    zh-tw: 凱薩PMC理事
+  short_name:
+    en: Kaiser PMC Director
+    ja: カイザーPMC理事
+    zh-cn: 凯萨PMC理事
+    zh-tw: 凱薩PMC理事
+- id: Kaitenger
+  name:
+    en: Kaitenger
+    ja: カイテンジャー
+    zh-cn: 凯坦泽
+    zh-tw: 凱坦澤
+  short_name:
+    en: Kaitenger
+    ja: カイテンジャー
+    zh-cn: 凯坦泽
+    zh-tw: 凱坦澤
+- id: Kanna
+  name:
+    en: Ogata Kanna
+    ja: 尾刃 カンナ
+    zh-cn: 尾刃 神奈
+    zh-tw: 尾刃 神奈
+  short_name:
+    en: Kanna
+    ja: カンナ
+    zh-cn: 神奈
+    zh-tw: 神奈
+- id: Karin
+  name:
+    en: Kakudate Karin
+    ja: 角楯 カリン
+    zh-cn: 角楯 花凛
+    zh-tw: 角楯 花凛
+  short_name:
+    en: Karin
+    ja: カリン
+    zh-cn: 花凛
+    zh-tw: 花凛
+- id: Kayoko
+  name:
+    en: Onikata Kayoko
+    ja: 鬼方 カヨコ
+    zh-cn: 鬼方 佳代子
+    zh-tw: 鬼方 佳世子
+  short_name:
+    en: Kayoko
+    ja: カヨコ
+    zh-cn: 佳代子
+    zh-tw: 佳世子
+- id: Kazusa
+  name:
+    en: Kyouyama Kazusa
+    ja: 杏山 カズサ
+    zh-cn: Kyouyama Kazusa
+    zh-tw: Kyouyama Kazusa
+  short_name:
+    en: Kazusa
+    ja: カズサ
+    zh-cn: Kazusa
+    zh-tw: Kazusa
+- id: Kirino
+  name:
+    en: Nakatsukasa Kirino
+    ja: 中務 キリノ
+    zh-cn: 中务 桐乃
+    zh-tw: 中務 桐乃
+  short_name:
+    en: Kirino
+    ja: キリノ
+    zh-cn: 桐乃
+    zh-tw: 桐乃
+- id: Koharu
+  name:
+    en: Shimoe Koharu
+    ja: 下江 コハル
+    zh-cn: 下江 小春
+    zh-tw: 下江 小春
+  short_name:
+    en: Koharu
+    ja: コハル
+    zh-cn: 小春
+    zh-tw: 小春
+- id: Kokona
+  name:
+    en: Sunohara Kokona
+    ja: 春原 ココナ
+    zh-cn: 春原 Kokona
+    zh-tw: 春原 Kokona
+  short_name:
+    en: Kokona
+    ja: ココナ
+    zh-cn: Kokona
+    zh-tw: Kokona
+- id: Kotama
+  name:
+    en: Otose Kotama
+    ja: 音瀬 コタマ
+    zh-cn: 音濑 小玉
+    zh-tw: 音瀬 小玉
+  short_name:
+    en: Kotama
+    ja: コタマ
+    zh-cn: 小玉
+    zh-tw: 小玉
+- id: Kotori
+  name:
+    en: Toyomi Kotori
+    ja: 豊見 コトリ
+    zh-cn: 豊见 琴里
+    zh-tw: 豊見 亞都梨
+  short_name:
+    en: Kotori
+    ja: コトリ
+    zh-cn: 琴里
+    zh-tw: 亞都梨
+- id: Kuro
+  name:
+    en: Kuro
+    ja: クロ
+    zh-cn: 黑
+    zh-tw: 黑
+  short_name:
+    en: Kuro
+    ja: クロ
+    zh-cn: 黑
+    zh-tw: 黑
+- id: Maestro
+  name:
+    en: Maestro
+    ja: マエストロ
+    zh-cn: Maestro
+    zh-tw: Maestro
+  short_name:
+    en: Maestro
+    ja: マエストロ
+    zh-cn: Maestro
+    zh-tw: Maestro
+- id: Maki
+  name:
+    en: Konuri Maki
+    ja: 小塗 マキ
+    zh-cn: 小涂 真纪
+    zh-tw: 小塗 真紀
+  short_name:
+    en: Maki
+    ja: マキ
+    zh-cn: 真纪
+    zh-tw: 真紀
+- id: Mari
+  name:
+    en: Iochi Mari
+    ja: 伊落 マリー
+    zh-cn: 伊落 玛丽
+    zh-tw: 伊落 瑪麗
+  short_name:
+    en: Mari
+    ja: マリー
+    zh-cn: 玛丽
+    zh-tw: 瑪麗
+- id: Marina
+  name:
+    en: Ikekura Marina
+    ja: 池倉 マリナ
+    zh-cn: 池仓 玛丽娜
+    zh-tw: 池倉 瑪麗娜
+  short_name:
+    en: Marina
+    ja: マリナ
+    zh-cn: 玛丽娜
+    zh-tw: 瑪麗娜
+- id: Mashiro
+  name:
+    en: Shizuyama Mashiro
+    ja: 静山 マシロ
+    zh-cn: 静山 真白
+    zh-tw: 静山 麻白
+  short_name:
+    en: Mashiro
+    ja: マシロ
+    zh-cn: 真白
+    zh-tw: 麻白
+- id: Megu
+  name:
+    en: Shimokura Megu
+    ja: 下倉 メグ
+    zh-cn: 下仓 惠
+    zh-tw: 下倉 惠
+  short_name:
+    en: Megu
+    ja: メグ
+    zh-cn: 惠
+    zh-tw: 惠
+- id: Michiru
+  name:
+    en: Chidori Michiru
+    ja: 千鳥 ミチル
+    zh-cn: 千鸟 满
+    zh-tw: 千鳥 滿
+  short_name:
+    en: Michiru
+    ja: ミチル
+    zh-cn: 满
+    zh-tw: 滿
+- id: Midori
+  name:
+    en: Saiba Midori
+    ja: 才羽 ミドリ
+    zh-cn: 才羽 绿
+    zh-tw: 才羽 綠
+  short_name:
+    en: Midori
+    ja: ミドリ
+    zh-cn: 绿
+    zh-tw: 綠
+- id: Mika
+  name:
+    en: Misono Mika
+    ja: 聖園 ミカ
+    zh-cn: 圣园 弥香
+    zh-tw: 聖園 彌香
+  short_name:
+    en: Mika
+    ja: ミカ
+    zh-cn: 弥香
+    zh-tw: 彌香
+- id: Mimori
+  name:
+    en: Mizuha Mimori
+    ja: 水羽 ミモリ
+    zh-cn: 水羽 三森
+    zh-tw: 水羽 三森
+  short_name:
+    en: Mimori
+    ja: ミモリ
+    zh-cn: 三森
+    zh-tw: 三森
+- id: Minori
+  name:
+    en: Yasumori Minori
+    ja: 安守 ミノリ
+    zh-cn: 安守 实里
+    zh-tw: 安守 實里
+  short_name:
+    en: Minori
+    ja: ミノリ
+    zh-cn: 实里
+    zh-tw: 實里
+- id: Misaki
+  name:
+    en: Imashino Misaki
+    ja: 戒野 ミサキ
+    zh-cn: 戒野 美咲
+    zh-tw: 戒野 美咲
+  short_name:
+    en: Misaki
+    ja: ミサキ
+    zh-cn: 美咲
+    zh-tw: 美咲
+- id: Miyako
+  name:
+    en: Tsukiyuki Miyako
+    ja: 月雪 ミヤコ
+    zh-cn: 月雪 宫子
+    zh-tw: 月雪 宫子
+  short_name:
+    en: Miyako
+    ja: ミヤコ
+    zh-cn: 宫子
+    zh-tw: 宫子
+- id: Miyu
+  name:
+    en: Kasumizawa Miyu
+    ja: 霞沢 ミユ
+    zh-cn: 霞沢 美游
+    zh-tw: 霞澤 美遊
+  short_name:
+    en: Miyu
+    ja: ミユ
+    zh-cn: 美游
+    zh-tw: 美遊
+- id: Moe
+  name:
+    en: Kazekura Moe
+    ja: 風倉 モエ
+    zh-cn: 风仓 萌绘
+    zh-tw: 風倉 萌繪
+  short_name:
+    en: Moe
+    ja: モエ
+    zh-cn: 萌绘
+    zh-tw: 萌繪
+- id: Momoi
+  name:
+    en: Saiba Momoi
+    ja: 才羽 モモイ
+    zh-cn: 才羽 桃衣
+    zh-tw: 才羽 桃井
+  short_name:
+    en: Momoi
+    ja: モモイ
+    zh-cn: 桃衣
+    zh-tw: 桃井
+- id: Momoka
+  name:
+    en: Yuragi Momoka
+    ja: 由良木 モモカ
+    zh-cn: 由良木 桃香
+    zh-tw: 由良木 桃香
+  short_name:
+    en: Momoka
+    ja: モモカ
+    zh-cn: 桃香
+    zh-tw: 桃香
+- id: Mutsuki
+  name:
+    en: Asagi Mutsuki
+    ja: 浅黄 ムツキ
+    zh-cn: 浅黄 睦月
+    zh-tw: 浅黃 無月
+  short_name:
+    en: Mutsuki
+    ja: ムツキ
+    zh-cn: 睦月
+    zh-tw: 無月
+- id: Nagisa
+  name:
+    en: Kirifuji Nagisa
+    ja: 桐藤 ナギサ
+    zh-cn: 桐藤 渚
+    zh-tw: 桐藤 渚
+  short_name:
+    en: Nagisa
+    ja: ナギサ
+    zh-cn: 渚
+    zh-tw: 渚
+- id: Natsu
+  name:
+    en: Yutori Natsu
+    ja: 柚鳥 ナツ
+    zh-cn: 柚鸟 夏
+    zh-tw: 柚鳥 夏
+  short_name:
+    en: Natsu
+    ja: ナツ
+    zh-cn: 夏
+    zh-tw: 夏
+- id: Neru
+  name:
+    en: Mikamo Neru
+    ja: 美甘 ネル
+    zh-cn: 美甘 尼禄
+    zh-tw: 美甘 寧瑠
+  short_name:
+    en: Neru
+    ja: ネル
+    zh-cn: 尼禄
+    zh-tw: 寧瑠
+- id: Niya
+  name:
+    en: Amachi Niya
+    ja: 天地 ニヤ
+    zh-cn: 天地 妮娅
+    zh-tw: 天地 妮婭
+  short_name:
+    en: Niya
+    ja: ニヤ
+    zh-cn: 妮娅
+    zh-tw: 妮婭
+- id: Noa
+  name:
+    en: Ushio Noa
+    ja: 生塩 ノア
+    zh-cn: Ushio Noa
+    zh-tw: Ushio Noa
+  short_name:
+    en: Noa
+    ja: ノア
+    zh-cn: Noa
+    zh-tw: Noa
+- id: Nodoka
+  name:
+    en: Amami Nodoka
+    ja: 天見 ノドカ
+    zh-cn: 天见 和香
+    zh-tw: 天見 和香
+  short_name:
+    en: Nodoka
+    ja: ノドカ
+    zh-cn: 和香
+    zh-tw: 和香
+- id: Nonomi
+  name:
+    en: Izayoi Nonomi
+    ja: 十六夜 ノノミ
+    zh-cn: 十六夜 野宫
+    zh-tw: 十六夜 野乃美
+  short_name:
+    en: Nonomi
+    ja: ノノミ
+    zh-cn: 野宫
+    zh-tw: 野乃美
+- id: Nyantenmaru
+  name:
+    en: Nyantenmaru
+    ja: ニャン天丸
+    zh-cn: 喵天丸
+    zh-tw: 喵天丸
+  short_name:
+    en: Nyantenmaru
+    ja: ニャン天丸
+    zh-cn: 喵天丸
+    zh-tw: 喵天丸
+- id: Peroro_Sama
+  name:
+    en: Peroro Sama
+    ja: ペロロ様
+    zh-cn: 佩洛洛大人
+    zh-tw: 佩洛洛大人
+  short_name:
+    en: Peroro Sama
+    ja: ペロロ様
+    zh-cn: 佩洛洛大人
+    zh-tw: 佩洛洛大人
+- id: Perorozilla
+  name:
+    en: Perorozilla
+    ja: ペロロジラ
+    zh-cn: 佩洛洛斯拉
+    zh-tw: 佩洛洛斯拉
+  short_name:
+    en: Perorozilla
+    ja: ペロロジラ
+    zh-cn: 佩洛洛斯拉
+    zh-tw: 佩洛洛斯拉
+- id: Pina
+  name:
+    en: Asahina Pina
+    ja: 朝比奈 フィーナ
+    zh-cn: 朝比奈 菲娜
+    zh-tw: 朝比奈 菲娜
+  short_name:
+    en: Pina
+    ja: フィーナ
+    zh-cn: 菲娜
+    zh-tw: 菲娜
+- id: Rabu
+  name:
+    en: Komakaze Rabu
+    ja: 河駒風 ラブ
+    zh-cn: Komakaze Rabu
+    zh-tw: Komakaze Rabu
+  short_name:
+    en: Rabu
+    ja: ラブ
+    zh-cn: Rabu
+    zh-tw: Rabu
+- id: Reisa
+  name:
+    en: Uzawa Reisa
+    ja: 宇沢 レイサ
+    zh-cn: Uzawa Reisa
+    zh-tw: Uzawa Reisa
+  short_name:
+    en: Reisa
+    ja: レイサ
+    zh-cn: Reisa
+    zh-tw: Reisa
+- id: Rin
+  name:
+    en: Nanagami Rin
+    ja: 七神 リン
+    zh-cn: 七神 琳
+    zh-tw: 七神 琳
+  short_name:
+    en: Rin
+    ja: リン
+    zh-cn: 琳
+    zh-tw: 琳
+- id: Saki
+  name:
+    en: Sorai Saki
+    ja: 空井 サキ
+    zh-cn: 空井 咲
+    zh-tw: 空井 咲
+  short_name:
+    en: Saki
+    ja: サキ
+    zh-cn: 咲
+    zh-tw: 咲
+- id: Saori
+  name:
+    en: Joumae Saori
+    ja: 錠前 サオリ
+    zh-cn: 锭前 沙织
+    zh-tw: 錠前 沙織
+  short_name:
+    en: Saori
+    ja: サオリ
+    zh-cn: 沙织
+    zh-tw: 沙織
+- id: Saya
+  name:
+    en: Yakushi Saya
+    ja: 薬子 サヤ
+    zh-cn: 药子 沙绫
+    zh-tw: 薬子 沙耶
+  short_name:
+    en: Saya
+    ja: サヤ
+    zh-cn: 沙绫
+    zh-tw: 沙耶
+- id: Seia
+  name:
+    en: Yurizono Seia
+    ja: 百合園 セイア
+    zh-cn: 百合园 圣亚
+    zh-tw: 百合園 聖亞
+  short_name:
+    en: Seia
+    ja: セイア
+    zh-cn: 圣亚
+    zh-tw: 聖亞
+- id: Sena
+  name:
+    en: Himuro Sena
+    ja: 氷室 セナ
+    zh-cn: 氷室 濑名
+    zh-tw: 冰室 瀨奈
+  short_name:
+    en: Sena
+    ja: セナ
+    zh-cn: 濑名
+    zh-tw: 瀨奈
+- id: Serika
+  name:
+    en: Kuromi Serika
+    ja: 黒見 セリカ
+    zh-cn: 黑见 芹香
+    zh-tw: 黑見 茜香
+  short_name:
+    en: Serika
+    ja: セリカ
+    zh-cn: 芹香
+    zh-tw: 茜香
+- id: Serina
+  name:
+    en: Sumi Serina
+    ja: 鷲見 セリナ
+    zh-cn: 鹫见 芹娜
+    zh-tw: 鷲見 芹奈
+  short_name:
+    en: Serina
+    ja: セリナ
+    zh-cn: 芹娜
+    zh-tw: 芹奈
+- id: Shibaseki_Master
+  name:
+    en: Shibaseki Master
+    ja: 柴大将
+    zh-cn: 柴大将
+    zh-tw: 柴大将
+  short_name:
+    en: Shibaseki Master
+    ja: 柴大将
+    zh-cn: 柴大将
+    zh-tw: 柴大将
+- id: Shigure
+  name:
+    en: Mayoi Shigure
+    ja: 間宵 シグレ
+    zh-cn: 间宵 时雨
+    zh-tw: 間宵 時雨
+  short_name:
+    en: Shigure
+    ja: シグレ
+    zh-cn: 时雨
+    zh-tw: 時雨
+- id: Shimiko
+  name:
+    en: Endou Shimiko
+    ja: 円堂 シミコ
+    zh-cn: 圆堂 志美子
+    zh-tw: 円堂 志美子
+  short_name:
+    en: Shimiko
+    ja: シミコ
+    zh-cn: 志美子
+    zh-tw: 志美子
+- id: Shiro
+  name:
+    en: Shiro
+    ja: シロ
+    zh-cn: 白
+    zh-tw: 白
+  short_name:
+    en: Shiro
+    ja: シロ
+    zh-cn: 白
+    zh-tw: 白
+- id: Shiroko
+  name:
+    en: Sunaookami Shiroko
+    ja: 砂狼 シロコ
+    zh-cn: 砂狼 白子
+    zh-tw: 砂狼 白子
+  short_name:
+    en: Shiroko
+    ja: シロコ
+    zh-cn: 白子
+    zh-tw: 白子
+- id: Shizuko
+  name:
+    en: Kawawa Shizuko
+    ja: 河和 シズコ
+    zh-cn: 河和 静子
+    zh-tw: 河和 靜子
+  short_name:
+    en: Shizuko
+    ja: シズコ
+    zh-cn: 静子
+    zh-tw: 靜子
+- id: Shun
+  name:
+    en: Sunohara Shun
+    ja: 春原 シュン
+    zh-cn: 春原 瞬
+    zh-tw: 春原 旬
+  short_name:
+    en: Shun
+    ja: シュン
+    zh-cn: 瞬
+    zh-tw: 旬
+- id: Sisterhood
+  name:
+    en: Sisterhood
+    ja: シスターフッド
+    zh-cn: 修女会
+    zh-tw: 修女會
+  short_name:
+    en: Sisterhood
+    ja: シスターフッド
+    zh-cn: 修女会
+    zh-tw: 修女會
+- id: Sora
+  name:
+    en: Sora
+    ja: ソラ
+    zh-cn: 小空
+    zh-tw: 小空
+  short_name:
+    en: Sora
+    ja: ソラ
+    zh-cn: 小空
+    zh-tw: 小空
+- id: Sudama_ichiza
+  name:
+    en: Sudama Ichiza
+    ja: 魑魅一座
+    zh-cn: 魑魅一座
+    zh-tw: 魑魅一座
+  short_name:
+    en: Sudama Ichiza
+    ja: 魑魅一座
+    zh-cn: 魑魅一座
+    zh-tw: 魑魅一座
+- id: Sukeban
+  name:
+    en: Chimpira
+    ja: チンピラ
+    zh-cn: Chimpira
+    zh-tw: Chimpira
+  short_name:
+    en: Chimpira
+    ja: チンピラ
+    zh-cn: Chimpira
+    zh-tw: Chimpira
+- id: Sumire
+  name:
+    en: Otohana Sumire
+    ja: 乙花 スミレ
+    zh-cn: 乙花 菫
+    zh-tw: 乙花 堇
+  short_name:
+    en: Sumire
+    ja: スミレ
+    zh-cn: 菫
+    zh-tw: 堇
+- id: Suzumi
+  name:
+    en: Morizuki Suzumi
+    ja: 守月 スズミ
+    zh-cn: 守月 铃美
+    zh-tw: 守月 鈴美
+  short_name:
+    en: Suzumi
+    ja: スズミ
+    zh-cn: 铃美
+    zh-tw: 鈴美
+- id: Tea_party
+  name:
+    en: Tea Party
+    ja: ティーパーティー
+    zh-cn: 茶会
+    zh-tw: 茶會
+  short_name:
+    en: Tea Party
+    ja: ティーパーティー
+    zh-cn: 茶会
+    zh-tw: 茶會
+- id: Tomoe
+  name:
+    en: Sashiro Tomoe
+    ja: 佐城 トモエ
+    zh-cn: 佐城 巴
+    zh-tw: 佐城 智惠
+  short_name:
+    en: Tomoe
+    ja: トモエ
+    zh-cn: 巴
+    zh-tw: 智惠
+- id: Tsubaki
+  name:
+    en: Kasuga Tsubaki
+    ja: 春日 ツバキ
+    zh-cn: 春日 椿
+    zh-tw: 春日 椿
+  short_name:
+    en: Tsubaki
+    ja: ツバキ
+    zh-cn: 椿
+    zh-tw: 椿
+- id: Tsukuyo
+  name:
+    en: Oono Tsukuyo
+    ja: 大野 ツクヨ
+    zh-cn: 大野 筑夜
+    zh-tw: 大野 築夜
+  short_name:
+    en: Tsukuyo
+    ja: ツクヨ
+    zh-cn: 筑夜
+    zh-tw: 築夜
+- id: Tsurugi
+  name:
+    en: Kenzaki Tsurugi
+    ja: 剣先 ツルギ
+    zh-cn: 剑先 鹤城
+    zh-tw: 剣先 弦生
+  short_name:
+    en: Tsurugi
+    ja: ツルギ
+    zh-cn: 鹤城
+    zh-tw: 弦生
+- id: Ui
+  name:
+    en: Kozeki Ui
+    ja: 古関 ウイ
+    zh-cn: 古关 忧
+    zh-tw: 古関 憂
+  short_name:
+    en: Ui
+    ja: ウイ
+    zh-cn: 忧
+    zh-tw: 憂
+- id: Utaha
+  name:
+    en: Shiraishi Utaha
+    ja: 白石 ウタハ
+    zh-cn: 白石 歌原
+    zh-tw: 白石 詠葉
+  short_name:
+    en: Utaha
+    ja: ウタハ
+    zh-cn: 歌原
+    zh-tw: 詠葉
+- id: Wakamo
+  name:
+    en: Kosaka Wakamo
+    ja: 狐坂 ワカモ
+    zh-cn: 狐坂 若藻
+    zh-tw: 狐坂 若藻
+  short_name:
+    en: Wakamo
+    ja: ワカモ
+    zh-cn: 若藻
+    zh-tw: 若藻
+- id: Yoshimi
+  name:
+    en: Ibaragi Yoshimi
+    ja: 伊原木 ヨシミ
+    zh-cn: 伊原木 好美
+    zh-tw: 伊原木 喜美
+  short_name:
+    en: Yoshimi
+    ja: ヨシミ
+    zh-cn: 好美
+    zh-tw: 喜美
+- id: Yuuka
+  name:
+    en: Hayase Yuuka
+    ja: 早瀬 ユウカ
+    zh-cn: 早濑 优香
+    zh-tw: 早瀬 優香
+  short_name:
+    en: Yuuka
+    ja: ユウカ
+    zh-cn: 优香
+    zh-tw: 優香
+- id: Yuzu
+  name:
+    en: Hanaoka Yuzu
+    ja: 花岡 ユズ
+    zh-cn: 花冈 柚子
+    zh-tw: 花岡 柚子
+  short_name:
+    en: Yuzu
+    ja: ユズ
+    zh-cn: 柚子
+    zh-tw: 柚子
+

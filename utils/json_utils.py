@@ -2,7 +2,7 @@ import json
 import os
 
 
-def read_json(file, default_func):
+def read_json(file, default_func=None):
     if file is None or not os.path.isfile(file):
         return default_func()
     with open(file, "r", encoding="utf-8") as f:

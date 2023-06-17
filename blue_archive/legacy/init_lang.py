@@ -1,32 +1,36 @@
 import json
 from pathlib import Path
 
-from utils.json_utils import write_json
+from omegaconf import OmegaConf
+
+from blue_archive.common import CharLangData
+from utils.json_utils import read_json
 from utils.models import Character
+
+all_langs = [
+    "en",
+    "ja",
+    "zh-cn",
+    "zh-tw",
+]
 
 
 def main():
     script_dir = Path(__file__).parent
-    with open(script_dir / "../../../closuretalk.github.io/resources/ba/char.json", "r", encoding="utf-8") as f:
-        # for some reason this line doesn't work
-        # chars: list[Character] = Character.schema().load(f, many=True)
-        # so, we load one by one
-        data = json.load(f)
-    chars: list[Character] = [Character.from_dict(d) for d in data]
+    chars: list[Character] = [Character.from_dict(d) for d in read_json(script_dir / "char.json")]
 
-    data = {
-        "en": {},
-        "zh-tw": {},
-    }
-    for char in chars:
-        for lang in data:
-            data[lang][char.id] = {
-                "name": char.names[lang],
-                "short_name": char.short_names[lang],
-            }
+    result = [
+        OmegaConf.structured(CharLangData(
+            char.id,
+            {k: char.names.get(k, "") for k in all_langs},
+            {k: char.short_names.get(k, "") for k in all_langs},
+        ))
+        for char in chars
+    ]
+    result = sorted(result, key=lambda x: x.id)
 
-    for lang, value in data.items():
-        write_json(script_dir / f"../lang/{lang}.json", value)
+    with open(script_dir.parent / "lang/char.yaml", "w", encoding="utf-8") as f:
+        f.write(OmegaConf.to_yaml(result, sort_keys=True) + "\n")
 
 
 if __name__ == "__main__":
