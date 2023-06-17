@@ -253,6 +253,7 @@ def main():
         result.append(char)
         result_map[file] = file
 
+    result = sorted(result, key=lambda ch: ch.id.lower())
     write_list(CharData, script_dir / "data/char_data.json", result)
 
     # Generate suggested yaml template
