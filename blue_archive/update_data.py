@@ -9,6 +9,11 @@ from blue_archive.common import (CharData, LocalizeCharProfile,
 from utils.json_utils import read_json, write_list
 
 
+def add_custom_portrait_images(portrait_images: dict[str, set]):
+    if "スズミ" not in portrait_images:
+        portrait_images["スズミ"] = {"UIs/01_Common/01_Character/Student_Portrait_Suzumi_Small"}
+
+
 def main():
     script_dir = Path(__file__).parent
     parser = ArgumentParser()
@@ -32,6 +37,7 @@ def main():
         if not obj.SmallPortrait.split("/")[-1] in portrait_files:
             continue
         portrait_images[obj.NameJP].add(obj.SmallPortrait)
+    add_custom_portrait_images(portrait_images)
 
     id_mappings = read_json(script_dir / "data/id_mapping.json", None)
 
@@ -42,19 +48,25 @@ def main():
     # For every profile, gather images
     used_images = set()
     image_users = {}
-    result = []
+    result: list[CharData] = []
     result_map: dict[str, CharData] = {}
     for prof in profiles:
         key = prof.FamilyNameJp + prof.PersonalNameJp
         if len(key) == 0:
             continue
-        if prof.PersonalNameJp not in portrait_images:
-            print(f"Profile without portrait: {key}")
-            continue
 
-        images = portrait_images[prof.PersonalNameJp] - used_images
+        cid = get_id(prof)
+
+        images = set()
+        if prof.PersonalNameJp in portrait_images:
+            images |= portrait_images[prof.PersonalNameJp]
+        if f"Student_Portrait_{cid}" in portrait_files:
+            images.add(f"UIs/01_Common/01_Character/Student_Portrait_{cid}")
+
+        images -= used_images
         if len(images) == 0:
-            print(f"Profile without new image: {key}")
+            if key not in result_map:
+                print(f"Profile without image: {key}")
             continue
 
         all_heuristic_images = set()
@@ -76,7 +88,7 @@ def main():
             char = result_map[key]
         else:
             char = CharData(
-                get_id(prof),
+                cid,
                 prof.CharacterId,
                 prof.FamilyNameJp,
                 prof.FamilyNameRubyJp,
@@ -101,6 +113,7 @@ def main():
     }
 
     names_without_profile = sorted(images_without_profile.keys())
+    generated_chars = []
     for name in names_without_profile:
         images = images_without_profile[name]
         for img in images:
@@ -110,29 +123,68 @@ def main():
                     aka.append(name)
 
         images -= used_images
-        if len(images) == 0:
+        for img in images:
+            key = img.split("/")[-1]
+            if key in result_map:
+                char = result_map[key]
+            else:
+                char = CharData(
+                    key,
+                    -1,
+                    "",
+                    "",
+                    key,
+                    [img],
+                    [],
+                )
+                result.append(char)
+                result_map[key] = char
+                image_users[img] = key
+                generated_chars.append(char)
+
+            char.aka.append(name)
+        used_images |= images
+
+    # Merge created profiles with single AKA, and assign name
+    chars_to_merge: dict[str, list[CharData]] = defaultdict(list)
+    for char in generated_chars:
+        if len(char.aka) != 1:
+            continue
+        chars_to_merge[char.aka[0]].append(char)
+    for key, chars in chars_to_merge.items():
+        for char in chars:
+            result = [c for c in result if c is not char]
+            result_map.pop(char.id)
+        char = CharData(
+            chars[0].id,
+            -1,
+            "",
+            "",
+            chars[0].aka[0],
+            list(set(itertools.chain(*(c.image_files for c in chars)))),
+            [],
+        )
+        result.append(char)
+        result_map[char.id] = char
+
+    # Create profiles for unused images for completeness
+    unused_portrait_files = sorted(portrait_files - set((Path(f).stem for f in used_images)))
+    for file in unused_portrait_files:
+        if file.endswith("_Small") or file.endswith("_Small "):
             continue
 
-        if name in result_map:
-            char = result_map[name]
-        else:
-            print(f"Additional char: {name}")
-            char = CharData(
-                "",
-                -1,
-                "",
-                "",
-                name,
-                [],
-                [],
-            )
-            result.append(char)
-            result_map[name] = char
-
-        char.image_files = sorted(list(set(char.image_files) | images))
-        used_images |= images
-        for img in char.image_files:
-            image_users[img] = name
+        print(f"Unused portrait file: {file}")
+        char = CharData(
+            file,
+            -1,
+            "",
+            "",
+            file,
+            [file],
+            [],
+        )
+        result.append(char)
+        result_map[file] = file
 
     write_list(CharData, script_dir / "data/char_data.json", result)
 
