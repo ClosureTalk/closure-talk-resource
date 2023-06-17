@@ -7,6 +7,9 @@
 - name: プラナ
   images:
     - NPC_Portrait_NP0035
+- name: アロナ
+  images:
+    - UIs/01_Common/20_Operator/Operator_Portrait_Arona_00
 
 - name: エラー
   id: special_error
@@ -14,18 +17,19 @@
     - Student_Portrait_Error
     - Student_Portrait_Nobody
     - NPC_Portrait_Hidden_Arena
+- name: アンドロイド
+  id: Android
+  images:
+    - NPC_Portrait_Citizen_Borot1
+    - NPC_Portrait_Citizen_Borot2
 - name: 市民
-  id: npc_citizen
+  id: Citizen
   images:
     - NPC_Portrait_Citizen_Animal1
     - NPC_Portrait_Citizen_Animal2
     - NPC_Portrait_Citizen_Animal3
-    - NPC_Portrait_Citizen_Animal5
-    - NPC_Portrait_Citizen_Animal5_eyepatch
     - NPC_Portrait_Citizen_Animal6
     - NPC_Portrait_Citizen_animal7
-    - NPC_Portrait_Citizen_Borot1
-    - NPC_Portrait_Citizen_Borot2
 - name: 子供
   id: npc_child
   images:
@@ -38,7 +42,7 @@
     - NPC_Portrait_NP0036
     - NPC_Portrait_NP0084
 - name: ヘルメット団員
-  id: helmetdan
+  id: Helmet_Dan
   images:
     - NPC_Portrait_Helmetdan_Black1
     - NPC_Portrait_Helmetdan_Red1
@@ -50,7 +54,7 @@
     - NPC_Portrait_Automata_Decagrammaton1
     - NPC_Portrait_Automata_Kurokamegumi1
 - name: スケバン
-  id: sukeban
+  id: Sukeban
   images:
     - NPC_Portrait_Sukeban_SMG1
     - NPC_Portrait_Sukebanswim_SMG1
@@ -58,7 +62,7 @@
     - NPC_Portrait_Sukeban_SR1
     - NPC_Portrait_Sukebanswim_MG1
 - name: ティーパーティー
-  id: tea_party
+  id: Tea_party
   images:
     - NPC_Portrait_NP0028
     - NPC_Portrait_NP0022
@@ -72,7 +76,7 @@
   images:
     - NPC_Portrait_Arius_GL1
 - name: カイザーPMC理事
-  id: pmc_director
+  id: Kaiser_PMC_Director
   images:
     - NPC_Portrait_Pmcdirector
 - name: カイザーの特殊部隊員
@@ -87,7 +91,7 @@
 - name: シスターフッド
   images:
   - NPC_Portrait_NP0025
-  id: sisterhood
+  id: Sisterhood
 - name: トリニティの生徒
   images:
   - NPC_Portrait_NP0024
@@ -120,7 +124,7 @@
 - name: 正義実現委員会部員
   images:
   - NPC_Portrait_Justice_normal1
-  id: justice_student
+  id: Justice_Task_Force_Member
 - name: 玄武商会のメンバー
   images:
   - NPC_Portrait_GenbuStore_SG
@@ -128,7 +132,7 @@
 - name: 風紀委員
   images:
   - NPC_Portrait_Fuuki_Normal1
-  id: fuuki_student
+  id: Disciplinary_Committee_Member
 - name: 救急医学部の部員
   images:
   - NPC_Portrait_NP0023
@@ -149,7 +153,7 @@
   images:
   - NPC_Portrait_StreetGhostes_RL
   - NPC_Portrait_StreetGhostes_MG
-  id: streetghost_student
+  id: Sudama_ichiza
 - name: 連邦生徒会役員
   images:
   - NPC_Portrait_NP0107
@@ -162,20 +166,20 @@
   - NPC_Portrait_Kaitenranger_Pink
   - NPC_Portrait_Kaitenranger_Black
   - NPC_Portrait_Kaitenranger_Red
-  id: npc_kaiten_ranger
+  id: Kaitenger
 - name: デカルコマニー
   images:
   - NPC_Portrait_NP0011_1
   - NPC_Portrait_NP0115_2
-  id: decalcomanie
+  id: Décalcomanie
 - name: ベアトリーチェ
   images:
   - NPC_Portrait_NP0029
   id: beatrice
-- name: ペロロ
+- name: ペロロ様
   images:
   - NPC_Portrait_Peroro
-  id: peroro
+  id: Peroro_Sama
 - name: ユスティナ信徒
   images:
   - NPC_Portrait_Yustina_SR1
@@ -192,7 +196,7 @@
 - name: 柴大将
   images:
   - NPC_Portrait_Shibasekimaster
-  id: shibaseki_master
+  id: Shibaseki_Master
 - name: 無名の守護者
   images:
   - NPC_Portrait_NP0091
@@ -205,8 +209,54 @@
   images:
   - NPC_Portrait_Blacksuit
   - NPC_Portrait_NP0113
-  id: blacksuit
+  id: Black_Suit
 - name: ドラム缶
   images:
   - NPC_Portrait_NP0018
   id: drum_container
+- name: ゴルコンダ
+  id: Golconde
+  images:
+  - NPC_Portrait_NP0011_2
+- name: ケセド
+  id: Chesed
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_Chesed
+- name: ビナー
+  id: Binah
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_Binah
+- name: ヒエロニムス
+  id: Hieronymus
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_Hieronymus
+- name: ホド
+  id: Hod
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_HOD
+- name: KAITEN FX Mk.0
+  id: KAITEN_FX_Mk_0
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_KaitenFxMk0
+- name: クロ
+  id: Kuro
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_Kuro
+- name: シロ
+  id: Shiro
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_Shiro
+- name: ペロロジラ
+  id: Perorozilla
+  images:
+  - UIs/02_Tactics/06_Raid/Portrait_Raidboss_Perorozilla
+- name: マエストロ
+  id: Maestro
+  images:
+  - NPC_Portrait_Maestro
+  - NPC_Portrait_NP0114
+- name: ニャン天丸
+  id: Nyantenmaru
+  images:
+    - NPC_Portrait_Citizen_Animal5
+    - NPC_Portrait_Citizen_Animal5_eyepatch

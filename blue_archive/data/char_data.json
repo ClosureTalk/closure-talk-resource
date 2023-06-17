@@ -87,6 +87,74 @@
     "personal_name": "AMAS"
   },
   {
+    "aka": [
+      "ウェイター",
+      "カイザーの営業マン",
+      "カフェのオーナー",
+      "ゲストC",
+      "ゲストD",
+      "チンピラ１",
+      "トリニティの教員",
+      "ドーナツ屋の店長",
+      "ニャオモト・カン",
+      "パン職人",
+      "ピザの配達人",
+      "ブラックストーン社長",
+      "ブラックマーケット幹部",
+      "ブラックマーケット銀行員",
+      "ブローカー",
+      "ペットショップ店員",
+      "ホテルの支配人",
+      "ボス",
+      "メイドカフェの店長",
+      "モデルのスカウト",
+      "ラウンジガイド",
+      "中華レストランの店員",
+      "亀島五郎",
+      "事業家",
+      "作業班長",
+      "公演スタッフ",
+      "公演機材の担当者",
+      "司会",
+      "商店の主人",
+      "大会の司会者",
+      "審査員",
+      "市民A",
+      "店員",
+      "店長",
+      "従業員",
+      "怪しい男",
+      "怪しげな社長",
+      "悪徳店主",
+      "支配人",
+      "案内人",
+      "目利きの専門家",
+      "社長",
+      "競売人",
+      "職員",
+      "謎のパティシエ",
+      "講師",
+      "警備員",
+      "警備員A",
+      "警備員B",
+      "警察",
+      "通行人A",
+      "配達員",
+      "銀行員",
+      "銀行審査官",
+      "駅員"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Android",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Borot1",
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Borot2"
+    ],
+    "personal_name": "アンドロイド"
+  },
+  {
     "aka": [],
     "char_id": -1,
     "family_name": "",
@@ -112,6 +180,17 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Arius_GL1"
     ],
     "personal_name": "アリウスの生徒"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Arona",
+    "image_files": [
+      "UIs/01_Common/20_Operator/Operator_Portrait_Arona_00"
+    ],
+    "personal_name": "アロナ"
   },
   {
     "aka": [],
@@ -252,7 +331,18 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "blacksuit",
+    "id": "Binah",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Binah"
+    ],
+    "personal_name": "ビナー"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Black_Suit",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Blacksuit",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0113"
@@ -290,6 +380,17 @@
   },
   {
     "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Chesed",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Chesed"
+    ],
+    "personal_name": "ケセド"
+  },
+  {
+    "aka": [],
     "char_id": 20013,
     "family_name": "各務",
     "family_name_ruby": "かがみ",
@@ -323,16 +424,71 @@
     "personal_name": "チセ"
   },
   {
-    "aka": [],
+    "aka": [
+      "「海の家」の店主",
+      "お節丸社長",
+      "かわいそうな客A",
+      "かわいそうな市民",
+      "こそ泥",
+      "アビドス市民A",
+      "アビドス市民B",
+      "ゲストA",
+      "ゲストB",
+      "スイーツ屋の店主",
+      "バンドのマネージャー",
+      "パソコン修理技師",
+      "ピヨスーパー店長",
+      "マスター",
+      "ミレニアムの研究所員",
+      "ラーメン屋の店主",
+      "人質",
+      "会場のお客さんB",
+      "会場のお客さんC",
+      "偽物の幽霊",
+      "商店の主人",
+      "善良な市民",
+      "地域商人会の青年",
+      "地域商人会長",
+      "大家さん",
+      "客",
+      "市民1",
+      "市民2",
+      "市民3",
+      "市民B",
+      "店主",
+      "店員",
+      "店長",
+      "廃品回収業者",
+      "怒ったシェフ",
+      "怒りが解けたシェフ",
+      "敗北したゲーマー",
+      "明太郎",
+      "暇な通行人",
+      "気難しいゲスト",
+      "花火屋の店主",
+      "親子丼職人",
+      "通りすがりの通行人",
+      "通行人",
+      "通行人A",
+      "通行人B",
+      "通行人C",
+      "露店商のおじさん",
+      "魂の抜けた人A",
+      "魂の抜けた人B",
+      "魚屋のおやじ"
+    ],
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "decalcomanie",
+    "id": "Citizen",
     "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0011_1",
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0115_2"
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal1",
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal2",
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal3",
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal6",
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_animal7"
     ],
-    "personal_name": "デカルコマニー"
+    "personal_name": "市民"
   },
   {
     "aka": [],
@@ -346,6 +502,22 @@
     "personal_name": "デカルト"
   },
   {
+    "aka": [
+      "擲弾兵",
+      "風紀委員A",
+      "風紀委員B",
+      "風紀委員会の医務官"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Disciplinary_Committee_Member",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_Fuuki_Normal1"
+    ],
+    "personal_name": "風紀委員"
+  },
+  {
     "aka": [],
     "char_id": -1,
     "family_name": "",
@@ -355,6 +527,18 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0018"
     ],
     "personal_name": "ドラム缶"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Décalcomanie",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0011_1",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0115_2"
+    ],
+    "personal_name": "デカルコマニー"
   },
   {
     "aka": [],
@@ -430,22 +614,6 @@
   },
   {
     "aka": [
-      "擲弾兵",
-      "風紀委員A",
-      "風紀委員B",
-      "風紀委員会の医務官"
-    ],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
-    "id": "fuuki_student",
-    "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_Fuuki_Normal1"
-    ],
-    "personal_name": "風紀委員"
-  },
-  {
-    "aka": [
       "ゲヘナの生徒A",
       "ゲヘナの生徒B",
       "ムシクイーンチャンピオン"
@@ -504,7 +672,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "Gorukonda",
+    "id": "Golconde",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0011_2"
     ],
@@ -631,7 +799,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "helmetdan",
+    "id": "Helmet_Dan",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Helmetdan_Black1",
       "UIs/01_Common/01_Character/NPC_Portrait_Helmetdan_Red1"
@@ -649,6 +817,17 @@
       "UIs/01_Common/01_Character/Student_Portrait_Hibiki"
     ],
     "personal_name": "ヒビキ"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Hieronymus",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Hieronymus"
+    ],
+    "personal_name": "ヒエロニムス"
   },
   {
     "aka": [
@@ -712,6 +891,17 @@
       "UIs/01_Common/01_Character/Student_Portrait_Hiyori"
     ],
     "personal_name": "ヒヨリ"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Hod",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_HOD"
+    ],
+    "personal_name": "ホド"
   },
   {
     "aka": [],
@@ -845,7 +1035,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "justice_student",
+    "id": "Justice_Task_Force_Member",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Justice_normal1"
     ],
@@ -883,6 +1073,50 @@
       "UIs/01_Common/01_Character/Student_Portrait_CH0213"
     ],
     "personal_name": "カイ"
+  },
+  {
+    "aka": [
+      "正体不明の幹部"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Kaiser_PMC_Director",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_Pmcdirector"
+    ],
+    "personal_name": "カイザーPMC理事"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "KAITEN_FX_Mk_0",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_KaitenFxMk0"
+    ],
+    "personal_name": "KAITEN FX Mk.0"
+  },
+  {
+    "aka": [
+      "カイテングリーン",
+      "カイテンピンク",
+      "カイテンブラック",
+      "カイテンレッド"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Kaitenger",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Black",
+      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Green",
+      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Pink",
+      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Red",
+      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Yellow"
+    ],
+    "personal_name": "カイテンイエロー"
   },
   {
     "aka": [],
@@ -1052,6 +1286,17 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
+    "id": "Kuro",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Kuro"
+    ],
+    "personal_name": "クロ"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
     "id": "Kurumi",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0173"
@@ -1074,7 +1319,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "Maesutoro",
+    "id": "Maestro",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Maestro",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0114"
@@ -1504,141 +1749,6 @@
   },
   {
     "aka": [
-      "「海の家」の店主",
-      "お客さん",
-      "お節丸社長",
-      "かわいそうな客A",
-      "かわいそうな市民",
-      "こそ泥",
-      "アビドス市民A",
-      "アビドス市民B",
-      "ウェイター",
-      "カイザーの営業マン",
-      "カフェのオーナー",
-      "ゲストA",
-      "ゲストB",
-      "ゲストC",
-      "ゲストD",
-      "スイーツ屋の店主",
-      "チンピラ１",
-      "トリニティの教員",
-      "ドーナツ屋の店長",
-      "ニャオモト・カン",
-      "ニャテ・マサムニェ",
-      "ニャン天丸",
-      "バンドのマネージャー",
-      "パソコン修理技師",
-      "パン職人",
-      "ピザの配達人",
-      "ピヨスーパー店長",
-      "ブラックストーン社長",
-      "ブラックマーケット幹部",
-      "ブラックマーケット銀行員",
-      "ブローカー",
-      "ペットショップ店員",
-      "ホテルの支配人",
-      "ボス",
-      "マスター",
-      "ミレニアムの研究所員",
-      "メイドカフェの店長",
-      "モデルのスカウト",
-      "ラウンジガイド",
-      "ラーメン屋の店主",
-      "中華レストランの店員",
-      "亀島五郎",
-      "事業家",
-      "人質",
-      "会場のお客さんA",
-      "会場のお客さんB",
-      "会場のお客さんC",
-      "作業班長",
-      "偽物の幽霊",
-      "公演スタッフ",
-      "公演機材の担当者",
-      "司会",
-      "商会長",
-      "商店の主人",
-      "善良な市民",
-      "地域商人会の青年",
-      "地域商人会長",
-      "大会の司会者",
-      "大家さん",
-      "客",
-      "審査員",
-      "市民1",
-      "市民2",
-      "市民3",
-      "市民A",
-      "市民B",
-      "店主",
-      "店員",
-      "店長",
-      "廃品回収業者",
-      "従業員",
-      "怒ったシェフ",
-      "怒りが解けたシェフ",
-      "怪しい客",
-      "怪しい男",
-      "怪しげな社長",
-      "悪徳店主",
-      "成金ゲスト",
-      "支配人",
-      "敗北したゲーマー",
-      "明太郎",
-      "暇な通行人",
-      "案内人",
-      "気難しいゲスト",
-      "気難しい社長",
-      "気難しい通行人",
-      "猫田",
-      "目利きの専門家",
-      "社長",
-      "競売人",
-      "管理人",
-      "老人",
-      "職員",
-      "花火屋の店主",
-      "親子丼職人",
-      "謎のパティシエ",
-      "講師",
-      "警備員",
-      "警備員A",
-      "警備員B",
-      "警察",
-      "通りすがりの通行人",
-      "通行人",
-      "通行人A",
-      "通行人B",
-      "通行人C",
-      "配達員",
-      "銀行員",
-      "銀行審査官",
-      "鏡もち伯爵",
-      "露店商のおじさん",
-      "駅員",
-      "魂の抜けた人A",
-      "魂の抜けた人B",
-      "魚屋のおやじ"
-    ],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
-    "id": "npc_citizen",
-    "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal1",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal2",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal3",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal5",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal5_eyepatch",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal6",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Borot1",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Borot2",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_animal7"
-    ],
-    "personal_name": "市民"
-  },
-  {
-    "aka": [
       "カイザーの特殊部隊員A",
       "カイザーの特殊部隊員B",
       "カイザーの特殊部隊員C",
@@ -1658,26 +1768,6 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0116"
     ],
     "personal_name": "カイザーの特殊部隊員"
-  },
-  {
-    "aka": [
-      "カイテングリーン",
-      "カイテンピンク",
-      "カイテンブラック",
-      "カイテンレッド"
-    ],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
-    "id": "npc_kaiten_ranger",
-    "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Black",
-      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Green",
-      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Pink",
-      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Red",
-      "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Yellow"
-    ],
-    "personal_name": "カイテンイエロー"
   },
   {
     "aka": [
@@ -1711,6 +1801,33 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Yustina_SR1"
     ],
     "personal_name": "ユスティナ信徒"
+  },
+  {
+    "aka": [
+      "お客さん",
+      "スイーツ屋の店主",
+      "ニャテ・マサムニェ",
+      "会場のお客さんA",
+      "商会長",
+      "怪しい客",
+      "成金ゲスト",
+      "気難しい社長",
+      "気難しい通行人",
+      "猫田",
+      "管理人",
+      "老人",
+      "通行人A",
+      "鏡もち伯爵"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Nyantenmaru",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal5",
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal5_eyepatch"
+    ],
+    "personal_name": "ニャン天丸"
   },
   {
     "aka": [
@@ -1759,11 +1876,22 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "peroro",
+    "id": "Peroro_Sama",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Peroro"
     ],
-    "personal_name": "ペロロ"
+    "personal_name": "ペロロ様"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Perorozilla",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Perorozilla"
+    ],
+    "personal_name": "ペロロジラ"
   },
   {
     "aka": [
@@ -1788,19 +1916,6 @@
       "UIs/01_Common/01_Character/Student_Portrait_Pina"
     ],
     "personal_name": "フィーナ"
-  },
-  {
-    "aka": [
-      "正体不明の幹部"
-    ],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
-    "id": "pmc_director",
-    "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_Pmcdirector"
-    ],
-    "personal_name": "カイザーPMC理事"
   },
   {
     "aka": [
@@ -2029,7 +2144,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "shibaseki_master",
+    "id": "Shibaseki_Master",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Shibasekimaster"
     ],
@@ -2068,6 +2183,17 @@
       "UIs/01_Common/01_Character/Student_Portrait_Shinon"
     ],
     "personal_name": "シノン"
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Shiro",
+    "image_files": [
+      "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Shiro"
+    ],
+    "personal_name": "シロ"
   },
   {
     "aka": [],
@@ -2126,7 +2252,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "sisterhood",
+    "id": "Sisterhood",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0025"
     ],
@@ -2155,24 +2281,6 @@
       "UIs/01_Common/01_Character/Student_Portrait_Nobody"
     ],
     "personal_name": "エラー"
-  },
-  {
-    "aka": [
-      "百鬼夜行の問題児A",
-      "百鬼夜行の問題児B",
-      "魑魅一座A",
-      "魑魅一座B",
-      "魑魅一座のリーダー"
-    ],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
-    "id": "streetghost_student",
-    "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_StreetGhostes_MG",
-      "UIs/01_Common/01_Character/NPC_Portrait_StreetGhostes_RL"
-    ],
-    "personal_name": "魑魅一座"
   },
   {
     "aka": [],
@@ -2208,6 +2316,24 @@
   },
   {
     "aka": [
+      "百鬼夜行の問題児A",
+      "百鬼夜行の問題児B",
+      "魑魅一座A",
+      "魑魅一座B",
+      "魑魅一座のリーダー"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_ruby": "",
+    "id": "Sudama_ichiza",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_StreetGhostes_MG",
+      "UIs/01_Common/01_Character/NPC_Portrait_StreetGhostes_RL"
+    ],
+    "personal_name": "魑魅一座"
+  },
+  {
+    "aka": [
       "スケバンA",
       "スケバンB",
       "スケバンC",
@@ -2230,7 +2356,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "sukeban",
+    "id": "Sukeban",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_Sukeban_HMG1",
       "UIs/01_Common/01_Character/NPC_Portrait_Sukeban_SMG1",
@@ -2305,7 +2431,7 @@
     "char_id": -1,
     "family_name": "",
     "family_name_ruby": "",
-    "id": "tea_party",
+    "id": "Tea_party",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0022",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0028"

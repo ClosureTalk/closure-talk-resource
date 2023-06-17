@@ -48,9 +48,6 @@
   personal_name: クルミ
 - family_name:
   family_name_ruby:
-  personal_name: ゴルコンダ
-- family_name:
-  family_name_ruby:
   personal_name: サツキ
 - family_name:
   family_name_ruby:
@@ -90,9 +87,6 @@
   personal_name: マイ
 - family_name:
   family_name_ruby:
-  personal_name: マエストロ
-- family_name:
-  family_name_ruby:
   personal_name: マコト
 - family_name:
   family_name_ruby:
@@ -124,3 +118,6 @@
 - family_name:
   family_name_ruby:
   personal_name: キララ
+- family_name:
+  family_name_ruby:
+  personal_name: アロナ
