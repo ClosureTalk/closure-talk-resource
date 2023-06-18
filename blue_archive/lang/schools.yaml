@@ -1,0 +1,70 @@
+- id: abydos
+  name:
+    en: Abydos High school
+    ja: アビドス高等学校
+    ko: 아비도스 고등학교
+    zh-cn: 阿拜多斯高中
+    zh-tw: 阿拜多斯高中
+- id: arius
+  name:
+    en: Arius Branch School
+    ja: アリウス分校
+    ko: 아리우스 분교
+    zh-cn: 奥利斯分校
+    zh-tw: 奧利斯分校
+- id: gehenna
+  name:
+    en: Gehenna Academy
+    ja: ゲヘナ学園
+    ko: 게헨나 학원
+    zh-cn: 格黑娜学园
+    zh-tw: 格黑娜學園
+- id: hyakkiyako
+  name:
+    en: Allied Hyakkiyako Academy
+    ja: 百鬼夜行連合学院
+    ko: 백귀야행 연합학원
+    zh-cn: 百鬼夜行联合学园
+    zh-tw: 百鬼夜行聯合學園
+- id: millennium
+  name:
+    en: Millennium Science Academy
+    ja: ミレニアムサイエンススクール
+    ko: 밀레니엄 사이언스 스쿨
+    zh-cn: 千年科学学园
+    zh-tw: 千年科學學園
+- id: red_winter
+  name:
+    en: Red Winter Federal Academy
+    ja: レッドウィンター連邦学園
+    ko: 레드윈터 연방학원
+    zh-cn: 赤冬联邦学园
+    zh-tw: 赤冬聯邦學園
+- id: shanhaijing
+  name:
+    en: Shanhaijing Senior Secondary School
+    ja: 山海経高級中学校
+    ko: 산해경 고급중학교
+    zh-cn: 山海经高级中学
+    zh-tw: 山海經高級中學
+- id: srt
+  name:
+    en: SRT Special Academy
+    ja: SRT特殊学園
+    ko: SRT 특수학원
+    zh-cn: SRT特殊学园
+    zh-tw: SRT特殊学園
+- id: trinity
+  name:
+    en: Trinity General School
+    ja: トリニティ総合学園
+    ko: 트리니티 종합학원
+    zh-cn: 三一综合学园
+    zh-tw: 三一綜合學園
+- id: valkyrie
+  name:
+    en: Valkyrie Police Academy
+    ja: ヴァルキューレ警察学校
+    ko: 발키리 경찰학교
+    zh-cn: 女武神警察学园
+    zh-tw: 女武神警察學園

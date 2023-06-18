@@ -34,12 +34,12 @@
 - id: Akira
   name:
     en: Akira
-    jp: アキラ
+    ja: アキラ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Akira
-    jp: アキラ
+    ja: アキラ
     zh-cn: ''
     zh-tw: ''
 - id: Ako
@@ -67,12 +67,12 @@
 - id: amas
   name:
     en: Amas
-    jp: AMAS
+    ja: AMAS
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Amas
-    jp: AMAS
+    ja: AMAS
     zh-cn: ''
     zh-tw: ''
 - id: Android
@@ -89,23 +89,23 @@
 - id: Aoi
   name:
     en: Aoi
-    jp: アオイ
+    ja: アオイ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Aoi
-    jp: アオイ
+    ja: アオイ
     zh-cn: ''
     zh-tw: ''
 - id: arius_student
   name:
     en: Arius Student
-    jp: アリウスの生徒
+    ja: アリウスの生徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Arius Student
-    jp: アリウスの生徒
+    ja: アリウスの生徒
     zh-cn: ''
     zh-tw: ''
 - id: Arona
@@ -155,12 +155,12 @@
 - id: automata
   name:
     en: Automata
-    jp: オートマタ兵士
+    ja: オートマタ兵士
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Automata
-    jp: オートマタ兵士
+    ja: オートマタ兵士
     zh-cn: ''
     zh-tw: ''
 - id: Ayane
@@ -199,23 +199,23 @@
 - id: Barubara
   name:
     en: Barubara
-    jp: バルバラ
+    ja: バルバラ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Barubara
-    jp: バルバラ
+    ja: バルバラ
     zh-cn: ''
     zh-tw: ''
 - id: beatrice
   name:
     en: Beatrice
-    jp: ベアトリーチェ
+    ja: ベアトリーチェ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Beatrice
-    jp: ベアトリーチェ
+    ja: ベアトリーチェ
     zh-cn: ''
     zh-tw: ''
 - id: Binah
@@ -243,12 +243,12 @@
 - id: bunny_girl
   name:
     en: Bunny Girl
-    jp: バニーガール
+    ja: バニーガール
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Bunny Girl
-    jp: バニーガール
+    ja: バニーガール
     zh-cn: ''
     zh-tw: ''
 - id: Cherino
@@ -320,12 +320,12 @@
 - id: Dekaruto
   name:
     en: Dekaruto
-    jp: デカルト
+    ja: デカルト
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Dekaruto
-    jp: デカルト
+    ja: デカルト
     zh-cn: ''
     zh-tw: ''
 - id: Disciplinary_Committee_Member
@@ -342,12 +342,12 @@
 - id: drum_container
   name:
     en: Drum Container
-    jp: ドラム缶
+    ja: ドラム缶
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Drum Container
-    jp: ドラム缶
+    ja: ドラム缶
     zh-cn: ''
     zh-tw: ''
 - id: Décalcomanie
@@ -375,23 +375,23 @@
 - id: emergency_medicine_student
   name:
     en: Emergency Medicine Student
-    jp: 救急医学部の部員
+    ja: 救急医学部の部員
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Emergency Medicine Student
-    jp: 救急医学部の部員
+    ja: 救急医学部の部員
     zh-cn: ''
     zh-tw: ''
 - id: Erika
   name:
     en: Erika
-    jp: エリカ
+    ja: エリカ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Erika
-    jp: エリカ
+    ja: エリカ
     zh-cn: ''
     zh-tw: ''
 - id: Fubuki
@@ -408,12 +408,12 @@
 - id: Furanshisu
   name:
     en: Furanshisu
-    jp: フランシス
+    ja: フランシス
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Furanshisu
-    jp: フランシス
+    ja: フランシス
     zh-cn: ''
     zh-tw: ''
 - id: Fuuka
@@ -430,34 +430,34 @@
 - id: gehenna_student
   name:
     en: Gehenna Student
-    jp: ゲヘナの生徒
+    ja: ゲヘナの生徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Gehenna Student
-    jp: ゲヘナの生徒
+    ja: ゲヘナの生徒
     zh-cn: ''
     zh-tw: ''
 - id: genbustore_member
   name:
     en: Genbustore Member
-    jp: 玄武商会のメンバー
+    ja: 玄武商会のメンバー
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Genbustore Member
-    jp: 玄武商会のメンバー
+    ja: 玄武商会のメンバー
     zh-cn: ''
     zh-tw: ''
 - id: genryuumon_student
   name:
     en: Genryuumon Student
-    jp: 玄龍門の生徒
+    ja: 玄龍門の生徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Genryuumon Student
-    jp: 玄龍門の生徒
+    ja: 玄龍門の生徒
     zh-cn: ''
     zh-tw: ''
 - id: Golconde
@@ -474,12 +474,12 @@
 - id: Haine
   name:
     en: Haine
-    jp: ハイネ
+    ja: ハイネ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Haine
-    jp: ハイネ
+    ja: ハイネ
     zh-cn: ''
     zh-tw: ''
 - id: Hanae
@@ -551,12 +551,12 @@
 - id: hatsune_miku
   name:
     en: Hatsune Miku
-    jp: 初音ミク
+    ja: 初音ミク
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Hatsune Miku
-    jp: 初音ミク
+    ja: 初音ミク
     zh-cn: ''
     zh-tw: ''
 - id: Helmet_Dan
@@ -606,12 +606,12 @@
 - id: Himari
   name:
     en: Akeboshi Himari
-    jp: 明星 ヒマリ
+    ja: 明星 ヒマリ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Himari
-    jp: ヒマリ
+    ja: ヒマリ
     zh-cn: ''
     zh-tw: ''
 - id: Hina
@@ -672,23 +672,23 @@
 - id: Ibuki
   name:
     en: Ibuki
-    jp: イブキ
+    ja: イブキ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Ibuki
-    jp: イブキ
+    ja: イブキ
     zh-cn: ''
     zh-tw: ''
 - id: Ichika
   name:
     en: Ichika
-    jp: イチカ
+    ja: イチカ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Ichika
-    jp: イチカ
+    ja: イチカ
     zh-cn: ''
     zh-tw: ''
 - id: Iori
@@ -738,12 +738,12 @@
 - id: Jeneraru
   name:
     en: Jeneraru
-    jp: ジェネラル
+    ja: ジェネラル
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Jeneraru
-    jp: ジェネラル
+    ja: ジェネラル
     zh-cn: ''
     zh-tw: ''
 - id: Junko
@@ -804,12 +804,12 @@
 - id: Kai
   name:
     en: Kai
-    jp: カイ
+    ja: カイ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kai
-    jp: カイ
+    ja: カイ
     zh-cn: ''
     zh-tw: ''
 - id: Kaiser_PMC_Director
@@ -870,23 +870,23 @@
 - id: Kasumi
   name:
     en: Kasumi
-    jp: カスミ
+    ja: カスミ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kasumi
-    jp: カスミ
+    ja: カスミ
     zh-cn: ''
     zh-tw: ''
 - id: Kaya
   name:
     en: Kaya
-    jp: カヤ
+    ja: カヤ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kaya
-    jp: カヤ
+    ja: カヤ
     zh-cn: ''
     zh-tw: ''
 - id: Kayoko
@@ -914,12 +914,12 @@
 - id: Kirara
   name:
     en: Kirara
-    jp: キララ
+    ja: キララ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kirara
-    jp: キララ
+    ja: キララ
     zh-cn: ''
     zh-tw: ''
 - id: Kirino
@@ -936,12 +936,12 @@
 - id: Kisaki
   name:
     en: Kisaki
-    jp: キサキ
+    ja: キサキ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kisaki
-    jp: キサキ
+    ja: キサキ
     zh-cn: ''
     zh-tw: ''
 - id: Koharu
@@ -991,12 +991,12 @@
 - id: Koyuki
   name:
     en: Kurosaki Koyuki
-    jp: 黒崎 コユキ
+    ja: 黒崎 コユキ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Koyuki
-    jp: コユキ
+    ja: コユキ
     zh-cn: ''
     zh-tw: ''
 - id: Kuro
@@ -1013,23 +1013,23 @@
 - id: Kurumi
   name:
     en: Kurumi
-    jp: クルミ
+    ja: クルミ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kurumi
-    jp: クルミ
+    ja: クルミ
     zh-cn: ''
     zh-tw: ''
 - id: Kuzunoha
   name:
     en: Kuzunoha
-    jp: クズノハ
+    ja: クズノハ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kuzunoha
-    jp: クズノハ
+    ja: クズノハ
     zh-cn: ''
     zh-tw: ''
 - id: Maestro
@@ -1046,12 +1046,12 @@
 - id: Mai
   name:
     en: Mai
-    jp: マイ
+    ja: マイ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Mai
-    jp: マイ
+    ja: マイ
     zh-cn: ''
     zh-tw: ''
 - id: Maki
@@ -1068,12 +1068,12 @@
 - id: Makoto
   name:
     en: Makoto
-    jp: マコト
+    ja: マコト
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Makoto
-    jp: マコト
+    ja: マコト
     zh-cn: ''
     zh-tw: ''
 - id: Mari
@@ -1123,12 +1123,12 @@
 - id: Meru
   name:
     en: Meru
-    jp: メル
+    ja: メル
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Meru
-    jp: メル
+    ja: メル
     zh-cn: ''
     zh-tw: ''
 - id: Michiru
@@ -1167,12 +1167,12 @@
 - id: millennium_student
   name:
     en: Millennium Student
-    jp: ミレニアムの生徒
+    ja: ミレニアムの生徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Millennium Student
-    jp: ミレニアムの生徒
+    ja: ミレニアムの生徒
     zh-cn: ''
     zh-tw: ''
 - id: Mimori
@@ -1189,23 +1189,23 @@
 - id: Mina
   name:
     en: Konoe Mina
-    jp: 近衛 ミナ
+    ja: 近衛 ミナ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Mina
-    jp: ミナ
+    ja: ミナ
     zh-cn: ''
     zh-tw: ''
 - id: Mine
   name:
     en: Aomori Mine
-    jp: 蒼森 ミネ
+    ja: 蒼森 ミネ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Mine
-    jp: ミネ
+    ja: ミネ
     zh-cn: ''
     zh-tw: ''
 - id: Minori
@@ -1266,12 +1266,12 @@
 - id: Momiji
   name:
     en: Momiji
-    jp: モミジ
+    ja: モミジ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Momiji
-    jp: モミジ
+    ja: モミジ
     zh-cn: ''
     zh-tw: ''
 - id: Momoi
@@ -1321,23 +1321,23 @@
 - id: Nagusa
   name:
     en: Nagusa
-    jp: ナグサ
+    ja: ナグサ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Nagusa
-    jp: ナグサ
+    ja: ナグサ
     zh-cn: ''
     zh-tw: ''
 - id: nameless_guardian
   name:
     en: Nameless Guardian
-    jp: 無名の守護者
+    ja: 無名の守護者
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Nameless Guardian
-    jp: 無名の守護者
+    ja: 無名の守護者
     zh-cn: ''
     zh-tw: ''
 - id: Natsu
@@ -1365,12 +1365,12 @@
 - id: Niko
   name:
     en: Niko
-    jp: ニコ
+    ja: ニコ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Niko
-    jp: ニコ
+    ja: ニコ
     zh-cn: ''
     zh-tw: ''
 - id: Niya
@@ -1420,45 +1420,45 @@
 - id: npc_child
   name:
     en: Child
-    jp: 子供
+    ja: 子供
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Child
-    jp: 子供
+    ja: 子供
     zh-cn: ''
     zh-tw: ''
 - id: npc_kaiser
   name:
     en: Kaiser
-    jp: カイザーの特殊部隊員
+    ja: カイザーの特殊部隊員
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Kaiser
-    jp: カイザーの特殊部隊員
+    ja: カイザーの特殊部隊員
     zh-cn: ''
     zh-tw: ''
 - id: npc_priest
   name:
     en: Priest
-    jp: 無名の司祭
+    ja: 無名の司祭
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Priest
-    jp: 無名の司祭
+    ja: 無名の司祭
     zh-cn: ''
     zh-tw: ''
 - id: npc_yustina
   name:
     en: Yustina
-    jp: ユスティナ信徒
+    ja: ユスティナ信徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Yustina
-    jp: ユスティナ信徒
+    ja: ユスティナ信徒
     zh-cn: ''
     zh-tw: ''
 - id: Nyantenmaru
@@ -1475,34 +1475,34 @@
 - id: onsendev_student
   name:
     en: Onsendev Student
-    jp: 温泉部の部員
+    ja: 温泉部の部員
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Onsendev Student
-    jp: 温泉部の部員
+    ja: 温泉部の部員
     zh-cn: ''
     zh-tw: ''
 - id: Otogi
   name:
     en: Otogi
-    jp: オトギ
+    ja: オトギ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Otogi
-    jp: オトギ
+    ja: オトギ
     zh-cn: ''
     zh-tw: ''
 - id: pandemonium_student
   name:
     en: Pandemonium Student
-    jp: 万魔殿のメンバー
+    ja: 万魔殿のメンバー
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Pandemonium Student
-    jp: 万魔殿のメンバー
+    ja: 万魔殿のメンバー
     zh-cn: ''
     zh-tw: ''
 - id: Peroro_Sama
@@ -1530,12 +1530,12 @@
 - id: phrenapates
   name:
     en: Phrenapates
-    jp: プレナパテス
+    ja: プレナパテス
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Phrenapates
-    jp: プレナパテス
+    ja: プレナパテス
     zh-cn: ''
     zh-tw: ''
 - id: Pina
@@ -1552,23 +1552,23 @@
 - id: Purana
   name:
     en: Purana
-    jp: プラナ
+    ja: プラナ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Purana
-    jp: プラナ
+    ja: プラナ
     zh-cn: ''
     zh-tw: ''
 - id: Purejidento
   name:
     en: Purejidento
-    jp: プレジデント
+    ja: プレジデント
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Purejidento
-    jp: プレジデント
+    ja: プレジデント
     zh-cn: ''
     zh-tw: ''
 - id: Rabu
@@ -1585,12 +1585,12 @@
 - id: Reijo
   name:
     en: Reijo
-    jp: レイジョ
+    ja: レイジョ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Reijo
-    jp: レイジョ
+    ja: レイジョ
     zh-cn: ''
     zh-tw: ''
 - id: Reisa
@@ -1618,34 +1618,34 @@
 - id: Rio
   name:
     en: Rio
-    jp: リオ
+    ja: リオ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Rio
-    jp: リオ
+    ja: リオ
     zh-cn: ''
     zh-tw: ''
 - id: royalguard_student
   name:
     en: Royalguard Student
-    jp: 親衛隊
+    ja: 親衛隊
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Royalguard Student
-    jp: 親衛隊
+    ja: 親衛隊
     zh-cn: ''
     zh-tw: ''
 - id: Rumi
   name:
     en: Akeshiro Rumi
-    jp: 朱城 ルミ
+    ja: 朱城 ルミ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Rumi
-    jp: ルミ
+    ja: ルミ
     zh-cn: ''
     zh-tw: ''
 - id: Saki
@@ -1662,12 +1662,12 @@
 - id: Sakurako
   name:
     en: Utazumi Sakurako
-    jp: 歌住 サクラコ
+    ja: 歌住 サクラコ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Sakurako
-    jp: サクラコ
+    ja: サクラコ
     zh-cn: ''
     zh-tw: ''
 - id: Saori
@@ -1684,12 +1684,12 @@
 - id: Satsuki
   name:
     en: Satsuki
-    jp: サツキ
+    ja: サツキ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Satsuki
-    jp: サツキ
+    ja: サツキ
     zh-cn: ''
     zh-tw: ''
 - id: Saya
@@ -1783,12 +1783,12 @@
 - id: Shinon
   name:
     en: Shinon
-    jp: シノン
+    ja: シノン
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Shinon
-    jp: シノン
+    ja: シノン
     zh-cn: ''
     zh-tw: ''
 - id: Shiro
@@ -1860,34 +1860,34 @@
 - id: special_error
   name:
     en: Special Error
-    jp: エラー
+    ja: エラー
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Special Error
-    jp: エラー
+    ja: エラー
     zh-cn: ''
     zh-tw: ''
 - id: student_council_president
   name:
     en: Student Council President
-    jp: 連邦生徒会長
+    ja: 連邦生徒会長
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Student Council President
-    jp: 連邦生徒会長
+    ja: 連邦生徒会長
     zh-cn: ''
     zh-tw: ''
 - id: student_council_student
   name:
     en: Student Council Student
-    jp: 連邦生徒会役員
+    ja: 連邦生徒会役員
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Student Council Student
-    jp: 連邦生徒会役員
+    ja: 連邦生徒会役員
     zh-cn: ''
     zh-tw: ''
 - id: Sudama_ichiza
@@ -1926,23 +1926,23 @@
 - id: Sumomo
   name:
     en: Sumomo
-    jp: スモモ
+    ja: スモモ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Sumomo
-    jp: スモモ
+    ja: スモモ
     zh-cn: ''
     zh-tw: ''
 - id: suzume_lady
   name:
     en: Suzume Lady
-    jp: 女将
+    ja: 女将
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Suzume Lady
-    jp: 女将
+    ja: 女将
     zh-cn: ''
     zh-tw: ''
 - id: Suzumi
@@ -1970,12 +1970,12 @@
 - id: Toki
   name:
     en: Asuma Toki
-    jp: 飛鳥馬 トキ
+    ja: 飛鳥馬 トキ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Toki
-    jp: トキ
+    ja: トキ
     zh-cn: ''
     zh-tw: ''
 - id: Tomoe
@@ -1992,12 +1992,12 @@
 - id: trinity_student
   name:
     en: Trinity Student
-    jp: トリニティの生徒
+    ja: トリニティの生徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Trinity Student
-    jp: トリニティの生徒
+    ja: トリニティの生徒
     zh-cn: ''
     zh-tw: ''
 - id: Tsubaki
@@ -2047,12 +2047,12 @@
 - id: Umika
   name:
     en: Umika
-    jp: ウミカ
+    ja: ウミカ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Umika
-    jp: ウミカ
+    ja: ウミカ
     zh-cn: ''
     zh-tw: ''
 - id: Utaha
@@ -2069,12 +2069,12 @@
 - id: valkyrie_student
   name:
     en: Valkyrie Student
-    jp: ヴァルキューレの生徒
+    ja: ヴァルキューレの生徒
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Valkyrie Student
-    jp: ヴァルキューレの生徒
+    ja: ヴァルキューレの生徒
     zh-cn: ''
     zh-tw: ''
 - id: Wakamo
@@ -2091,12 +2091,12 @@
 - id: yoheki_student
   name:
     en: Yoheki Student
-    jp: 傭兵バイト
+    ja: 傭兵バイト
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Yoheki Student
-    jp: 傭兵バイト
+    ja: 傭兵バイト
     zh-cn: ''
     zh-tw: ''
 - id: Yoshimi
@@ -2113,12 +2113,12 @@
 - id: Yukino
   name:
     en: Yukino
-    jp: ユキノ
+    ja: ユキノ
     zh-cn: ''
     zh-tw: ''
   short_name:
     en: Yukino
-    jp: ユキノ
+    ja: ユキノ
     zh-cn: ''
     zh-tw: ''
 - id: Yuuka

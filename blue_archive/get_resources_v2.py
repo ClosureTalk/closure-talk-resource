@@ -4,7 +4,8 @@ from typing import Dict, List, Tuple
 
 from omegaconf import OmegaConf
 
-from blue_archive.common import CharData, CharLangData, name_to_id
+from blue_archive.common import (CharData, CharLangData, GroupData,
+                                 GroupLangData, all_langs, name_to_id)
 from utils.json_utils import read_json
 from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
@@ -32,13 +33,13 @@ def get_default_lang_data(data: CharData) -> CharLangData:
     return OmegaConf.structured(CharLangData(
         data.id,
         {
-            "jp": jp_name,
+            "ja": jp_name,
             "en": en_name,
             "zh-cn": "",
             "zh-tw": "",
         },
         {
-            "jp": data.personal_name,
+            "ja": data.personal_name,
             "en": en_shortname,
             "zh-cn": "",
             "zh-tw": "",
@@ -53,8 +54,11 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         res_root = self.res_root / "assets"
 
-        charData = read_json(script_dir / "data/char_data.json")
-        charData: list[CharData] = [CharData.from_dict(d) for d in charData]
+        char_data = read_json(script_dir / "data/char_data.json")
+        char_data: list[CharData] = [CharData.from_dict(d) for d in char_data]
+
+        group_data: list[GroupData] = OmegaConf.load(script_dir / "manual/clubs.yaml") + \
+            OmegaConf.load(script_dir / "manual/schools.yaml")
 
         with open(script_dir / "lang/char.yaml", "r", encoding="utf-8") as f:
             translations = OmegaConf.load(f)
@@ -67,8 +71,9 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         avatar_files = {}
         image_mappings = get_legacy_image_mappings()
         updated_translations = False
+        chars_without_group: list[Character] = []
 
-        for data in charData:
+        for data in char_data:
             cid = data.id
             if cid not in translations:
                 print(f"New translation: {cid}")
@@ -76,11 +81,11 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 updated_translations = True
 
             char = Character(
-                data.id,
+                cid,
                 translations[cid].name,
                 translations[cid].short_name,
                 [],
-                [],
+                sorted([gp.id for gp in group_data if cid in gp.members]),
             )
 
             # Get avatar files
@@ -103,11 +108,18 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 avatar_files[name] = img_file
 
             result.append(char)
+            if len(char.searches) == 0:
+                chars_without_group.append(char)
 
         if updated_translations:
             with open(script_dir / "lang/char.yaml", "w", encoding="utf-8") as f:
                 f.write(OmegaConf.to_yaml(
                     sorted(translations.values(), key=lambda x: x.id.lower()), sort_keys=True) + "\n")
+
+        with open(script_dir / "manual/nogroup.generated.txt", "w", encoding="utf-8") as f:
+            for char in chars_without_group:
+                f.write(f"{char.id}\n  {char.names['ja']}\n  {char.images[0]}\n\n")
+
         return result, avatar_files
 
     def get_stamps(self) -> List[str]:
@@ -115,43 +127,23 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         return sorted(glob.glob(str(in_root / "*_Jp.png")))
 
     def get_filters(self) -> List[FilterGroup]:
-        def make_group(key, names, data: Dict[str, Dict[str, str]]):
-            data_keys = sorted(list(data.keys()))
-            return FilterGroup(
+        result = []
+        type_names = OmegaConf.to_container(OmegaConf.load(script_dir / "lang/group_types.yaml"))
+        for key in ["schools", "clubs"]:
+            groups: list[GroupLangData] = OmegaConf.load(script_dir / f"lang/{key}.yaml")
+            groups = sorted(groups, key=lambda gp: gp.id)
+            for gp in groups:
+                gp.name = OmegaConf.to_container(gp.name)
+                gp.name = {k: gp.name[k] or "" for k in all_langs}
+            result.append(FilterGroup(
                 key,
-                names,
-                data_keys,
-                [
-                    data[key] for key in data_keys
-                ],
-                [False] * len(data_keys)
-            )
+                type_names[key],
+                [gp.id for gp in groups],
+                [gp.name for gp in groups],
+                [False] * len(groups),
+            ))
 
-        schools = read_json(script_dir / "data/schools.json")
-        clubs = read_json(script_dir / "data/clubs.json")
-
-        return [
-            make_group(
-                "schools",
-                {
-                    "zh-cn": "学校",
-                    "ja": "学校",
-                    "en": "School",
-                    "zh-tw": "学校",
-                },
-                schools,
-            ),
-            make_group(
-                "clubs",
-                {
-                    "zh-cn": "社团",
-                    "ja": "クラブ",
-                    "en": "Club",
-                    "zh-tw": "社團",
-                },
-                clubs,
-            ),
-        ]
+        return result
 
 
 if __name__ == "__main__":

@@ -7,6 +7,13 @@ from dataclasses_json import Undefined, dataclass_json
 
 T = TypeVar("T")
 
+all_langs = [
+    "en",
+    "ja",
+    "zh-cn",
+    "zh-tw",
+]
+
 
 @dataclass_json(undefined=Undefined.EXCLUDE)
 @dataclass
@@ -56,6 +63,18 @@ class CharLangData:
     id: str
     name: dict[str, str]
     short_name: dict[str, str]
+
+
+@dataclass
+class GroupLangData:
+    id: str
+    name: dict[str, str]
+
+
+@dataclass
+class GroupData:
+    id: str
+    members: list[str]
 
 
 def load_excel_table_list(cls: Callable[[], T], file: str) -> list[T]:

@@ -1,18 +1,10 @@
-import json
 from pathlib import Path
 
 from omegaconf import OmegaConf
 
-from blue_archive.common import CharLangData
+from blue_archive.common import CharLangData, all_langs
 from utils.json_utils import read_json
 from utils.models import Character
-
-all_langs = [
-    "en",
-    "ja",
-    "zh-cn",
-    "zh-tw",
-]
 
 
 def main():
