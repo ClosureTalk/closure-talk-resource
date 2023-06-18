@@ -21,6 +21,25 @@ def main():
         print("\n  " + "\n  ".join(sorted(missing_ids)))
     print(f"Added ids: {len(added_ids)}")
 
+    # verify images
+    new_data = read_json(script_dir.parent.parent.parent / "closuretalk.github.io/resources/ba/char.json")
+
+    old_images = {
+        d["id"]: d["images"] for d in old_data
+    }
+    new_images = {
+        d["id"]: d["images"] for d in new_data
+    }
+    for key, names in old_images.items():
+        new_names = new_images[key]
+        missing_names = [
+            name for name in names if name not in new_names
+        ]
+        if len(missing_names) > 0:
+            print(key)
+            print("  " + "\n  ".join(sorted(missing_names)))
+            print()
+
 
 if __name__ == "__main__":
     main()

@@ -10,6 +10,16 @@
 - name: アロナ
   images:
     - UIs/01_Common/20_Operator/Operator_Portrait_Arona_00
+- name: ワカモ
+  images:
+    - Student_Portrait_Wakamo_Small
+- name: ユウカ
+  images:
+    - Student_Portrait_Yuuka_Small
+- name: チナツ
+  images:
+    - UIs/01_Common/14_CharacterCollect/Student_Portrait_Chinatsu_Collection
+    - Student_Portrait_Yuuka_Small
 
 - name: エラー
   id: special_error

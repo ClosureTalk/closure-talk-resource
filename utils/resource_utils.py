@@ -55,7 +55,8 @@ class ResourceProcessor:
         args = self.args
         if not args.skip_chars:
             characters, avatar_paths = self._process_chars()
-            self._process_avatars(characters, avatar_paths)
+            if not args.skip_avatars:
+                self._process_avatars(characters, avatar_paths)
         if not args.skip_stamps:
             self._process_stamps(self.get_stamps())
         if not args.skip_filters:

@@ -407,7 +407,8 @@
     "family_name_ruby": "ひのみや",
     "id": "Chinatsu",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0163"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0163",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Chinatsu_Collection"
     ],
     "personal_name": "チナツ"
   },
@@ -2580,7 +2581,8 @@
     "id": "Wakamo",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0014",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0175"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0175",
+      "UIs/01_Common/01_Character/Student_Portrait_Wakamo_Small"
     ],
     "personal_name": "ワカモ"
   },
@@ -2644,7 +2646,8 @@
     "id": "Yuuka",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0109",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0184"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0184",
+      "UIs/01_Common/01_Character/Student_Portrait_Yuuka_Small"
     ],
     "personal_name": "ユウカ"
   },

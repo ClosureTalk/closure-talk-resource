@@ -51,6 +51,13 @@ class ManualPortrait:
     id: str
 
 
+@dataclass
+class CharLangData:
+    id: str
+    name: dict[str, str]
+    short_name: dict[str, str]
+
+
 def load_excel_table_list(cls: Callable[[], T], file: str) -> list[T]:
     with open(file, "r", encoding="utf-8-sig") as f:
         data = json.load(f)["DataList"]
