@@ -24,11 +24,9 @@ def get_default_lang_data(data: CharData) -> CharLangData:
     if len(data.family_name) > 0:
         jp_name = f"{data.family_name} {data.personal_name}"
         en_name = f"{name_to_id(data.family_name_ruby)} {data.id}"
-        en_shortname = data.id
     else:
         jp_name = data.personal_name
         en_name = " ".join([s[0].upper() + s[1:] for s in data.id.split("_") if s != "npc"])
-        en_shortname = en_name
 
     return OmegaConf.structured(CharLangData(
         data.id,
@@ -38,12 +36,6 @@ def get_default_lang_data(data: CharData) -> CharLangData:
             "zh-cn": "",
             "zh-tw": "",
         },
-        {
-            "ja": data.personal_name,
-            "en": en_shortname,
-            "zh-cn": "",
-            "zh-tw": "",
-        }
     ))
 
 
@@ -79,6 +71,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
             if cid not in translations:
                 print(f"New translation: {cid}")
+                trans = default_trans
                 translations[cid] = default_trans
                 updated_translations = True
             else:
@@ -91,10 +84,15 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                         trans.name[lang] = default_trans.name[lang]
                     updated_translations = True
 
+            short_name = dict(trans.short_name) if "short_name" in trans else {}
+            for lang in all_langs:
+                if lang not in short_name or len(short_name[lang]) == 0:
+                    short_name[lang] = trans.name[lang].split(" ")[-1]
+
             char = Character(
                 cid,
                 translations[cid].name,
-                translations[cid].short_name,
+                short_name,
                 [],
                 sorted([gp.id for gp in group_data if cid in gp.members]),
             )

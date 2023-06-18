@@ -62,7 +62,7 @@ class ManualPortrait:
 class CharLangData:
     id: str
     name: dict[str, str]
-    short_name: dict[str, str]
+    short_name: Optional[dict[str, str]] = field(default=None)
 
 
 @dataclass
