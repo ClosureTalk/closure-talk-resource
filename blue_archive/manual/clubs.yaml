@@ -13,32 +13,17 @@
   - Hiyori
   - Misaki
   - Saori
-- id: athletics_training_club
-  members:
-  - Sumire
-- id: citizen
-  members:
-  - Android
-  - Citizen
-- id: city_chimpira
-  members:
-  - Sukeban
 - id: cleaning_and_clearing
   members:
   - Akane
   - Asuna
   - Karin
   - Neru
-- id: communio_sanctorum
-  members:
-  - Hieronymus
+  - Toki
 - id: community_safety_bureau
   members:
   - Fubuki
   - Kirino
-- id: construction_department
-  members:
-  - Minori
 - id: countermeasures_council
   members:
   - Ayane
@@ -46,11 +31,8 @@
   - Nonomi
   - Serika
   - Shiroko
-- id: decagrammaton
-  members:
-  - Binah
-  - Chesed
-  - Hod
+  - Haine
+  - Sumomo
 - id: disciplinary_committee
   members:
   - Ako
@@ -64,6 +46,7 @@
 - id: emergency_medicine_club
   members:
   - Sena
+  - emergency_medicine_student
 - id: engineering_club
   members:
   - Hibiki
@@ -79,12 +62,6 @@
   - Midori
   - Momoi
   - Yuzu
-- id: gematria
-  members:
-  - Black_Suit
-  - Décalcomanie
-  - Golconde
-  - Maestro
 - id: gourmet_research_society
   members:
   - Akari
@@ -95,9 +72,6 @@
   members:
   - Helmet_Dan
   - Rabu
-- id: hyakkiyako_commercial_district
-  members:
-  - Nyantenmaru
 - id: inner_discipline_club
   members:
   - Kaede
@@ -109,13 +83,7 @@
   - Justice_Task_Force_Member
   - Mashiro
   - Tsurugi
-- id: kaiser_pmc
-  members:
-  - Kaiser_PMC_Director
-- id: kaitenger
-  members:
-  - KAITEN_FX_Mk_0
-  - Kaitenger
+  - Ichika
 - id: library_committee
   members:
   - Shimiko
@@ -134,13 +102,6 @@
   - Nonomi
   - Serika
   - Shiroko
-- id: mimesis
-  members:
-  - Kuro
-  - Shiro
-- id: momo_friends
-  members:
-  - Peroro_Sama
 - id: ninjutsu_research_department
   members:
   - Izuna
@@ -149,9 +110,14 @@
 - id: onsen_development_club
   members:
   - Megu
+  - Kasumi
+  - onsendev_student
 - id: pandemonium_society
   members:
   - Iroha
+  - Ibuki
+  - Makoto
+  - pandemonium_student
 - id: plum_blossom_garden
   members:
   - Kokona
@@ -161,15 +127,16 @@
   - Ayumu
   - Momoka
   - Rin
+  - Aoi
+  - Kaya
+  - student_council_president
+  - student_council_student
 - id: problem_solver_68
   members:
   - Aru
   - Haruka
   - Kayoko
   - Mutsuki
-- id: public_safety_bureau
-  members:
-  - Kanna
 - id: rabbit_platoon
   members:
   - Miyako
@@ -185,6 +152,7 @@
   members:
   - Hanae
   - Serina
+  - Mine
 - id: school_lunch_club
   members:
   - Fuuka
@@ -193,9 +161,12 @@
   members:
   - Noa
   - Yuuka
+  - Koyuki
+  - Rio
 - id: shitim's_box
   members:
   - Arona
+  - Purana
 - id: sibaseki_ramen
   members:
   - Serika
@@ -205,6 +176,7 @@
   - Hinata
   - Mari
   - Sisterhood
+  - Sakurako
 - id: special_class_no.227
   members:
   - Nodoka
@@ -215,21 +187,20 @@
 - id: super_phenomenon_task_force
   members:
   - Eimi
+  - Himari
 - id: tea_party
   members:
   - Mika
   - Nagisa
   - Seia
   - Tea_party
-- id: the_library_of_lore
-  members:
-  - Perorozilla
 - id: veritas
   members:
   - Chihiro
   - Hare
   - Kotama
   - Maki
+  - Himari
 - id: vigilante_crew
   members:
   - Reisa
@@ -239,3 +210,66 @@
   - Chise
   - Kaho
   - Niya
+- id: fox_platoon
+  members:
+  - Kurumi
+  - Niko
+  - Otogi
+  - Yukino
+- id: new_students
+  members:
+  - Akira
+  - Kai
+  - Mai
+  - Shinon
+- id: npc
+  members:
+  - Android
+  - Citizen
+  - Sukeban
+  - Hieronymus
+  - Binah
+  - Chesed
+  - Hod
+  - Black_Suit
+  - Décalcomanie
+  - Golconde
+  - Maestro
+  - Nyantenmaru
+  - Kaiser_PMC_Director
+  - KAITEN_FX_Mk_0
+  - Kaitenger
+  - Kuro
+  - Shiro
+  - Peroro_Sama
+  - Sudama_ichiza
+  - Perorozilla
+  - amas
+  - automata
+  - Barubara
+  - beatrice
+  - BunnyGirl_SR
+  - Dekaruto
+  - drum_container
+  - Furanshisu
+  - genbustore_member
+  - genryuumon_student
+  - Jeneraru
+  - nameless_guardian
+  - npc_child
+  - npc_kaiser
+  - npc_priest
+  - npc_yustina
+  - special_error
+  - suzume_lady
+  - yoheki_student
+  - arius_student
+  - gehenna_student
+  - millennium_student
+  - trinity_student
+  - valkyrie_student
+  - royalguard_student
+  - pandemonium_student
+  - Purejidento
+  - phrenapates
+  - bunny_girl

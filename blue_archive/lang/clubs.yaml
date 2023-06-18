@@ -19,27 +19,6 @@
     ko: 아리우스 스쿼드
     zh-cn: 奥利斯小队
     zh-tw: 奧利斯小隊
-- id: athletics_training_club
-  name:
-    en: Athletics Training Club
-    ja: トレーニング部
-    ko: 트레이닝부
-    zh-cn: 训练部
-    zh-tw: 訓練部
-- id: citizen
-  name:
-    en: Citizen
-    ja: 市民
-    ko: 시민
-    zh-cn: 市民
-    zh-tw: 市民
-- id: city_chimpira
-  name:
-    en: City Chimpira
-    ja: 街のチンピラ
-    ko: 길거리 양아치
-    zh-cn: 街头暴徒
-    zh-tw: 街頭暴徒
 - id: cleaning_and_clearing
   name:
     en: Cleaning & Clearing
@@ -47,13 +26,6 @@
     ko: Cleaning & Clearing
     zh-cn: C&C
     zh-tw: C&C
-- id: communio_sanctorum
-  name:
-    en: Communio Sanctorum
-    ja: コムニオ・サンクトラム
-    ko: 코뮤니오 상토룸
-    zh-cn: Communio Sanctorum
-    zh-tw: Communio Sanctorum
 - id: community_safety_bureau
   name:
     en: Community Safety Bureau
@@ -61,13 +33,6 @@
     ko: 생활안전국
     zh-cn: 生活安全局
     zh-tw: 生活安全局
-- id: construction_department
-  name:
-    en: Construction Department
-    ja: 工務部
-    ko: 공사부
-    zh-cn: 劳务部
-    zh-tw: 勞務部
 - id: countermeasures_council
   name:
     en: Countermeasures Council
@@ -75,13 +40,6 @@
     ko: 대책위원회
     zh-cn: 对策委员会
     zh-tw: 對策委員會
-- id: decagrammaton
-  name:
-    en: Decagrammaton
-    ja: デカグラマトン
-    ko: 데카그라마톤
-    zh-cn: 十字神
-    zh-tw: 十字神
 - id: disciplinary_committee
   name:
     en: Disciplinary Committee
@@ -124,13 +82,6 @@
     ko: 게임개발부
     zh-cn: 游戏开发部
     zh-tw: 遊戲開發部
-- id: gematria
-  name:
-    en: Gematria
-    ja: ゲマトリア
-    ko: 게마트리아
-    zh-cn: 盖玛特利亚
-    zh-tw: 蓋瑪特利亞
 - id: gourmet_research_society
   name:
     en: Gourmet Research Society
@@ -145,13 +96,6 @@
     ko: 헬멧단
     zh-cn: 头盔团
     zh-tw: 頭盔團
-- id: hyakkiyako_commercial_district
-  name:
-    en: Hyakkiyako Commercial district
-    ja: 百鬼夜行商店街
-    ko: 백귀야행 상점가
-    zh-cn: 百鬼夜行商店街
-    zh-tw: 百鬼夜行商店街
 - id: inner_discipline_club
   name:
     en: Inner Discipline Club
@@ -166,20 +110,6 @@
     ko: 정의실현위원회
     zh-cn: 实现正义部
     zh-tw: 實現正義部
-- id: kaiser_pmc
-  name:
-    en: Kaiser PMC
-    ja: カイザーPMC
-    ko: 카이저 PMC
-    zh-cn: 凯萨PMC
-    zh-tw: 凱薩PMC
-- id: kaitenger
-  name:
-    en: Kaitenger
-    ja: カイテンジャー
-    ko: 카이텐저
-    zh-cn: 凯坦泽
-    zh-tw: 凱坦澤
 - id: library_committee
   name:
     en: Library Committee
@@ -201,20 +131,6 @@
     ko: 복면수영복단
     zh-cn: 蒙面泳装团
     zh-tw: 蒙面泳裝團
-- id: mimesis
-  name:
-    en: Mimesis
-    ja: ミメシス
-    ko: 미메시스
-    zh-cn: Mimesis
-    zh-tw: Mimesis
-- id: momo_friends
-  name:
-    en: Momo Friends
-    ja: モモフレンズ
-    ko: 모모프렌즈
-    zh-cn: Momo好友
-    zh-tw: Momo好友
 - id: ninjutsu_research_department
   name:
     en: Ninjutsu Research Department
@@ -257,13 +173,6 @@
     ko: 흥신소68
     zh-cn: 征信社68
     zh-tw: 徵信社68
-- id: public_safety_bureau
-  name:
-    en: Public Safety Bureau
-    ja: 公安局
-    ko: 공안국
-    zh-cn: 公安局
-    zh-tw: 公安局
 - id: rabbit_platoon
   name:
     en: RABBIT Platoon
@@ -327,13 +236,6 @@
     ko: 227호 특별반
     zh-cn: 227特别班
     zh-tw: 227特別班
-- id: sudama_ichiza
-  name:
-    en: Sudama Ichiza
-    ja: 魑魅一座
-    ko: 길거리 망량즈
-    zh-cn: 大街魑魅一座
-    zh-tw: 大街魑魅一座
 - id: super_phenomenon_task_force
   name:
     en: Super Phenomenon Task Force
@@ -348,13 +250,6 @@
     ko: 티 파티
     zh-cn: 茶会
     zh-tw: 茶會
-- id: the_library_of_lore
-  name:
-    en: The Library of Lore
-    ja: The Library of Lore
-    ko: The Library of Lore
-    zh-cn: The Library of Lore
-    zh-tw: The Library of Lore
 - id: veritas
   name:
     en: Veritas
@@ -376,3 +271,24 @@
     ko: 음양부
     zh-cn: 阴阳部
     zh-tw: 陰陽部
+- id: fox_platoon
+  name:
+    en: FOX Platoon
+    ja: FOX小隊
+    ko: FOX 소대
+    zh-cn: FOX小队
+    zh-tw: FOX小隊
+- id: new_students
+  name:
+    en: Future Students?
+    ja: 新キャラ？
+    ko: ''
+    zh-cn: 新学生？
+    zh-tw: ''
+- id: npc
+  name:
+    en: NPC
+    ja: NPC
+    ko: NPC
+    zh-cn: NPC
+    zh-tw: NPC

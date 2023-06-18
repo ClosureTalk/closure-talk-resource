@@ -11,6 +11,7 @@
   - Hiyori
   - Misaki
   - Saori
+  - arius_student
 - id: gehenna
   members:
   - Akari
@@ -31,6 +32,14 @@
   - Megu
   - Mutsuki
   - Sena
+  - Erika
+  - gehenna_student
+  - Ibuki
+  - Kasumi
+  - Kirara
+  - Makoto
+  - pandemonium_student
+  - Satsuki
 - id: hyakkiyako
   members:
   - Chise
@@ -45,6 +54,8 @@
   - Tsubaki
   - Tsukuyo
   - Wakamo
+  - Nagusa
+  - Umika
 - id: millennium
   members:
   - Akane
@@ -66,6 +77,11 @@
   - Utaha
   - Yuuka
   - Yuzu
+  - Himari
+  - Koyuki
+  - millennium_student
+  - Rio
+  - Toki
 - id: red_winter
   members:
   - Cherino
@@ -74,17 +90,29 @@
   - Nodoka
   - Shigure
   - Tomoe
+  - Meru
+  - Momiji
+  - royalguard_student
 - id: shanhaijing
   members:
   - Kokona
   - Saya
   - Shun
+  - Kisaki
+  - Kuzunoha
+  - Mina
+  - Reijo
+  - Rumi
 - id: srt
   members:
   - Miyako
   - Miyu
   - Moe
   - Saki
+  - Kurumi
+  - Niko
+  - Otogi
+  - Yukino
 - id: trinity
   members:
   - Airi
@@ -112,8 +140,13 @@
   - Tsurugi
   - Ui
   - Yoshimi
+  - Ichika
+  - Mine
+  - trinity_student
+  - Sakurako
 - id: valkyrie
   members:
   - Fubuki
   - Kanna
   - Kirino
+  - valkyrie_student
