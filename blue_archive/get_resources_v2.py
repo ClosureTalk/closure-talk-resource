@@ -107,6 +107,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 char.images.append(name)
                 avatar_files[name] = img_file
 
+            char.images = sorted(char.images)
             result.append(char)
             if len(char.searches) == 0:
                 chars_without_group.append(char)
