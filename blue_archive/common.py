@@ -10,6 +10,7 @@ T = TypeVar("T")
 all_langs = [
     "en",
     "ja",
+    "ko",
     "zh-cn",
     "zh-tw",
 ]
@@ -22,6 +23,8 @@ class LocalizeCharProfile:
     FamilyNameJp: str
     FamilyNameRubyJp: str
     PersonalNameJp: str
+    FamilyNameKr: str = field(default="")
+    PersonalNameKr: str = field(default="")
     IdOverride: str = field(default="")
 
 
@@ -40,6 +43,8 @@ class CharData:
     family_name: str
     family_name_ruby: str
     personal_name: str
+    family_name_kr: str
+    personal_name_kr: str
     image_files: list[str]
     aka: list[str]
 

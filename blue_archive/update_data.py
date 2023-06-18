@@ -37,6 +37,8 @@ def add_manual_data(profiles: list[LocalizeCharProfile], portrait_images: defaul
                 "",
                 "",
                 name,
+                "",
+                "",
                 portrait.id,
             ))
 
@@ -156,6 +158,8 @@ def main():
                 prof.FamilyNameJp,
                 prof.FamilyNameRubyJp,
                 prof.PersonalNameJp,
+                prof.FamilyNameKr,
+                prof.PersonalNameKr,
                 [],
                 [],
             )
@@ -197,6 +201,8 @@ def main():
                     "",
                     "",
                     key,
+                    "",
+                    "",
                     [img],
                     [],
                 )
@@ -224,6 +230,8 @@ def main():
             "",
             "",
             chars[0].aka[0],
+            "",
+            "",
             list(set(itertools.chain(*(c.image_files for c in chars)))),
             [],
         )
@@ -247,6 +255,8 @@ def main():
             "",
             "",
             file,
+            "",
+            "",
             [file],
             [],
         )

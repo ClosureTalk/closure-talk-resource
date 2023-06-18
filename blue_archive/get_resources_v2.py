@@ -24,15 +24,18 @@ def get_default_lang_data(data: CharData) -> CharLangData:
     if len(data.family_name) > 0:
         jp_name = f"{data.family_name} {data.personal_name}"
         en_name = f"{name_to_id(data.family_name_ruby)} {data.id}"
+        kr_name = f"{data.family_name_kr} {data.personal_name_kr}".strip()
     else:
         jp_name = data.personal_name
         en_name = " ".join([s[0].upper() + s[1:] for s in data.id.split("_") if s != "npc"])
+        kr_name = ""
 
     return OmegaConf.structured(CharLangData(
         data.id,
         {
             "ja": jp_name,
             "en": en_name,
+            "ko": kr_name,
             "zh-cn": "",
             "zh-tw": "",
         },
@@ -83,8 +86,14 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                     for lang in ["ja", "en"]:
                         trans.name[lang] = default_trans.name[lang]
                     updated_translations = True
+                for lang in all_langs:
+                    trans_name = OmegaConf.to_container(trans.name)
+                    if lang not in trans_name:
+                        trans_name[lang] = default_trans.name[lang]
+                        trans.name = OmegaConf.create(trans_name)
+                        updated_translations = True
 
-            short_name = dict(trans.short_name) if "short_name" in trans else {}
+            short_name = dict(trans.short_name) if "short_name" in trans and trans.short_name is not None else {}
             for lang in all_langs:
                 if lang not in short_name or len(short_name[lang]) == 0:
                     short_name[lang] = trans.name[lang].split(" ")[-1]
@@ -124,7 +133,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         if updated_translations:
             with open(script_dir / "lang/char.yaml", "w", encoding="utf-8") as f:
                 f.write(OmegaConf.to_yaml(
-                    sorted(translations.values(), key=lambda x: x.id.lower()), sort_keys=True) + "\n")
+                    sorted(translations.values(), key=lambda x: x.id.lower()), sort_keys=True))
 
         with open(script_dir / "manual/nogroup.generated.txt", "w", encoding="utf-8") as f:
             for char in chars_without_group:
