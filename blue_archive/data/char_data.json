@@ -39,8 +39,8 @@
       "慈愛の怪盗"
     ],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "清澄",
+    "family_name_ruby": "きよすみ",
     "id": "Akira",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0212"
@@ -157,8 +157,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "扇喜",
+    "family_name_ruby": "おき",
     "id": "Aoi",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0032"
@@ -282,8 +282,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "岩櫃",
+    "family_name_ruby": "いわびつ",
     "id": "Ayumu",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0013",
@@ -452,6 +452,7 @@
       "地域商人会長",
       "大家さん",
       "客",
+      "市民",
       "市民1",
       "市民2",
       "市民3",
@@ -489,7 +490,7 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal6",
       "UIs/01_Common/01_Character/NPC_Portrait_Citizen_animal7"
     ],
-    "personal_name": "市民"
+    "personal_name": "キヴォトス市民"
   },
   {
     "aka": [],
@@ -571,8 +572,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "旗見",
+    "family_name_ruby": "はたみ",
     "id": "Erika",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Erika"
@@ -785,9 +786,9 @@
       "ジャブジャブヘルメット団B",
       "デコボコヘルメット団A",
       "デコボコヘルメット団B",
-      "ヘルメット団",
       "ヘルメット団A",
       "ヘルメット団B",
+      "ヘルメット団員",
       "ヘルメット団員A",
       "ヘルメット団員B",
       "ヘルメット団幹部",
@@ -805,7 +806,7 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Helmetdan_Black1",
       "UIs/01_Common/01_Character/NPC_Portrait_Helmetdan_Red1"
     ],
-    "personal_name": "ヘルメット団員"
+    "personal_name": "ヘルメット団"
   },
   {
     "aka": [],
@@ -1067,8 +1068,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "申谷",
+    "family_name_ruby": "しんたに",
     "id": "Kai",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0213"
@@ -1101,6 +1102,7 @@
   },
   {
     "aka": [
+      "カイテンイエロー",
       "カイテングリーン",
       "カイテンピンク",
       "カイテンブラック",
@@ -1117,7 +1119,7 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Red",
       "UIs/01_Common/01_Character/NPC_Portrait_Kaitenranger_Yellow"
     ],
-    "personal_name": "カイテンイエロー"
+    "personal_name": "カイテンジャー"
   },
   {
     "aka": [],
@@ -1158,8 +1160,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "不知火",
+    "family_name_ruby": "しらぬい",
     "id": "Kaya",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0015"
@@ -1330,8 +1332,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "風巻",
+    "family_name_ruby": "かざまき",
     "id": "Mai",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Mai"
@@ -1352,8 +1354,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "羽沼",
+    "family_name_ruby": "はぬま",
     "id": "Makoto",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0079"
@@ -1409,8 +1411,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "姫木",
+    "family_name_ruby": "ひめき",
     "id": "Meru",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0124",
@@ -1570,8 +1572,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "秋泉",
+    "family_name_ruby": "あきいずみ",
     "id": "Momiji",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Momiji"
@@ -1593,8 +1595,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "由良木",
+    "family_name_ruby": "ゆらき",
     "id": "Momoka",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0098"
@@ -1630,8 +1632,8 @@
       "？？？"
     ],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "御稜",
+    "family_name_ruby": "ごりょう",
     "id": "Nagusa",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0222"
@@ -1688,8 +1690,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "天地",
+    "family_name_ruby": "あまち",
     "id": "Niya",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0109"
@@ -1945,8 +1947,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "河駒風",
+    "family_name_ruby": "こまかぜ",
     "id": "Rabu",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0166"
@@ -1956,8 +1958,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "鹿山",
+    "family_name_ruby": "かやま",
     "id": "Reijo",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Reizyo"
@@ -1978,8 +1980,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "七神",
+    "family_name_ruby": "なながみ",
     "id": "Rin",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0097"
@@ -1991,8 +1993,8 @@
       "小型AMAS"
     ],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "調月",
+    "family_name_ruby": "つかつき",
     "id": "Rio",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0122",
@@ -2091,8 +2093,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "百合園",
+    "family_name_ruby": "ゆりぞの",
     "id": "Seia",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0070"
@@ -2177,8 +2179,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "川流",
+    "family_name_ruby": "かわる",
     "id": "Shinon",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Shinon"
@@ -2335,10 +2337,10 @@
   },
   {
     "aka": [
+      "スケバン",
       "スケバンA",
       "スケバンB",
       "スケバンC",
-      "チンピラ",
       "チンピラA",
       "チンピラB",
       "チンピラC",
@@ -2365,7 +2367,7 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Sukebanswim_MG1",
       "UIs/01_Common/01_Character/NPC_Portrait_Sukebanswim_SMG1"
     ],
-    "personal_name": "スケバン"
+    "personal_name": "チンピラ"
   },
   {
     "aka": [],
@@ -2630,8 +2632,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "七度",
+    "family_name_ruby": "しちど",
     "id": "Yukino",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0171"

@@ -33,8 +33,8 @@
     zh-tw: 亞伽里
 - id: Akira
   name:
-    en: Akira
-    ja: アキラ
+    en: Kiyosumi Akira
+    ja: 清澄 アキラ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -88,8 +88,8 @@
     zh-tw: 機器人
 - id: Aoi
   name:
-    en: Aoi
-    ja: アオイ
+    en: Oki Aoi
+    ja: 扇喜 アオイ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -385,8 +385,8 @@
     zh-tw: ''
 - id: Erika
   name:
-    en: Erika
-    ja: エリカ
+    en: Hatami Erika
+    ja: 旗見 エリカ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -529,7 +529,7 @@
 - id: Haruna
   name:
     en: Kurodate Haruna
-    ja: 黒館 ハルナ
+    ja: 黒舘 ハルナ
     zh-cn: 黑馆 晴奈
     zh-tw: 黑館 羽留奈
   short_name:
@@ -803,8 +803,8 @@
     zh-tw: 嘉穗
 - id: Kai
   name:
-    en: Kai
-    ja: カイ
+    en: Shintani Kai
+    ja: 申谷 カイ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -880,8 +880,8 @@
     zh-tw: ''
 - id: Kaya
   name:
-    en: Kaya
-    ja: カヤ
+    en: Shiranui Kaya
+    ja: 不知火 カヤ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1045,8 +1045,8 @@
     zh-tw: Maestro
 - id: Mai
   name:
-    en: Mai
-    ja: マイ
+    en: Kazamaki Mai
+    ja: 風巻 マイ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1067,8 +1067,8 @@
     zh-tw: 真紀
 - id: Makoto
   name:
-    en: Makoto
-    ja: マコト
+    en: Hanuma Makoto
+    ja: 羽沼 マコト
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1122,8 +1122,8 @@
     zh-tw: 惠
 - id: Meru
   name:
-    en: Meru
-    ja: メル
+    en: Himeki Meru
+    ja: 姫木 メル
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1265,8 +1265,8 @@
     zh-tw: 萌繪
 - id: Momiji
   name:
-    en: Momiji
-    ja: モミジ
+    en: Akiizumi Momiji
+    ja: 秋泉 モミジ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1320,8 +1320,8 @@
     zh-tw: 渚
 - id: Nagusa
   name:
-    en: Nagusa
-    ja: ナグサ
+    en: Goryou Nagusa
+    ja: 御稜 ナグサ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1584,8 +1584,8 @@
     zh-tw: Rabu
 - id: Reijo
   name:
-    en: Reijo
-    ja: レイジョ
+    en: Kayama Reijo
+    ja: 鹿山 レイジョ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1617,8 +1617,8 @@
     zh-tw: 琳
 - id: Rio
   name:
-    en: Rio
-    ja: リオ
+    en: Tsukatsuki Rio
+    ja: 調月 リオ
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -1782,8 +1782,8 @@
     zh-tw: 志美子
 - id: Shinon
   name:
-    en: Shinon
-    ja: シノン
+    en: Kawaru Shinon
+    ja: 川流 シノン
     zh-cn: ''
     zh-tw: ''
   short_name:
@@ -2112,8 +2112,8 @@
     zh-tw: 喜美
 - id: Yukino
   name:
-    en: Yukino
-    ja: ユキノ
+    en: Shichido Yukino
+    ja: 七度 ユキノ
     zh-cn: ''
     zh-tw: ''
   short_name:

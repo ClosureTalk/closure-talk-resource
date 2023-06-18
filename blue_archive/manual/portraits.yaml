@@ -32,7 +32,7 @@
   images:
     - NPC_Portrait_Citizen_Borot1
     - NPC_Portrait_Citizen_Borot2
-- name: 市民
+- name: キヴォトス市民
   id: Citizen
   images:
     - NPC_Portrait_Citizen_Animal1
@@ -51,7 +51,7 @@
   images:
     - NPC_Portrait_NP0036
     - NPC_Portrait_NP0084
-- name: ヘルメット団員
+- name: ヘルメット団
   id: Helmet_Dan
   images:
     - NPC_Portrait_Helmetdan_Black1
@@ -63,7 +63,7 @@
     - NPC_Portrait_Automata_Division1
     - NPC_Portrait_Automata_Decagrammaton1
     - NPC_Portrait_Automata_Kurokamegumi1
-- name: スケバン
+- name: チンピラ
   id: Sukeban
   images:
     - NPC_Portrait_Sukeban_SMG1
@@ -169,7 +169,7 @@
   - NPC_Portrait_NP0107
   - NPC_Portrait_NP0106
   id: student_council_student
-- name: カイテンイエロー
+- name: カイテンジャー
   images:
   - NPC_Portrait_Kaitenranger_Yellow
   - NPC_Portrait_Kaitenranger_Green

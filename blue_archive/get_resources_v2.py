@@ -75,10 +75,21 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
         for data in char_data:
             cid = data.id
+            default_trans = get_default_lang_data(data)
+
             if cid not in translations:
                 print(f"New translation: {cid}")
-                translations[cid] = get_default_lang_data(data)
+                translations[cid] = default_trans
                 updated_translations = True
+            else:
+                trans = translations[cid]
+                default_ja_name = default_trans.name["ja"]
+                # Japanese name updates when family names are known
+                if trans.name["ja"] != default_ja_name:
+                    print(f"Update name: {default_ja_name}")
+                    for lang in ["ja", "en"]:
+                        trans.name[lang] = default_trans.name[lang]
+                    updated_translations = True
 
             char = Character(
                 cid,
