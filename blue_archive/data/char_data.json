@@ -1217,8 +1217,8 @@
   {
     "aka": [],
     "char_id": -1,
-    "family_name": "",
-    "family_name_ruby": "",
+    "family_name": "竜華",
+    "family_name_ruby": "りゅうげ",
     "id": "Kisaki",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0139"
@@ -2283,7 +2283,7 @@
       "UIs/01_Common/01_Character/Student_Portrait_Error",
       "UIs/01_Common/01_Character/Student_Portrait_Nobody"
     ],
-    "personal_name": "エラー"
+    "personal_name": "？？？？"
   },
   {
     "aka": [],

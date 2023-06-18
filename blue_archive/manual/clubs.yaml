@@ -40,9 +40,6 @@
   - Disciplinary_Committee_Member
   - Hina
   - Iori
-- id: eastern_alchemy_society
-  members:
-  - Saya
 - id: emergency_medicine_club
   members:
   - Sena
@@ -68,10 +65,6 @@
   - Haruna
   - Izumi
   - Junko
-- id: helmet_dan
-  members:
-  - Helmet_Dan
-  - Rabu
 - id: inner_discipline_club
   members:
   - Kaede
@@ -163,14 +156,6 @@
   - Yuuka
   - Koyuki
   - Rio
-- id: shitim's_box
-  members:
-  - Arona
-  - Purana
-- id: sibaseki_ramen
-  members:
-  - Serika
-  - Shibaseki_Master
 - id: sisterhood
   members:
   - Hinata
@@ -181,9 +166,6 @@
   members:
   - Nodoka
   - Shigure
-- id: sudama_ichiza
-  members:
-  - Sudama_ichiza
 - id: super_phenomenon_task_force
   members:
   - Eimi

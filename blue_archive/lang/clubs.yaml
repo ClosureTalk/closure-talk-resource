@@ -17,7 +17,7 @@
     en: Arius Squad
     ja: アリウススクワッド
     ko: 아리우스 스쿼드
-    zh-cn: 奥利斯小队
+    zh-cn: 阿里乌斯小队
     zh-tw: 奧利斯小隊
 - id: cleaning_and_clearing
   name:
@@ -45,22 +45,15 @@
     en: Disciplinary Committee
     ja: 風紀委員会
     ko: 풍기위원회
-    zh-cn: 纠察部
-    zh-tw: 糾察部
-- id: eastern_alchemy_society
-  name:
-    en: Eastern Alchemy Society
-    ja: 錬丹術研究会
-    ko: 연단술 연구회
-    zh-cn: 锻炼屋
-    zh-tw: 鍛煉屋
+    zh-cn: 风纪委员会
+    zh-tw: 風紀委員會
 - id: emergency_medicine_club
   name:
     en: Emergency Medicine Club
     ja: 救急医学部
     ko: 구급의학부
-    zh-cn: 救急医学部
-    zh-tw: 救急医学部
+    zh-cn: 急救医学部
+    zh-tw: 急救醫學部
 - id: engineering_club
   name:
     en: Engineering Club
@@ -73,7 +66,7 @@
     en: Festival Operations Department
     ja: お祭り運営委員会
     ko: 축제운영위원회
-    zh-cn: 节庆营运管理部
+    zh-cn: 节庆运营委员会
     zh-tw: 節慶營運管理部
 - id: game_development_department
   name:
@@ -89,13 +82,6 @@
     ko: 미식연구회
     zh-cn: 美食研究会
     zh-tw: 美食研究會
-- id: helmet_dan
-  name:
-    en: Helmet Dan
-    ja: ヘルメット団
-    ko: 헬멧단
-    zh-cn: 头盔团
-    zh-tw: 頭盔團
 - id: inner_discipline_club
   name:
     en: Inner Discipline Club
@@ -108,21 +94,21 @@
     en: Justice Task Force
     ja: 正義実現委員会
     ko: 정의실현위원회
-    zh-cn: 实现正义部
+    zh-cn: 正义实现委员会
     zh-tw: 實現正義部
 - id: library_committee
   name:
     en: Library Committee
     ja: 図書委員会
     ko: 도서위원회
-    zh-cn: 图书部
+    zh-cn: 图书委员会
     zh-tw: 圖書部
 - id: makeup_work_club
   name:
     en: Makeup Work Club
     ja: 補習授業部
     ko: 보충수업부
-    zh-cn: 补课部
+    zh-cn: 补习部
     zh-tw: 補課部
 - id: masked_swimsuit_group
   name:
@@ -148,10 +134,10 @@
 - id: pandemonium_society
   name:
     en: Pandemonium Society
-    ja: パンデモニウム・ソサエティー
+    ja: 万魔殿
     ko: 판데모니움 소사이어티
-    zh-cn: 万魔殿学会
-    zh-tw: 萬魔殿學會
+    zh-cn: 万魔殿
+    zh-tw: 萬魔殿
 - id: plum_blossom_garden
   name:
     en: Plum Blossom Garden
@@ -164,15 +150,15 @@
     en: Prime Student Council
     ja: 連邦生徒会
     ko: 연방학생회
-    zh-cn: 总学生会
-    zh-tw: 總學生會
+    zh-cn: 联邦学生会
+    zh-tw: 聯邦學生會
 - id: problem_solver_68
   name:
     en: Problem Solver 68
     ja: 便利屋68
     ko: 흥신소68
-    zh-cn: 征信社68
-    zh-tw: 徵信社68
+    zh-cn: 便利屋68
+    zh-tw: 便利屋68
 - id: rabbit_platoon
   name:
     en: RABBIT Platoon
@@ -180,6 +166,9 @@
     ko: RABBIT 소대
     zh-cn: RABBIT小队
     zh-tw: RABBIT小隊
+  short_name:
+    en: RABBIT Platoon
+    ko: RABBIT 소대
 - id: red_winter_secretariat
   name:
     en: Red Winter Secretariat
@@ -192,14 +181,14 @@
     en: Remedial Knights
     ja: 救護騎士団
     ko: 구호기사단
-    zh-cn: 救援骑士团
-    zh-tw: 救援騎士團
+    zh-cn: 救护骑士团
+    zh-tw: 救護騎士團
 - id: school_lunch_club
   name:
     en: School Lunch Club
     ja: 給食部
     ko: 급식부
-    zh-cn: 供给部
+    zh-cn: 供餐部
     zh-tw: 供給部
 - id: seminar
   name:
@@ -208,20 +197,6 @@
     ko: 세미나
     zh-cn: 研讨会
     zh-tw: 研討會
-- id: shitim's_box
-  name:
-    en: Shittim Chests
-    ja: シッテムの箱
-    ko: 싯딤의 상자
-    zh-cn: 希迪姆的箱子
-    zh-tw: 希迪姆的箱子
-- id: sibaseki_ramen
-  name:
-    en: Sibaseki Ramen
-    ja: 柴関ラーメン
-    ko: 시바세키 라멘
-    zh-cn: 柴关拉面
-    zh-tw: 柴關拉麵
 - id: sisterhood
   name:
     en: Sisterhood
@@ -255,14 +230,14 @@
     en: Veritas
     ja: ヴェリタス
     ko: 베리타스
-    zh-cn: 贝里塔斯
+    zh-cn: 真理部
     zh-tw: 貝里塔斯
 - id: vigilante_crew
   name:
     en: Vigilante Crew
     ja: トリニティ自警団
     ko: 트리니티 자경단
-    zh-cn: 三一自卫队
+    zh-cn: 三一自卫团
     zh-tw: 三一自衛隊
 - id: yin_yang_club
   name:
@@ -284,7 +259,7 @@
     ja: 新キャラ？
     ko: ''
     zh-cn: 新学生？
-    zh-tw: ''
+    zh-tw: 新學生？
 - id: npc
   name:
     en: NPC
