@@ -5,35 +5,71 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+import requests
+from omegaconf import OmegaConf
+
 from utils.json_utils import read_json
 from utils.models import Character, FilterGroup
 from utils.resource_utils import ResourceProcessor
 from utils.web_utils import download_json
 
 use_local_tables = False
+script_dir = Path(__file__).parent
+github_repo = "Kengxxiao/ArknightsGameData"
+
+langs = ["zh-cn", "ja", "en", "ko", "zh-tw"]
+lang_keys = {
+    "zh-cn": "zh_CN",
+    "ja": "ja_JP",
+    "en": "en_US",
+    "zh-tw": "zh_TW",
+    "ko": "ko_KR",
+}
+res_keys = {
+    "zh-cn": "cn",
+    "ja": "jp",
+    "en": "us",
+    "zh-tw": "tw",
+    "ko": "ko",
+}
+
+
+def get_github_versions() -> dict[str, str]:
+    update_res_keys = {
+        "CN": "cn",
+        "JP": "jp",
+        "KR": "ko",
+        "EN": "us",
+    }
+    result = {}
+    commits = requests.get(f"https://api.github.com/repos/{github_repo}/commits").json()
+    for commit in commits:
+        msg = commit["commit"]["message"]
+        for key, lang in update_res_keys.items():
+            if lang in result:
+                continue
+            if not msg.startswith(f"[{key} UPDATE]"):
+                continue
+
+            result[lang] = msg[msg.index("Data:")+5:]
+
+        if len(result) == len(update_res_keys):
+            break
+
+    result = {f"ak-{k}": v for k, v in result.items()}
+    return result
 
 
 class ArknightsResourceProcessor(ResourceProcessor):
     def __init__(self) -> None:
         super().__init__("ak")
+        self.github_res_vers = get_github_versions()
+        print(self.github_res_vers)
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         res_root = self.res_root
 
         # download data
-        langs = ["zh-cn", "ja", "en", "zh-tw"]
-        lang_keys = {
-            "zh-cn": "zh_CN",
-            "ja": "ja_JP",
-            "en": "en_US",
-            "zh-tw": "zh_TW",
-        }
-        res_keys = {
-            "zh-cn": "cn",
-            "ja": "jp",
-            "en": "us",
-            "zh-tw": "tw",
-        }
         char_tables = {}
         enemy_tables = {}
         for lang in langs:
@@ -49,11 +85,15 @@ class ArknightsResourceProcessor(ResourceProcessor):
                 local_file = res_root / f"{res_keys[lang]}/assets/gamedata/excel/{name}"
                 if use_local_tables and os.path.isfile(local_file):
                     logging.info(f"Read {lang} table {name}")
-                    tables[lang] = read_json(local_file, None)
+                    table = read_json(local_file, None)
                 else:
                     logging.info(f"Download {lang} table {name}")
-                    url = f"https://github.com/Kengxxiao/ArknightsGameData/blob/master/{lang_keys[lang]}/gamedata/excel/{name}?raw=true"
-                    tables[lang] = download_json(url)
+                    url = f"https://github.com/{github_repo}/blob/master/{lang_keys[lang]}/gamedata/excel/{name}?raw=true"
+                    table = download_json(url)
+
+                if "enemyData" in table:
+                    table = table["enemyData"]
+                tables[lang] = table
 
         # get all avatars from cn
         res_root = res_root / "cn/assets"
@@ -124,6 +164,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
                 "zh-tw": "可露希爾",
                 "ja": "クロージャ",
                 "en": "Closure",
+                "ko": "클로저",
             }
             characters = [Character(
                 closure_id,
@@ -140,38 +181,22 @@ class ArknightsResourceProcessor(ResourceProcessor):
         return []
 
     def get_filters(self) -> List[FilterGroup]:
+        translations = OmegaConf.to_container(OmegaConf.load(script_dir / "lang/filters.yaml"))
         type_filter = FilterGroup(
             "type",
-            {
-                "zh-cn": "类型",
-                "zh-tw": "",
-                "ja": "",
-                "en": "Type",
-            },
-            [":#type-char", ":#type-token", ":#type-enemy"],
+            translations["type"],
+            [":#type-char", ":#type-enemy", ":#type-token"],
             [
-                {
-                    "zh-cn": "干员",
-                    "zh-tw": "",
-                    "ja": "",
-                    "en": "Operator",
-                },
-                {
-                    "zh-cn": "Token",
-                    "zh-tw": "",
-                    "ja": "",
-                    "en": "Token",
-                },
-                {
-                    "zh-cn": "敌方",
-                    "zh-tw": "",
-                    "ja": "",
-                    "en": "Enemy",
-                },
+                translations[k] for k in ["operator", "enemy", "token"]
             ],
             [True, False, False],
         )
         return [type_filter]
+
+    def _get_versions(self) -> Dict[str, str]:
+        versions = super()._get_versions() if use_local_tables else {}
+        versions.update(self.github_res_vers)
+        return versions
 
 
 if __name__ == "__main__":

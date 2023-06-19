@@ -1,0 +1,24 @@
+type:
+  en: Type
+  ja: タイプ
+  ko: 유형
+  zh-cn: 类型
+  zh-tw: 類型
+operator:
+  en: Operator
+  ja: オペレーター
+  ko: 오퍼레이터
+  zh-cn: 干员
+  zh-tw: 幹員
+enemy:
+  en: Enemy
+  ja: 敵
+  ko: 적
+  zh-cn: 敌方
+  zh-tw: 敵方
+token:
+  en: Token
+  ja: Token
+  ko: Token
+  zh-cn: Token
+  zh-tw: Token
