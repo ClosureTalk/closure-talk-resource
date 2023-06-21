@@ -142,6 +142,7 @@
       "悪徳店主",
       "支配人",
       "案内人",
+      "海運会社の者",
       "目利きの専門家",
       "社長",
       "競売人",
@@ -275,6 +276,10 @@
       "ロボットB",
       "兵士",
       "玄武商会のメンバーA（？）",
+      "船員A",
+      "船員B",
+      "船員C",
+      "船員D",
       "警備ロボットA",
       "警備ロボットB",
       "黒亀組の組員A",
@@ -502,6 +507,7 @@
       "会場のお客さんB",
       "会場のお客さんC",
       "偽物の幽霊",
+      "労働者A",
       "商店の主人",
       "善良な市民",
       "地域商人会の青年",
@@ -530,6 +536,7 @@
       "通行人A",
       "通行人B",
       "通行人C",
+      "釣り人",
       "露店商のおじさん",
       "魂の抜けた人A",
       "魂の抜けた人B",
@@ -545,7 +552,9 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal2",
       "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal3",
       "UIs/01_Common/01_Character/NPC_Portrait_Citizen_Animal6",
-      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_animal7"
+      "UIs/01_Common/01_Character/NPC_Portrait_Citizen_animal7",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0135",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0136"
     ],
     "personal_name": "キヴォトス市民",
     "personal_name_kr": ""
@@ -558,7 +567,8 @@
     "family_name_ruby": "",
     "id": "Dekaruto",
     "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0031"
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0031",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0142"
     ],
     "personal_name": "デカルト",
     "personal_name_kr": ""
@@ -1768,6 +1778,7 @@
     "family_name_ruby": "つきゆき",
     "id": "Miyako",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0215",
       "UIs/01_Common/01_Character/Student_Portrait_Miyako"
     ],
     "personal_name": "ミヤコ",
@@ -1781,7 +1792,8 @@
     "family_name_ruby": "かすみざわ",
     "id": "Miyu",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0145"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0145",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0218"
     ],
     "personal_name": "ミユ",
     "personal_name_kr": "미유"
@@ -1794,6 +1806,7 @@
     "family_name_ruby": "かぜくら",
     "id": "Moe",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0216",
       "UIs/01_Common/01_Character/Student_Portrait_Moe"
     ],
     "personal_name": "モエ",
@@ -2008,6 +2021,26 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0094"
     ],
     "personal_name": "子供",
+    "personal_name_kr": ""
+  },
+  {
+    "aka": [
+      "年老いた漁師",
+      "村の住民",
+      "漁師A",
+      "漁師B",
+      "漁師C"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "npc_fisherman",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0132",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0133"
+    ],
+    "personal_name": "漁師",
     "personal_name_kr": ""
   },
   {
@@ -2337,7 +2370,8 @@
     "family_name_ruby": "そらい",
     "id": "Saki",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0144"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0144",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0217"
     ],
     "personal_name": "サキ",
     "personal_name_kr": "사키"
@@ -2931,6 +2965,7 @@
       "ヴァルキューレに偽装したPMC兵士",
       "ヴァルキューレに偽装したPMC兵士A",
       "ヴァルキューレに偽装したPMC兵士B",
+      "ヴァルキューレの海警",
       "ヴァルキューレの生徒A",
       "ヴァルキューレの生徒B",
       "ヴァルキューレの生徒C",
@@ -2948,6 +2983,7 @@
     "family_name_ruby": "",
     "id": "valkyrie_student",
     "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0134",
       "UIs/01_Common/01_Character/NPC_Portrait_Valkyrie_SG"
     ],
     "personal_name": "ヴァルキューレの生徒",

@@ -945,6 +945,14 @@
     ko: ''
     zh-cn: 小孩子
     zh-tw: 小孩子
+- id: npc_fisherman
+  name:
+    en: Fisherman
+    ja: 漁師
+    ko: ''
+    zh-cn: 渔民
+    zh-tw: 漁民
+  short_name: null
 - id: npc_kaiser
   name:
     en: Kaiser

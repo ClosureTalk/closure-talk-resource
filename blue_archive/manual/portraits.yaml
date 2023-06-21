@@ -40,6 +40,8 @@
     - NPC_Portrait_Citizen_Animal3
     - NPC_Portrait_Citizen_Animal6
     - NPC_Portrait_Citizen_animal7
+    - NPC_Portrait_NP0135
+    - NPC_Portrait_NP0136
 - name: 子供
   id: npc_child
   images:
@@ -117,6 +119,7 @@
 - name: ヴァルキューレの生徒
   images:
   - NPC_Portrait_Valkyrie_SG
+  - NPC_Portrait_NP0134
   id: valkyrie_student
 - name: 万魔殿のメンバー
   images:
@@ -270,3 +273,8 @@
   images:
     - NPC_Portrait_Citizen_Animal5
     - NPC_Portrait_Citizen_Animal5_eyepatch
+- name: 漁師
+  images:
+  - NPC_Portrait_NP0133
+  - NPC_Portrait_NP0132
+  id: npc_fisherman
