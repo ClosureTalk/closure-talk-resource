@@ -1,11 +1,13 @@
 schools:
   en: School
   ja: 学校
+  ko: 학교
   zh-cn: 学校
   zh-tw: 学校
 
 clubs:
   en: Club
   ja: クラブ
+  ko: ''
   zh-cn: 社团
   zh-tw: 社團
