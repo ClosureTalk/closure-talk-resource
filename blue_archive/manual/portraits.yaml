@@ -196,6 +196,7 @@
 - name: ユスティナ信徒
   images:
   - NPC_Portrait_Yustina_SR1
+  - NPC_Portrait_NP0137
   id: npc_yustina
 - name: 初音ミク
   images:

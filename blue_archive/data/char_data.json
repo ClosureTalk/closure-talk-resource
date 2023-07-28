@@ -521,6 +521,7 @@
       "ゲストA",
       "ゲストB",
       "スイーツ屋の店主",
+      "バッグ修理店の店長",
       "バンドのマネージャー",
       "パソコン修理技師",
       "ピヨスーパー店長",
@@ -843,7 +844,9 @@
     "id": "Hanako",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0110",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0209",
       "UIs/01_Common/01_Character/Student_Portrait_Hanako",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0209_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hanako_Collection"
     ],
     "personal_name": "ハナコ",
@@ -1036,8 +1039,7 @@
       "UIs/01_Common/01_Character/Student_Portrait_CH0063",
       "UIs/01_Common/01_Character/Student_Portrait_Hina",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0063_Collection",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hina_Collection",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hinata_Collection"
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hina_Collection"
     ],
     "personal_name": "ヒナ",
     "personal_name_kr": "히나"
@@ -1050,7 +1052,10 @@
     "family_name_ruby": "わかば",
     "id": "Hinata",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Hinata"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0210",
+      "UIs/01_Common/01_Character/Student_Portrait_Hinata",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0210_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hinata_Collection"
     ],
     "personal_name": "ヒナタ",
     "personal_name_kr": "히나타"
@@ -1483,7 +1488,9 @@
     "family_name_ruby": "しもえ",
     "id": "Koharu",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0205",
       "UIs/01_Common/01_Character/Student_Portrait_Koharu",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0205_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Koharu_Collection"
     ],
     "personal_name": "コハル",
@@ -1653,8 +1660,7 @@
       "UIs/01_Common/01_Character/Student_Portrait_CH0186",
       "UIs/01_Common/01_Character/Student_Portrait_Mari",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0186_Collection",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mari_Collection",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Marina_Collection"
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mari_Collection"
     ],
     "personal_name": "マリー",
     "personal_name_kr": "마리"
@@ -1667,7 +1673,8 @@
     "family_name_ruby": "いけくら",
     "id": "Marina",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Marina"
+      "UIs/01_Common/01_Character/Student_Portrait_Marina",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Marina_Collection"
     ],
     "personal_name": "マリナ",
     "personal_name_kr": "마리나"
@@ -2196,7 +2203,8 @@
   },
   {
     "aka": [
-      "ユスティナ信徒A"
+      "ユスティナ信徒A",
+      "？？？"
     ],
     "char_id": -1,
     "family_name": "",
@@ -2204,6 +2212,7 @@
     "family_name_ruby": "",
     "id": "npc_yustina",
     "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0137",
       "UIs/01_Common/01_Character/NPC_Portrait_Yustina_SR1"
     ],
     "personal_name": "ユスティナ信徒",
@@ -2697,6 +2706,7 @@
       "UIs/01_Common/01_Character/Student_Portrait_Shiroko",
       "UIs/01_Common/01_Character/Student_Portrait_Shiroko_Robber",
       "UIs/01_Common/01_Character/Student_Portrait_Shiroko_ridingsuit",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0188_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shiroko_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shiroko_ridingsuit_Collection"
     ],
@@ -3066,7 +3076,9 @@
     "id": "Ui",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0169",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0169_Collection"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0204",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0169_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0204_Collection"
     ],
     "personal_name": "ウイ",
     "personal_name_kr": "우이"

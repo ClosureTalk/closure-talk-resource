@@ -84,8 +84,10 @@ def add_character_collect_images(images: set[str], res_root: Path):
     folder = "UIs/01_Common/14_CharacterCollect"
     for name in possible_names:
         for file in \
-            list(res_root.glob(f"assets/{folder}/Student_Portrait_{name}*.png")) + \
-                list(res_root.glob(f"assets/{folder}/NPC_Portrait_{name}*.png")):
+                list(res_root.glob(f"assets/{folder}/Student_Portrait_{name}.png")) + \
+                list(res_root.glob(f"assets/{folder}/Student_Portrait_{name}_*.png")) + \
+            list(res_root.glob(f"assets/{folder}/NPC_Portrait_{name}.png")) + \
+                list(res_root.glob(f"assets/{folder}/NPC_Portrait_{name}_*.png")):
             images.add(f"{folder}/{file.stem}")
 
 

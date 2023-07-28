@@ -148,7 +148,9 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
     def get_stamps(self) -> List[str]:
         in_root = self.res_root / "assets/UIs/01_Common/31_ClanEmoji"
-        return sorted(glob.glob(str(in_root / "*_Jp.png")))
+        files = list(glob.glob(str(in_root / "*_Jp.png")))
+        # ClanChat_Emoji_100_Jp
+        return sorted(files, key=lambda s: int(s.split("/")[-1].split("_")[2]))
 
     def get_filters(self) -> List[FilterGroup]:
         result = []
