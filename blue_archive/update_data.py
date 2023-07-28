@@ -70,12 +70,23 @@ def generate_manual_data(result: list[CharData]):
             manual_profiles.append(OmegaConf.structured(ManualProfile("", "", char.personal_name)))
         else:
             images = [f.split("/")[-1] if f.startswith("UIs/01_Common/01_Character") else f for f in char.image_files]
-            manual_portraits.append(OmegaConf.structured(ManualPortrait("|".join([*char.aka, char.personal_name]), images, "")))
+            manual_portraits.append(OmegaConf.structured(ManualPortrait(
+                "|".join([*char.aka, char.personal_name]), images, "")))
 
     with open(root / "profiles.generated.yaml", "w", encoding="utf-8") as f:
         f.write(OmegaConf.to_yaml(manual_profiles) + "\n")
     with open(root / "portraits.generated.yaml", "w", encoding="utf-8") as f:
         f.write(OmegaConf.to_yaml(manual_portraits) + "\n")
+
+
+def add_character_collect_images(images: set[str], res_root: Path):
+    possible_names = set((Path(f).stem.split("_")[2] for f in images))
+    folder = "UIs/01_Common/14_CharacterCollect"
+    for name in possible_names:
+        for file in \
+            list(res_root.glob(f"assets/{folder}/Student_Portrait_{name}*.png")) + \
+                list(res_root.glob(f"assets/{folder}/NPC_Portrait_{name}*.png")):
+            images.add(f"{folder}/{file.stem}")
 
 
 def main():
@@ -127,6 +138,7 @@ def main():
 
         if f"Student_Portrait_{cid}" in portrait_files:
             images.add(f"UIs/01_Common/01_Character/Student_Portrait_{cid}")
+        add_character_collect_images(images, res_root)
 
         images -= used_images
         if len(images) == 0:

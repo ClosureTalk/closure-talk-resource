@@ -2,7 +2,7 @@ import logging
 import os
 from argparse import ArgumentParser
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Any, Dict, List, Tuple
 
 from tqdm import tqdm
 
@@ -42,7 +42,7 @@ class ResourceProcessor:
     def configure_parser(self, parser: ArgumentParser) -> ArgumentParser:
         return parser
 
-    def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
+    def get_chars(self) -> Tuple[List[Character], Dict[str, Path], Dict[str, Dict[str, Any]]]:
         raise NotImplementedError()
 
     def get_stamps(self) -> List[str]:
@@ -54,9 +54,9 @@ class ResourceProcessor:
     def main(self):
         args = self.args
         if not args.skip_chars:
-            characters, avatar_paths = self._process_chars()
+            characters, avatar_paths, image_configs = self._process_chars()
             if not args.skip_avatars:
-                self._process_avatars(characters, avatar_paths)
+                self._process_avatars(characters, avatar_paths, image_configs)
         if not args.skip_stamps:
             self._process_stamps(self.get_stamps())
         if not args.skip_filters:
@@ -79,13 +79,13 @@ class ResourceProcessor:
 
         data_file = char_json_path(out_root)
 
-        characters, avatar_paths = self.get_chars()
+        characters, avatar_paths, image_configs = self.get_chars()
         write_list(Character, data_file, characters)
         logging.info(f"Wrote {data_file}")
 
-        return characters, avatar_paths
+        return characters, avatar_paths, image_configs
 
-    def _process_avatars(self, characters: List[Character], image_paths: Dict[str, Path]):
+    def _process_avatars(self, characters: List[Character], image_paths: Dict[str, Path], image_configs: Dict[str, Dict[str, Any]]):
         out_images = self.out_root / "characters"
         src_files = [image_paths[img] for ch in characters for img in ch.images]
         dst_files = [out_images / f"{img}.webp" for ch in characters for img in ch.images]
@@ -94,6 +94,7 @@ class ResourceProcessor:
             src_files,
             dst_files,
             self.args.avatar_size,
+            image_configs,
         )
 
     def _process_stamps(self, stamp_files: List[str]):
@@ -108,7 +109,8 @@ class ResourceProcessor:
 
         write_json(stamps_json_path(self.out_root), names)
 
-    def _process_image_list(self, src_files: List[str], dst_files: List[str], size: int):
+    def _process_image_list(self, src_files: List[str], dst_files: List[str], size: int, image_configs=None):
+        image_configs = image_configs or {}
         all_files = list(zip(src_files, dst_files))
         pending = [
             f for f in all_files if not os.path.isfile(f[1])
@@ -121,7 +123,7 @@ class ResourceProcessor:
         for src, dst in tqdm(pending):
             try:
                 os.makedirs(os.path.split(dst)[0], exist_ok=True)
-                process_image(src, dst, size)
+                process_image(src, dst, size, image_configs.get(str(src), {}))
             except:
                 logging.error(f"Failed: {src} -> {dst}")
                 raise

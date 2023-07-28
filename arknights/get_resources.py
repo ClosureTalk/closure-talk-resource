@@ -175,7 +175,7 @@ class ArknightsResourceProcessor(ResourceProcessor):
             )] + characters
             avatar_files[closure_id] = res_root / f"spritepack/ui_char_avatar_h1_0/{closure_id}_1.png"
 
-        return characters, avatar_files
+        return characters, avatar_files, {}
 
     def get_stamps(self) -> List[str]:
         return []

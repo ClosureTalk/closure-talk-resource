@@ -7,7 +7,8 @@
     "family_name_ruby": "くりむら",
     "id": "Airi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Airi"
+      "UIs/01_Common/01_Character/Student_Portrait_Airi",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Airi_Collection"
     ],
     "personal_name": "アイリ",
     "personal_name_kr": "아이리"
@@ -21,7 +22,9 @@
     "id": "Akane",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Akane",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0099"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0099",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Akane_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0099_Collection"
     ],
     "personal_name": "アカネ",
     "personal_name_kr": "아카네"
@@ -35,7 +38,8 @@
     "id": "Akari",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Akari",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0196"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0196",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Akari_Collection"
     ],
     "personal_name": "アカリ",
     "personal_name_kr": "아카리"
@@ -65,7 +69,8 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0019",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0111",
-      "UIs/01_Common/01_Character/Student_Portrait_Ako"
+      "UIs/01_Common/01_Character/Student_Portrait_Ako",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Ako_Collection"
     ],
     "personal_name": "アコ",
     "personal_name_kr": "아코"
@@ -79,7 +84,9 @@
     "id": "Alice",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Aris",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0200"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0200",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Aris_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0200_Collection"
     ],
     "personal_name": "アリス",
     "personal_name_kr": "아리스"
@@ -210,6 +217,7 @@
     "family_name_ruby": "",
     "id": "Arona",
     "image_files": [
+      "UIs/01_Common/14_CharacterCollect/NPC_Portrait_Arona_Collection",
       "UIs/01_Common/20_Operator/Operator_Portrait_Arona_00"
     ],
     "personal_name": "アロナ",
@@ -224,7 +232,9 @@
     "id": "Aru",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Aru",
-      "UIs/01_Common/01_Character/Student_Portrait_Aru_Newyear"
+      "UIs/01_Common/01_Character/Student_Portrait_Aru_Newyear",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Aru_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Aru_Newyear_Collection"
     ],
     "personal_name": "アル",
     "personal_name_kr": "아루"
@@ -239,7 +249,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0081",
       "UIs/01_Common/01_Character/Student_Portrait_Asuna",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0098"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0098",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Asuna_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0098_Collection"
     ],
     "personal_name": "アスナ",
     "personal_name_kr": "아스나"
@@ -254,7 +266,8 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0021",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0077",
-      "UIs/01_Common/01_Character/Student_Portrait_Atsuko"
+      "UIs/01_Common/01_Character/Student_Portrait_Atsuko",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Atsuko_Collection"
     ],
     "personal_name": "アツコ",
     "personal_name_kr": "아츠코"
@@ -311,7 +324,9 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0066",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0108",
       "UIs/01_Common/01_Character/Student_Portrait_Ayane_Robber",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0176"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0176",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Ayane_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0176_Collection"
     ],
     "personal_name": "アヤネ",
     "personal_name_kr": "아야네"
@@ -325,7 +340,8 @@
     "id": "Ayumu",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0013",
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0099"
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0099",
+      "UIs/01_Common/14_CharacterCollect/NPC_Portrait_NP0013_Collection"
     ],
     "personal_name": "アユム",
     "personal_name_kr": ""
@@ -340,7 +356,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0020",
       "UIs/01_Common/01_Character/Student_Portrait_Azusa",
-      "UIs/01_Common/01_Character/Student_Portrait_Azusa_Swimsuit"
+      "UIs/01_Common/01_Character/Student_Portrait_Azusa_Swimsuit",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Azusa_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Azusa_Swimsuit_Collection"
     ],
     "personal_name": "アズサ",
     "personal_name_kr": "아즈사"
@@ -426,7 +444,9 @@
     "id": "Cherino",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0164",
-      "UIs/01_Common/01_Character/Student_Portrait_Cherino"
+      "UIs/01_Common/01_Character/Student_Portrait_Cherino",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0164_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Cherino_Collection"
     ],
     "personal_name": "チェリノ",
     "personal_name_kr": "체리노"
@@ -452,7 +472,8 @@
     "family_name_ruby": "かがみ",
     "id": "Chihiro",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0160"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0160",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0160_Collection"
     ],
     "personal_name": "チヒロ",
     "personal_name_kr": "치히로"
@@ -466,6 +487,7 @@
     "id": "Chinatsu",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0163",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0163_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Chinatsu_Collection"
     ],
     "personal_name": "チナツ",
@@ -480,7 +502,9 @@
     "id": "Chise",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0178",
-      "UIs/01_Common/01_Character/Student_Portrait_Chise"
+      "UIs/01_Common/01_Character/Student_Portrait_Chise",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0178_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Chise_Collection"
     ],
     "personal_name": "チセ",
     "personal_name_kr": "치세"
@@ -626,7 +650,8 @@
     "family_name_ruby": "いずみもと",
     "id": "Eimi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Eimi"
+      "UIs/01_Common/01_Character/Student_Portrait_Eimi",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Eimi_Collection"
     ],
     "personal_name": "エイミ",
     "personal_name_kr": "에이미"
@@ -670,7 +695,8 @@
     "family_name_ruby": "ねむがき",
     "id": "Fubuki",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0141"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0141",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0141_Collection"
     ],
     "personal_name": "フブキ",
     "personal_name_kr": "후부키"
@@ -697,7 +723,9 @@
     "id": "Fuuka",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0177",
-      "UIs/01_Common/01_Character/Student_Portrait_Fuuka"
+      "UIs/01_Common/01_Character/Student_Portrait_Fuuka",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0177_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Fuuka_Collection"
     ],
     "personal_name": "フウカ",
     "personal_name_kr": "후우카"
@@ -799,7 +827,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0076",
       "UIs/01_Common/01_Character/Student_Portrait_CH0195",
-      "UIs/01_Common/01_Character/Student_Portrait_Hanae"
+      "UIs/01_Common/01_Character/Student_Portrait_Hanae",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0195_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hanae_Collection"
     ],
     "personal_name": "ハナエ",
     "personal_name_kr": "하나에"
@@ -813,7 +843,8 @@
     "id": "Hanako",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0110",
-      "UIs/01_Common/01_Character/Student_Portrait_Hanako"
+      "UIs/01_Common/01_Character/Student_Portrait_Hanako",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hanako_Collection"
     ],
     "personal_name": "ハナコ",
     "personal_name_kr": "하나코"
@@ -826,7 +857,8 @@
     "family_name_ruby": "おまがり",
     "id": "Hare",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Hare"
+      "UIs/01_Common/01_Character/Student_Portrait_Hare",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hare_Collection"
     ],
     "personal_name": "ハレ",
     "personal_name_kr": "하레"
@@ -840,7 +872,9 @@
     "id": "Haruka",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0087",
-      "UIs/01_Common/01_Character/Student_Portrait_Haruka"
+      "UIs/01_Common/01_Character/Student_Portrait_Haruka",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0087_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Haruka_Collection"
     ],
     "personal_name": "ハルカ",
     "personal_name_kr": "하루카"
@@ -855,7 +889,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0191",
       "UIs/01_Common/01_Character/Student_Portrait_CH0193",
-      "UIs/01_Common/01_Character/Student_Portrait_Haruna"
+      "UIs/01_Common/01_Character/Student_Portrait_Haruna",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0191_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Haruna_Collection"
     ],
     "personal_name": "ハルナ",
     "personal_name_kr": "하루나"
@@ -868,7 +904,8 @@
     "family_name_ruby": "はねかわ",
     "id": "Hasumi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0190"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0190",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0190_Collection"
     ],
     "personal_name": "ハスミ",
     "personal_name_kr": "하스미"
@@ -881,7 +918,8 @@
     "family_name_ruby": "",
     "id": "hatsune_miku",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH9999"
+      "UIs/01_Common/01_Character/Student_Portrait_CH9999",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH9999_Collection"
     ],
     "personal_name": "初音ミク",
     "personal_name_kr": ""
@@ -931,7 +969,9 @@
     "id": "Hibiki",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0181",
-      "UIs/01_Common/01_Character/Student_Portrait_Hibiki"
+      "UIs/01_Common/01_Character/Student_Portrait_Hibiki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0181_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hibiki_Collection"
     ],
     "personal_name": "ヒビキ",
     "personal_name_kr": "히비키"
@@ -961,7 +1001,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0058",
       "UIs/01_Common/01_Character/Student_Portrait_Hihumi",
-      "UIs/01_Common/01_Character/Student_Portrait_Hihumi_Robber"
+      "UIs/01_Common/01_Character/Student_Portrait_Hihumi_Robber",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0058_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hihumi_Collection"
     ],
     "personal_name": "ヒフミ",
     "personal_name_kr": "히후미"
@@ -975,7 +1017,8 @@
     "id": "Himari",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0112",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0159"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0159",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0159_Collection"
     ],
     "personal_name": "ヒマリ",
     "personal_name_kr": "히마리"
@@ -991,7 +1034,10 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0009",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0017",
       "UIs/01_Common/01_Character/Student_Portrait_CH0063",
-      "UIs/01_Common/01_Character/Student_Portrait_Hina"
+      "UIs/01_Common/01_Character/Student_Portrait_Hina",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0063_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hina_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hinata_Collection"
     ],
     "personal_name": "ヒナ",
     "personal_name_kr": "히나"
@@ -1017,7 +1063,8 @@
     "family_name_ruby": "つちなが",
     "id": "Hiyori",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Hiyori"
+      "UIs/01_Common/01_Character/Student_Portrait_Hiyori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hiyori_Collection"
     ],
     "personal_name": "ヒヨリ",
     "personal_name_kr": "히요리"
@@ -1046,7 +1093,9 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0063",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino_Robber",
-      "UIs/01_Common/01_Character/Student_Portrait_Hoshino_swimsuit"
+      "UIs/01_Common/01_Character/Student_Portrait_Hoshino_swimsuit",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hoshino_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hoshino_Swimsuit_Collection"
     ],
     "personal_name": "ホシノ",
     "personal_name_kr": "호시노"
@@ -1086,7 +1135,9 @@
     "id": "Iori",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0064",
-      "UIs/01_Common/01_Character/Student_Portrait_Iori"
+      "UIs/01_Common/01_Character/Student_Portrait_Iori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0064_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Iori_Collection"
     ],
     "personal_name": "イオリ",
     "personal_name_kr": "이오리"
@@ -1099,7 +1150,8 @@
     "family_name_ruby": "なつめ",
     "id": "Iroha",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0156"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0156",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0156_Collection"
     ],
     "personal_name": "イロハ",
     "personal_name_kr": "이로하"
@@ -1114,7 +1166,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0197",
       "UIs/01_Common/01_Character/Student_Portrait_Izumi",
-      "UIs/01_Common/01_Character/Student_Portrait_Izumi_swimsuit"
+      "UIs/01_Common/01_Character/Student_Portrait_Izumi_swimsuit",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Izumi_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Izumi_swimsuit_Collection"
     ],
     "personal_name": "イズミ",
     "personal_name_kr": "이즈미"
@@ -1128,7 +1182,9 @@
     "id": "Izuna",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0179",
-      "UIs/01_Common/01_Character/Student_Portrait_Izuna"
+      "UIs/01_Common/01_Character/Student_Portrait_Izuna",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0179_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Izuna_Collection"
     ],
     "personal_name": "イズナ",
     "personal_name_kr": "이즈나"
@@ -1155,7 +1211,9 @@
     "id": "Junko",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0192",
-      "UIs/01_Common/01_Character/Student_Portrait_Zunko"
+      "UIs/01_Common/01_Character/Student_Portrait_Zunko",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0192_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Zunko_Collection"
     ],
     "personal_name": "ジュンコ",
     "personal_name_kr": "준코"
@@ -1168,7 +1226,8 @@
     "family_name_ruby": "うしまき",
     "id": "Juri",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Juri"
+      "UIs/01_Common/01_Character/Student_Portrait_Juri",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Juri_Collection"
     ],
     "personal_name": "ジュリ",
     "personal_name_kr": "주리"
@@ -1203,7 +1262,8 @@
     "family_name_ruby": "いさみ",
     "id": "Kaede",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Kaede"
+      "UIs/01_Common/01_Character/Student_Portrait_Kaede",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kaede_Collection"
     ],
     "personal_name": "カエデ",
     "personal_name_kr": "카에데"
@@ -1216,7 +1276,8 @@
     "family_name_ruby": "くわかみ",
     "id": "Kaho",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0107"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0107",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0107_Collection"
     ],
     "personal_name": "カホ",
     "personal_name_kr": "카호"
@@ -1294,7 +1355,8 @@
     "id": "Kanna",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0105",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0170"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0170",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0170_Collection"
     ],
     "personal_name": "カンナ",
     "personal_name_kr": "칸나"
@@ -1309,7 +1371,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0082",
       "UIs/01_Common/01_Character/Student_Portrait_CH0100",
-      "UIs/01_Common/01_Character/Student_Portrait_Karin"
+      "UIs/01_Common/01_Character/Student_Portrait_Karin",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0100_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Karin_Collection"
     ],
     "personal_name": "カリン",
     "personal_name_kr": "카린"
@@ -1350,7 +1414,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0118",
       "UIs/01_Common/01_Character/Student_Portrait_CH0086",
-      "UIs/01_Common/01_Character/Student_Portrait_Kayoko"
+      "UIs/01_Common/01_Character/Student_Portrait_Kayoko",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0086_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kayoko_Collection"
     ],
     "personal_name": "カヨコ",
     "personal_name_kr": "카요코"
@@ -1363,7 +1429,8 @@
     "family_name_ruby": "きょうやま",
     "id": "Kazusa",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Kazusa"
+      "UIs/01_Common/01_Character/Student_Portrait_Kazusa",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kazusa_Collection"
     ],
     "personal_name": "カズサ",
     "personal_name_kr": "카즈사"
@@ -1389,7 +1456,8 @@
     "family_name_ruby": "なかつかさ",
     "id": "Kirino",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Kirino"
+      "UIs/01_Common/01_Character/Student_Portrait_Kirino",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kirino_Collection"
     ],
     "personal_name": "キリノ",
     "personal_name_kr": "키리노"
@@ -1415,7 +1483,8 @@
     "family_name_ruby": "しもえ",
     "id": "Koharu",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Koharu"
+      "UIs/01_Common/01_Character/Student_Portrait_Koharu",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Koharu_Collection"
     ],
     "personal_name": "コハル",
     "personal_name_kr": "코하루"
@@ -1428,7 +1497,8 @@
     "family_name_ruby": "すのはら",
     "id": "Kokona",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0137"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0137",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0137_Collection"
     ],
     "personal_name": "ココナ",
     "personal_name_kr": "코코나"
@@ -1441,7 +1511,8 @@
     "family_name_ruby": "おとせ",
     "id": "Kotama",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Kotama"
+      "UIs/01_Common/01_Character/Student_Portrait_Kotama",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kotama_Collection"
     ],
     "personal_name": "コタマ",
     "personal_name_kr": "코타마"
@@ -1455,7 +1526,8 @@
     "id": "Kotori",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0185",
-      "UIs/01_Common/01_Character/Student_Portrait_Kotori"
+      "UIs/01_Common/01_Character/Student_Portrait_Kotori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kotori_Collection"
     ],
     "personal_name": "コトリ",
     "personal_name_kr": "코토리"
@@ -1471,7 +1543,8 @@
     "id": "Koyuki",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0162",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0198"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0198",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0198_Collection"
     ],
     "personal_name": "コユキ",
     "personal_name_kr": "코유키"
@@ -1550,7 +1623,8 @@
     "family_name_ruby": "こぬり",
     "id": "Maki",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Maki"
+      "UIs/01_Common/01_Character/Student_Portrait_Maki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Maki_Collection"
     ],
     "personal_name": "マキ",
     "personal_name_kr": "마키"
@@ -1577,7 +1651,10 @@
     "id": "Mari",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0186",
-      "UIs/01_Common/01_Character/Student_Portrait_Mari"
+      "UIs/01_Common/01_Character/Student_Portrait_Mari",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0186_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mari_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Marina_Collection"
     ],
     "personal_name": "マリー",
     "personal_name_kr": "마리"
@@ -1604,7 +1681,9 @@
     "id": "Mashiro",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Mashiro",
-      "UIs/01_Common/01_Character/Student_Portrait_Mashiro_Swimsuit"
+      "UIs/01_Common/01_Character/Student_Portrait_Mashiro_Swimsuit",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mashiro_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mashiro_Swimsuit_Collection"
     ],
     "personal_name": "マシロ",
     "personal_name_kr": "마시로"
@@ -1617,7 +1696,8 @@
     "family_name_ruby": "しもくら",
     "id": "Megu",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0088"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0088",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0088_Collection"
     ],
     "personal_name": "メグ",
     "personal_name_kr": "메구"
@@ -1644,7 +1724,8 @@
     "family_name_ruby": "ちどり",
     "id": "Michiru",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0113"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0113",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0113_Collection"
     ],
     "personal_name": "ミチル",
     "personal_name_kr": "미치루"
@@ -1658,7 +1739,8 @@
     "id": "Midori",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0202",
-      "UIs/01_Common/01_Character/Student_Portrait_Midori"
+      "UIs/01_Common/01_Character/Student_Portrait_Midori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Midori_Collection"
     ],
     "personal_name": "ミドリ",
     "personal_name_kr": "미도리"
@@ -1674,7 +1756,8 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0041",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0101",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0102",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0069"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0069",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0069_Collection"
     ],
     "personal_name": "ミカ",
     "personal_name_kr": "미카"
@@ -1710,7 +1793,8 @@
     "id": "Mimori",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0183",
-      "UIs/01_Common/01_Character/Student_Portrait_Mimori"
+      "UIs/01_Common/01_Character/Student_Portrait_Mimori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mimori_Collection"
     ],
     "personal_name": "ミモリ",
     "personal_name_kr": "미모리"
@@ -1723,7 +1807,8 @@
     "family_name_ruby": "このえ",
     "id": "Mina",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0138"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0138",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0138_Collection"
     ],
     "personal_name": "ミナ",
     "personal_name_kr": "미나"
@@ -1736,7 +1821,8 @@
     "family_name_ruby": "あおもり",
     "id": "Mine",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0152"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0152",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0152_Collection"
     ],
     "personal_name": "ミネ",
     "personal_name_kr": "미네"
@@ -1750,7 +1836,8 @@
     "id": "Minori",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0214",
-      "UIs/01_Common/01_Character/Student_Portrait_Minori"
+      "UIs/01_Common/01_Character/Student_Portrait_Minori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0214_Collection"
     ],
     "personal_name": "ミノリ",
     "personal_name_kr": "미노리"
@@ -1763,7 +1850,8 @@
     "family_name_ruby": "いましの",
     "id": "Misaki",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Misaki"
+      "UIs/01_Common/01_Character/Student_Portrait_Misaki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Misaki_Collection"
     ],
     "personal_name": "ミサキ",
     "personal_name_kr": "미사키"
@@ -1779,7 +1867,9 @@
     "id": "Miyako",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0215",
-      "UIs/01_Common/01_Character/Student_Portrait_Miyako"
+      "UIs/01_Common/01_Character/Student_Portrait_Miyako",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0215_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Miyako_Collection"
     ],
     "personal_name": "ミヤコ",
     "personal_name_kr": "미야코"
@@ -1793,7 +1883,9 @@
     "id": "Miyu",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0145",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0218"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0218",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0145_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0218_Collection"
     ],
     "personal_name": "ミユ",
     "personal_name_kr": "미유"
@@ -1807,7 +1899,8 @@
     "id": "Moe",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0216",
-      "UIs/01_Common/01_Character/Student_Portrait_Moe"
+      "UIs/01_Common/01_Character/Student_Portrait_Moe",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Moe_Collection"
     ],
     "personal_name": "モエ",
     "personal_name_kr": "모에"
@@ -1834,7 +1927,8 @@
     "id": "Momoi",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0201",
-      "UIs/01_Common/01_Character/Student_Portrait_Momoi"
+      "UIs/01_Common/01_Character/Student_Portrait_Momoi",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Momoi_Collection"
     ],
     "personal_name": "モモイ",
     "personal_name_kr": "모모이"
@@ -1861,7 +1955,9 @@
     "id": "Mutsuki",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Mutsuki",
-      "UIs/01_Common/01_Character/Student_Portrait_Mutsuki_Newyear"
+      "UIs/01_Common/01_Character/Student_Portrait_Mutsuki_Newyear",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mutsuki_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mutsuki_Newyear_Collection"
     ],
     "personal_name": "ムツキ",
     "personal_name_kr": "무츠키"
@@ -1874,7 +1970,8 @@
     "family_name_ruby": "きりふじ",
     "id": "Nagisa",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Nagisa"
+      "UIs/01_Common/01_Character/Student_Portrait_Nagisa",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Nagisa_Collection"
     ],
     "personal_name": "ナギサ",
     "personal_name_kr": "나기사"
@@ -1916,7 +2013,8 @@
     "family_name_ruby": "ゆとり",
     "id": "Natsu",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0155"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0155",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0155_Collection"
     ],
     "personal_name": "ナツ",
     "personal_name_kr": "나츠"
@@ -1930,7 +2028,9 @@
     "id": "Neru",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0101",
-      "UIs/01_Common/01_Character/Student_Portrait_Neru"
+      "UIs/01_Common/01_Character/Student_Portrait_Neru",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0101_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Neru_Collection"
     ],
     "personal_name": "ネル",
     "personal_name_kr": "네루"
@@ -1971,7 +2071,8 @@
     "family_name_ruby": "うしお",
     "id": "Noa",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0095"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0095",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0095_Collection"
     ],
     "personal_name": "ノア",
     "personal_name_kr": "노아"
@@ -1985,7 +2086,9 @@
     "id": "Nodoka",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0165",
-      "UIs/01_Common/01_Character/Student_Portrait_Nodoka"
+      "UIs/01_Common/01_Character/Student_Portrait_Nodoka",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0165_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Nodoka_Collection"
     ],
     "personal_name": "ノドカ",
     "personal_name_kr": "노도카"
@@ -2001,7 +2104,9 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0067",
       "UIs/01_Common/01_Character/Student_Portrait_CH0092",
       "UIs/01_Common/01_Character/Student_Portrait_Nonomi",
-      "UIs/01_Common/01_Character/Student_Portrait_Nonomi_Robber"
+      "UIs/01_Common/01_Character/Student_Portrait_Nonomi_Robber",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0092_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Nonomi_Collection"
     ],
     "personal_name": "ノノミ",
     "personal_name_kr": "노노미"
@@ -2230,7 +2335,8 @@
     "family_name_ruby": "あさひな",
     "id": "Pina",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Pina"
+      "UIs/01_Common/01_Character/Student_Portrait_Pina",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Pina_Collection"
     ],
     "personal_name": "フィーナ",
     "personal_name_kr": "피나"
@@ -2297,7 +2403,8 @@
     "family_name_ruby": "うざわ",
     "id": "Reisa",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0167"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0167",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0167_Collection"
     ],
     "personal_name": "レイサ",
     "personal_name_kr": "레이사"
@@ -2355,7 +2462,8 @@
     "family_name_ruby": "あけしろ",
     "id": "Rumi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0135"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0135",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0135_Collection"
     ],
     "personal_name": "ルミ",
     "personal_name_kr": "루미"
@@ -2371,7 +2479,9 @@
     "id": "Saki",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0144",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0217"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0217",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0144_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0217_Collection"
     ],
     "personal_name": "サキ",
     "personal_name_kr": "사키"
@@ -2385,7 +2495,8 @@
     "id": "Sakurako",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0090",
-      "UIs/01_Common/01_Character/Student_Portrait_Sakurako"
+      "UIs/01_Common/01_Character/Student_Portrait_Sakurako",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Sakurako_Collection"
     ],
     "personal_name": "サクラコ",
     "personal_name_kr": "사쿠라코"
@@ -2402,7 +2513,8 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0012",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0103",
-      "UIs/01_Common/01_Character/Student_Portrait_Saori"
+      "UIs/01_Common/01_Character/Student_Portrait_Saori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Saori_Collection"
     ],
     "personal_name": "サオリ",
     "personal_name_kr": "사오리"
@@ -2429,7 +2541,9 @@
     "id": "Saya",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Saya",
-      "UIs/01_Common/01_Character/Student_Portrait_Saya_casual"
+      "UIs/01_Common/01_Character/Student_Portrait_Saya_casual",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Saya_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Saya_casual_Collection"
     ],
     "personal_name": "サヤ",
     "personal_name_kr": "사야"
@@ -2455,7 +2569,8 @@
     "family_name_ruby": "ひむろ",
     "id": "Sena",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Sena"
+      "UIs/01_Common/01_Character/Student_Portrait_Sena",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Sena_Collection"
     ],
     "personal_name": "セナ",
     "personal_name_kr": "세나"
@@ -2474,7 +2589,9 @@
       "UIs/01_Common/01_Character/Student_Portrait_Serika_Newyear",
       "UIs/01_Common/01_Character/Student_Portrait_Serika_Robber",
       "UIs/01_Common/01_Character/Student_Portrait_Serika_Shibasek",
-      "UIs/01_Common/01_Character/Student_Portrait_Serika_Shibaseki"
+      "UIs/01_Common/01_Character/Student_Portrait_Serika_Shibaseki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Serika_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Serika_Newyear_Collection"
     ],
     "personal_name": "セリカ",
     "personal_name_kr": "세리카"
@@ -2489,7 +2606,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0075",
       "UIs/01_Common/01_Character/Student_Portrait_CH0194",
-      "UIs/01_Common/01_Character/Student_Portrait_Serina"
+      "UIs/01_Common/01_Character/Student_Portrait_Serina",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0194_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Serina_Collection"
     ],
     "personal_name": "セリナ",
     "personal_name_kr": "세리나"
@@ -2516,7 +2635,8 @@
     "id": "Shigure",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0123",
-      "UIs/01_Common/01_Character/Student_Portrait_Shigure"
+      "UIs/01_Common/01_Character/Student_Portrait_Shigure",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shigure_Collection"
     ],
     "personal_name": "シグレ",
     "personal_name_kr": "시구레"
@@ -2529,7 +2649,8 @@
     "family_name_ruby": "えんどう",
     "id": "Shimiko",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Shimiko"
+      "UIs/01_Common/01_Character/Student_Portrait_Shimiko",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shimiko_Collection"
     ],
     "personal_name": "シミコ",
     "personal_name_kr": "시미코"
@@ -2575,7 +2696,9 @@
       "UIs/01_Common/01_Character/Student_Portrait_CH0199",
       "UIs/01_Common/01_Character/Student_Portrait_Shiroko",
       "UIs/01_Common/01_Character/Student_Portrait_Shiroko_Robber",
-      "UIs/01_Common/01_Character/Student_Portrait_Shiroko_ridingsuit"
+      "UIs/01_Common/01_Character/Student_Portrait_Shiroko_ridingsuit",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shiroko_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shiroko_ridingsuit_Collection"
     ],
     "personal_name": "シロコ",
     "personal_name_kr": "시로코"
@@ -2589,7 +2712,9 @@
     "id": "Shizuko",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0180",
-      "UIs/01_Common/01_Character/Student_Portrait_Shizuko"
+      "UIs/01_Common/01_Character/Student_Portrait_Shizuko",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0180_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shizuko_Collection"
     ],
     "personal_name": "シズコ",
     "personal_name_kr": "시즈코"
@@ -2603,7 +2728,9 @@
     "id": "Shun",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0066",
-      "UIs/01_Common/01_Character/Student_Portrait_Shun"
+      "UIs/01_Common/01_Character/Student_Portrait_Shun",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0066_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Shun_Collection"
     ],
     "personal_name": "シュン",
     "personal_name_kr": "슌"
@@ -2639,7 +2766,8 @@
     "family_name_ruby": "",
     "id": "Sora",
     "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_Sora"
+      "UIs/01_Common/01_Character/NPC_Portrait_Sora",
+      "UIs/01_Common/14_CharacterCollect/NPC_Portrait_Sora_Collection"
     ],
     "personal_name": "ソラ",
     "personal_name_kr": ""
@@ -2759,7 +2887,8 @@
     "family_name_ruby": "おとはな",
     "id": "Sumire",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Sumire"
+      "UIs/01_Common/01_Character/Student_Portrait_Sumire",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Sumire_Collection"
     ],
     "personal_name": "スミレ",
     "personal_name_kr": "스미레"
@@ -2799,7 +2928,8 @@
     "family_name_ruby": "もりづき",
     "id": "Suzumi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Suzumi_Small"
+      "UIs/01_Common/01_Character/Student_Portrait_Suzumi_Small",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Suzumi_Collection"
     ],
     "personal_name": "スズミ",
     "personal_name_kr": "스즈미"
@@ -2845,7 +2975,9 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0079",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0123",
       "UIs/01_Common/01_Character/Student_Portrait_CH0187",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0211"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0211",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0187_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0211_Collection"
     ],
     "personal_name": "トキ",
     "personal_name_kr": "토키"
@@ -2858,7 +2990,8 @@
     "family_name_ruby": "さしろ",
     "id": "Tomoe",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Tomoe"
+      "UIs/01_Common/01_Character/Student_Portrait_Tomoe",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Tomoe_Collection"
     ],
     "personal_name": "トモエ",
     "personal_name_kr": "토모에"
@@ -2888,7 +3021,8 @@
     "family_name_ruby": "かすが",
     "id": "Tsubaki",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Tsubaki"
+      "UIs/01_Common/01_Character/Student_Portrait_Tsubaki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Tsubaki_Collection"
     ],
     "personal_name": "ツバキ",
     "personal_name_kr": "츠바키"
@@ -2901,7 +3035,8 @@
     "family_name_ruby": "おおの",
     "id": "Tsukuyo",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0114"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0114",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0114_Collection"
     ],
     "personal_name": "ツクヨ",
     "personal_name_kr": "츠쿠요"
@@ -2915,7 +3050,9 @@
     "id": "Tsurugi",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0060",
-      "UIs/01_Common/01_Character/Student_Portrait_Tsurugi"
+      "UIs/01_Common/01_Character/Student_Portrait_Tsurugi",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0060_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Tsurugi_Collection"
     ],
     "personal_name": "ツルギ",
     "personal_name_kr": "츠루기"
@@ -2928,7 +3065,8 @@
     "family_name_ruby": "こぜき",
     "id": "Ui",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0169"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0169",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0169_Collection"
     ],
     "personal_name": "ウイ",
     "personal_name_kr": "우이"
@@ -2955,7 +3093,9 @@
     "id": "Utaha",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0182",
-      "UIs/01_Common/01_Character/Student_Portrait_Utaha"
+      "UIs/01_Common/01_Character/Student_Portrait_Utaha",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0182_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Utaha_Collection"
     ],
     "personal_name": "ウタハ",
     "personal_name_kr": "우타하"
@@ -2999,7 +3139,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0014",
       "UIs/01_Common/01_Character/Student_Portrait_CH0175",
-      "UIs/01_Common/01_Character/Student_Portrait_Wakamo_Small"
+      "UIs/01_Common/01_Character/Student_Portrait_Wakamo_Small",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0175_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Wakamo_Collection"
     ],
     "personal_name": "ワカモ",
     "personal_name_kr": "와카모"
@@ -3044,7 +3186,8 @@
     "family_name_ruby": "いばらぎ",
     "id": "Yoshimi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Yoshimi"
+      "UIs/01_Common/01_Character/Student_Portrait_Yoshimi",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Yoshimi_Collection"
     ],
     "personal_name": "ヨシミ",
     "personal_name_kr": "요시미"
@@ -3072,7 +3215,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0109",
       "UIs/01_Common/01_Character/Student_Portrait_CH0184",
-      "UIs/01_Common/01_Character/Student_Portrait_Yuuka_Small"
+      "UIs/01_Common/01_Character/Student_Portrait_Yuuka_Small",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0184_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Yuuka_Collection"
     ],
     "personal_name": "ユウカ",
     "personal_name_kr": "유우카"
@@ -3089,7 +3234,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0126",
       "UIs/01_Common/01_Character/Student_Portrait_CH0203",
-      "UIs/01_Common/01_Character/Student_Portrait_Yuzu"
+      "UIs/01_Common/01_Character/Student_Portrait_Yuzu",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0203_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Yuzu_Collection"
     ],
     "personal_name": "ユズ",
     "personal_name_kr": "유즈"

@@ -64,6 +64,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
         result = []
         avatar_files = {}
+        image_config = {}
         image_mappings = get_legacy_image_mappings()
         updated_translations = False
         chars_without_group: list[Character] = []
@@ -124,6 +125,10 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
                 char.images.append(name)
                 avatar_files[name] = img_file
+                if img_file.stem.endswith("_Collection"):
+                    image_config[str(img_file)] = {
+                        "h_crop": "top"
+                    }
 
             char.images = sorted(char.images)
             result.append(char)
@@ -139,7 +144,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
             for char in chars_without_group:
                 f.write(f"{char.id}\n  {char.names['ja']}\n  {char.images[0]}\n\n")
 
-        return result, avatar_files
+        return result, avatar_files, image_config
 
     def get_stamps(self) -> List[str]:
         in_root = self.res_root / "assets/UIs/01_Common/31_ClanEmoji"
