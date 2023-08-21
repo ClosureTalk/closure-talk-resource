@@ -104,10 +104,17 @@ class ArknightsResourceProcessor(ResourceProcessor):
         appellations = defaultdict(str)
         ch_types = set()
 
+        sprite_folders = sorted(res_root.glob("spritepack/ui_char_avatar_*"))
+        sprite_files: list[Path] = []
+        for folder in sprite_folders:
+            sprite_files += sorted(folder.glob("*.png"))
+        print(f"Found {len(sprite_files)} character sprite files")
+
         for k, v in sorted(char_tables["zh-cn"].items(), key=lambda pair: pair[0]):
             name = v["name"]
-            basic_sprite = res_root / f"spritepack/ui_char_avatar_h1_0/{k}.png"
-            if not os.path.isfile(basic_sprite):
+
+            basic_sprite = next(iter(f for f in sprite_files if f.stem == k), None)
+            if basic_sprite is None:
                 logging.warning(f"Skip: {k} {name}")
                 continue
 
@@ -118,9 +125,11 @@ class ArknightsResourceProcessor(ResourceProcessor):
             appellations[ch.id] = v["appellation"]
 
             # E2 and skins
-            additional = glob.glob(str(res_root / f"spritepack/ui_char_avatar_h1_elite_0/{k}*.png")) + \
-                glob.glob(str(res_root / f"spritepack/ui_char_avatar_h1_skins_0/{k}*.png"))
-            for file in additional:
+            used_files = set()
+            for file in (f for f in sprite_files if f.stem.startswith(k) and f.stem != k):
+                if file.stem in used_files:
+                    continue
+                used_files.add(file.stem)
                 img_name = os.path.splitext(os.path.split(file)[1])[0]
                 avatar_files[img_name] = file
                 ch.images.append(img_name)
@@ -129,13 +138,19 @@ class ArknightsResourceProcessor(ResourceProcessor):
 
         logging.info(f"All ch types: {ch_types}")
 
+        sprite_folders = sorted(res_root.glob("spritepack/icon_enemies_*"))
+        sprite_files: list[Path] = []
+        for folder in sprite_folders:
+            sprite_files += sorted(folder.glob("*.png"))
+        print(f"Found {len(sprite_files)} enemy sprite files")
+
         for k, v in sorted(enemy_tables["zh-cn"].items(), key=lambda pair: pair[0]):
             name = v["name"]
             if name == "-":
                 continue
 
-            basic_sprite = res_root / f"spritepack/icon_enemies_h2_0/{k}.png"
-            if not os.path.isfile(basic_sprite):
+            basic_sprite = next(iter(f for f in sprite_files if f.stem == k), None)
+            if basic_sprite is None:
                 logging.warning(f"Skip: {k} {name}")
                 continue
 
