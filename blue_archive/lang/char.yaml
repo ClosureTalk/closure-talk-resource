@@ -1309,6 +1309,14 @@
     ko: 모리즈키 스즈미
     zh-cn: 守月 铃美
     zh-tw: 守月 鈴美
+- id: Takane
+  name:
+    en: Miyoshi Takane
+    ja: 三善 タカネ
+    ko: ''
+    zh-cn: 三善 贵音
+    zh-tw: 三善 貴音
+  short_name: null
 - id: Tea_party
   name:
     en: Tea Party
@@ -1399,6 +1407,14 @@
     ko: 코사카 와카모
     zh-cn: 狐坂 若藻
     zh-tw: 狐坂 若藻
+- id: Yakumo
+  name:
+    en: Aramaki Yakumo
+    ja: 荒槇 ヤクモ
+    ko: ''
+    zh-cn: 荒槙 八云
+    zh-tw: 荒槙 八云
+  short_name: null
 - id: yoheki_student
   name:
     en: Yoheki

@@ -160,6 +160,7 @@
       "警備員A",
       "警備員B",
       "警察",
+      "通りすがりの通行人C",
       "通行人A",
       "配達員",
       "銀行員",
@@ -550,13 +551,17 @@
       "廃品回収業者",
       "怒ったシェフ",
       "怒りが解けたシェフ",
+      "技術者",
       "敗北したゲーマー",
       "明太郎",
       "暇な通行人",
       "気難しいゲスト",
       "花火屋の店主",
+      "行商人",
       "親子丼職人",
       "通りすがりの通行人",
+      "通りすがりの通行人A",
+      "通りすがりの通行人B",
       "通行人",
       "通行人A",
       "通行人B",
@@ -659,6 +664,8 @@
   },
   {
     "aka": [
+      "医療支援生徒A",
+      "医療支援生徒B",
       "救急医学部の部員A",
       "救急医学部の部員B",
       "救急医学部の部員C",
@@ -735,7 +742,8 @@
     "aka": [
       "ゲヘナの生徒A",
       "ゲヘナの生徒B",
-      "ムシクイーンチャンピオン"
+      "ムシクイーンチャンピオン",
+      "迷子の生徒"
     ],
     "char_id": -1,
     "family_name": "",
@@ -1534,6 +1542,7 @@
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0185",
       "UIs/01_Common/01_Character/Student_Portrait_Kotori",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0185_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kotori_Collection"
     ],
     "personal_name": "コトリ",
@@ -1711,17 +1720,18 @@
   },
   {
     "aka": [],
-    "char_id": -1,
+    "char_id": 10075,
     "family_name": "姫木",
-    "family_name_kr": "",
+    "family_name_kr": "히메키",
     "family_name_ruby": "ひめき",
     "id": "Meru",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0124",
-      "UIs/01_Common/01_Character/Student_Portrait_CH0125"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0125",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0124_Collection"
     ],
     "personal_name": "メル",
-    "personal_name_kr": ""
+    "personal_name_kr": "메루"
   },
   {
     "aka": [],
@@ -1773,11 +1783,14 @@
     "aka": [
       "ミレニアムの生徒A",
       "ミレニアムの生徒B",
+      "ミレニアムの選手",
       "ミレニアム生徒A",
       "ミレニアム生徒B",
+      "審判生徒",
       "怪しいミレニアム生徒A",
       "怪しいミレニアム生徒B",
-      "新素材開発部員"
+      "新素材開発部員",
+      "普通のミレニアムの生徒"
     ],
     "char_id": -1,
     "family_name": "",
@@ -1915,16 +1928,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
+    "char_id": 13013,
     "family_name": "秋泉",
-    "family_name_kr": "",
+    "family_name_kr": "아키이즈미",
     "family_name_ruby": "あきいずみ",
     "id": "Momiji",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Momiji"
+      "UIs/01_Common/01_Character/Student_Portrait_Momiji",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Momiji_Collection"
     ],
     "personal_name": "モミジ",
-    "personal_name_kr": ""
+    "personal_name_kr": "모미지"
   },
   {
     "aka": [],
@@ -2226,6 +2240,7 @@
       "ニャテ・マサムニェ",
       "会場のお客さんA",
       "商会長",
+      "待っている客B",
       "怪しい客",
       "成金ゲスト",
       "気難しい社長",
@@ -2451,6 +2466,9 @@
   {
     "aka": [
       "保安委員",
+      "親衛隊A",
+      "親衛隊B",
+      "親衛隊C",
       "親衛隊員"
     ],
     "char_id": -1,
@@ -2947,6 +2965,21 @@
   },
   {
     "aka": [
+      "？？？"
+    ],
+    "char_id": -1,
+    "family_name": "三善",
+    "family_name_kr": "",
+    "family_name_ruby": "みよし",
+    "id": "Takane",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0229"
+    ],
+    "personal_name": "タカネ",
+    "personal_name_kr": ""
+  },
+  {
+    "aka": [
       "ティーパーティーの監察官",
       "ティーパーティーの行政官",
       "ティーパーティー傘下の主戦派A",
@@ -3161,6 +3194,21 @@
   },
   {
     "aka": [
+      "？？？"
+    ],
+    "char_id": -1,
+    "family_name": "荒槇",
+    "family_name_kr": "",
+    "family_name_ruby": "あらまき",
+    "id": "Yakumo",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0228"
+    ],
+    "personal_name": "ヤクモ",
+    "personal_name_kr": ""
+  },
+  {
+    "aka": [
       "チンピラ２",
       "ミレニアム生徒C",
       "傭兵バイトA",
@@ -3173,6 +3221,7 @@
       "傭兵生徒C",
       "工務部の部員",
       "工務部の部員C",
+      "工務部一同",
       "工務部員A",
       "工務部員B",
       "工務部員たち",
