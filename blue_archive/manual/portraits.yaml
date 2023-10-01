@@ -279,3 +279,16 @@
   - NPC_Portrait_NP0133
   - NPC_Portrait_NP0132
   id: npc_fisherman
+- name: 列車乗務員の生徒
+  images:
+  - NPC_Portrait_NP0138
+  - NPC_Portrait_NP0159
+  id: train_attendant
+- name: 列車整備工の生徒
+  images:
+  - NPC_Portrait_NP0158
+  id: train_maintainer
+- name: 組織員
+  images:
+  - NPC_Portrait_NP0143
+  id: BlackMarket_Member

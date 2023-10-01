@@ -419,6 +419,23 @@
   },
   {
     "aka": [
+      "組織員A",
+      "組織員B",
+      "組織員C"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "BlackMarket_Member",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0143"
+    ],
+    "personal_name": "組織員",
+    "personal_name_kr": ""
+  },
+  {
+    "aka": [
       "バニーガールゲーマーA",
       "バニーガールゲーマーB",
       "バニーガール・ガード",
@@ -608,6 +625,7 @@
       "擲弾兵",
       "風紀委員A",
       "風紀委員B",
+      "風紀委員C",
       "風紀委員会の医務官"
     ],
     "char_id": -1,
@@ -1129,16 +1147,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_kr": "",
-    "family_name_ruby": "",
+    "char_id": 10077,
+    "family_name": "仲正",
+    "family_name_kr": "나카마사",
+    "family_name_ruby": "なかまさ",
     "id": "Ichika",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0071"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0071",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0071_Collection"
     ],
     "personal_name": "イチカ",
-    "personal_name_kr": ""
+    "personal_name_kr": "이치카"
   },
   {
     "aka": [],
@@ -1394,16 +1413,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_kr": "",
-    "family_name_ruby": "",
+    "char_id": 10078,
+    "family_name": "鬼怒川",
+    "family_name_kr": "키누가와",
+    "family_name_ruby": "きぬがわ",
     "id": "Kasumi",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0089"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0089",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0089_Collection"
     ],
     "personal_name": "カスミ",
-    "personal_name_kr": ""
+    "personal_name_kr": "카스미"
   },
   {
     "aka": [],
@@ -3040,6 +3060,41 @@
     ],
     "personal_name": "トモエ",
     "personal_name_kr": "토모에"
+  },
+  {
+    "aka": [
+      "列車乗務員の生徒A",
+      "列車乗務員の生徒B",
+      "列車乗務員の生徒C"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "train_attendant",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0138",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0159"
+    ],
+    "personal_name": "列車乗務員の生徒",
+    "personal_name_kr": ""
+  },
+  {
+    "aka": [
+      "列車整備工の生徒A",
+      "列車整備工の生徒B",
+      "列車整備工の生徒C"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "train_maintainer",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0158"
+    ],
+    "personal_name": "列車整備工の生徒",
+    "personal_name_kr": ""
   },
   {
     "aka": [

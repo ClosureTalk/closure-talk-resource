@@ -156,6 +156,14 @@
     zh-tw: 黑服
   short_name:
     en: Black Suit
+- id: BlackMarket_Member
+  name:
+    en: BlackMarket Member
+    ja: 組織員
+    ko: ''
+    zh-cn: 组织成员
+    zh-tw: 組織成員
+  short_name: null
 - id: bunny_girl
   name:
     en: Bunny Girl
@@ -458,11 +466,11 @@
     zh-tw: 伊吹
 - id: Ichika
   name:
-    en: Ichika
-    ja: イチカ
+    en: Nakamasa Ichika
+    ja: 仲正 イチカ
     ko: ''
-    zh-cn: ''
-    zh-tw: ''
+    zh-cn: 仲正 一花
+    zh-tw: 仲正 一花
 - id: Iori
   name:
     en: Shiromi Iori
@@ -586,11 +594,11 @@
     zh-tw: 角楯 花凛
 - id: Kasumi
   name:
-    en: Kasumi
-    ja: カスミ
+    en: Kinugawa Kasumi
+    ja: 鬼怒川 カスミ
     ko: ''
-    zh-cn: ''
-    zh-tw: ''
+    zh-cn: 鬼怒川 霞
+    zh-tw: 鬼怒川 霞
 - id: Kaya
   name:
     en: Shiranui Kaya
@@ -1340,6 +1348,22 @@
     ko: 사시로 토모에
     zh-cn: 佐城 巴
     zh-tw: 佐城 智惠
+- id: train_attendant
+  name:
+    en: Train Attendant
+    ja: 列車乗務員の生徒
+    ko: ''
+    zh-cn: 列车乘务员
+    zh-tw: 列車乘務員
+  short_name: null
+- id: train_maintainer
+  name:
+    en: Train Maintainer
+    ja: 列車整備工の生徒
+    ko: ''
+    zh-cn: 列车维修工
+    zh-tw: 列車維修工
+  short_name: null
 - id: trinity_student
   name:
     en: Trinity Student
