@@ -116,6 +116,10 @@ def main():
         portrait_images[obj.NameJP].add(obj.SmallPortrait)
     add_manual_data(profiles, portrait_images)
 
+    for prof in profiles:
+        prof.FamilyNameJp = prof.FamilyNameJp.strip()
+        prof.PersonalNameJp = prof.PersonalNameJp.strip()
+
     id_mappings = read_json(script_dir / "data/id_mapping.json", None)
 
     # For every profile, gather images
@@ -130,6 +134,8 @@ def main():
 
         if len(prof.IdOverride) > 0:
             cid = prof.IdOverride
+        elif len(prof.FamilyNameRubyJp) > 0 and len(prof.PersonalNameRubyJp) > 0:
+            cid = name_to_id(prof.FamilyNameRubyJp) + name_to_id(prof.PersonalNameRubyJp)
         else:
             cid = name_to_id(prof.PersonalNameJp)
             cid = id_mappings.get(cid, cid)
@@ -137,6 +143,8 @@ def main():
         images = set()
         if prof.PersonalNameJp in portrait_images:
             images |= portrait_images[prof.PersonalNameJp]
+        if (prof.FamilyNameJp+prof.PersonalNameJp) in portrait_images:
+            images |= portrait_images[prof.FamilyNameJp+prof.PersonalNameJp]
 
         if f"Student_Portrait_{cid}" in portrait_files:
             images.add(f"UIs/01_Common/01_Character/Student_Portrait_{cid}")

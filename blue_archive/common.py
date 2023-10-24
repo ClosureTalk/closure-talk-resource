@@ -26,6 +26,7 @@ class LocalizeCharProfile:
     FamilyNameKr: str = field(default="")
     PersonalNameKr: str = field(default="")
     IdOverride: str = field(default="")
+    PersonalNameRubyJp: str = field(default="")
 
 
 @dataclass_json(undefined=Undefined.EXCLUDE)

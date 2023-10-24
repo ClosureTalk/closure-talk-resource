@@ -551,6 +551,8 @@
       "会場のお客さんC",
       "偽物の幽霊",
       "労働者A",
+      "商人A",
+      "商人B",
       "商店の主人",
       "善良な市民",
       "地域商人会の青年",
@@ -943,18 +945,20 @@
     "personal_name_kr": "하스미"
   },
   {
-    "aka": [],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_kr": "",
-    "family_name_ruby": "",
+    "aka": [
+      "初音ミク"
+    ],
+    "char_id": 20007,
+    "family_name": "初音",
+    "family_name_kr": "하츠네",
+    "family_name_ruby": "はつね",
     "id": "hatsune_miku",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH9999",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH9999_Collection"
     ],
-    "personal_name": "初音ミク",
-    "personal_name_kr": ""
+    "personal_name": "ミク",
+    "personal_name_kr": "미쿠"
   },
   {
     "aka": [
@@ -1888,6 +1892,22 @@
     "personal_name_kr": "미노리"
   },
   {
+    "aka": [
+      "御坂美琴"
+    ],
+    "char_id": 10079,
+    "family_name": "御坂",
+    "family_name_kr": "미사카",
+    "family_name_ruby": "みさか",
+    "id": "MisakaMikoto",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH9998",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH9998_Collection"
+    ],
+    "personal_name": "美琴",
+    "personal_name_kr": "미코토"
+  },
+  {
     "aka": [],
     "char_id": 10041,
     "family_name": "戒野",
@@ -2263,6 +2283,7 @@
       "スイーツ屋の店主",
       "ニャテ・マサムニェ",
       "会場のお客さんA",
+      "商人C",
       "商会長",
       "待っている客B",
       "怪しい客",
@@ -2573,6 +2594,22 @@
     "personal_name_kr": "사오리"
   },
   {
+    "aka": [
+      "佐天涙子"
+    ],
+    "char_id": 26011,
+    "family_name": "佐天",
+    "family_name_kr": "사텐",
+    "family_name_ruby": "さてん",
+    "id": "SatenRuiko",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH9996",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH9996_Collection"
+    ],
+    "personal_name": "涙子",
+    "personal_name_kr": "루이코"
+  },
+  {
     "aka": [],
     "char_id": -1,
     "family_name": "",
@@ -2773,6 +2810,22 @@
     ],
     "personal_name": "シズコ",
     "personal_name_kr": "시즈코"
+  },
+  {
+    "aka": [
+      "食蜂操祈"
+    ],
+    "char_id": 10080,
+    "family_name": "食蜂",
+    "family_name_kr": "쇼쿠호",
+    "family_name_ruby": "しょくほう",
+    "id": "ShokuhouMisaki",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH9997",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH9997_Collection"
+    ],
+    "personal_name": "操祈",
+    "personal_name_kr": "미사키"
   },
   {
     "aka": [],

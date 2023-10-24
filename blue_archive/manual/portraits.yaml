@@ -198,10 +198,6 @@
   - NPC_Portrait_Yustina_SR1
   - NPC_Portrait_NP0137
   id: npc_yustina
-- name: 初音ミク
-  images:
-  - Student_Portrait_CH9999
-  id: hatsune_miku
 - name: 女将
   images:
   - NPC_Portrait_NP0086
