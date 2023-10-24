@@ -48,6 +48,7 @@ class CharData:
     personal_name_kr: str
     image_files: list[str]
     aka: list[str]
+    personal_name_ruby: str
 
 
 @dataclass

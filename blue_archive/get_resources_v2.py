@@ -23,7 +23,10 @@ def get_legacy_image_mappings() -> dict[str, str]:
 def get_default_lang_data(data: CharData) -> CharLangData:
     if len(data.family_name) > 0:
         jp_name = f"{data.family_name} {data.personal_name}"
-        en_name = f"{name_to_id(data.family_name_ruby)} {data.id}"
+        if len(data.personal_name_ruby) > 0:
+            en_name = f"{name_to_id(data.family_name_ruby)} {name_to_id(data.personal_name_ruby)}"
+        else:
+            en_name = f"{name_to_id(data.family_name_ruby)} {data.id}"
         kr_name = f"{data.family_name_kr} {data.personal_name_kr}".strip()
     else:
         jp_name = data.personal_name
@@ -82,7 +85,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 trans = translations[cid]
                 default_ja_name = default_trans.name["ja"]
                 # Japanese name updates when family names are known
-                if trans.name["ja"] != default_ja_name:
+                if trans.name["ja"] != default_ja_name and trans.name["ja"] != "初音ミク":
                     print(f"Update name: {default_ja_name}")
                     for lang in ["ja", "en"]:
                         trans.name[lang] = default_trans.name[lang]

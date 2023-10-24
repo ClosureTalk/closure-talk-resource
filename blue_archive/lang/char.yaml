@@ -818,6 +818,13 @@
     ko: 야스모리 미노리
     zh-cn: 安守 实梨
     zh-tw: 安守 實里
+- id: MisakaMikoto
+  name:
+    en: Misaka Mikoto
+    ja: 御坂 美琴
+    ko: 미사카 미코토
+    zh-cn: 御坂 美琴
+    zh-tw: 御坂 美琴
 - id: Misaki
   name:
     en: Imashino Misaki
@@ -1130,6 +1137,14 @@
     ko: 조마에 사오리
     zh-cn: 锭前 沙织
     zh-tw: 錠前 沙織
+- id: SatenRuiko
+  name:
+    en: Saten Ruiko
+    ja: 佐天 涙子
+    ko: 사텐 루이코
+    zh-cn: 佐天 泪子
+    zh-tw: 佐天 淚子
+  short_name: null
 - id: Satsuki
   name:
     en: Satsuki
@@ -1223,6 +1238,14 @@
     ko: 카와와 시즈코
     zh-cn: 河和 静子
     zh-tw: 河和 靜子
+- id: ShokuhouMisaki
+  name:
+    en: Shokuhou Misaki
+    ja: 食蜂 操祈
+    ko: 쇼쿠호 미사키
+    zh-cn: 食蜂 操祈
+    zh-tw: 食蜂 操祈
+  short_name: null
 - id: Shun
   name:
     en: Sunohara Shun

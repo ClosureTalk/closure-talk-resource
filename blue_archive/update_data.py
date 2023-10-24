@@ -184,6 +184,7 @@ def main():
                 prof.PersonalNameKr,
                 [],
                 [],
+                prof.PersonalNameRubyJp,
             )
             result.append(char)
             result_map[key] = char
@@ -227,6 +228,7 @@ def main():
                     "",
                     [img],
                     [],
+                    "",
                 )
                 result.append(char)
                 result_map[key] = char
@@ -256,6 +258,7 @@ def main():
             "",
             list(set(itertools.chain(*(c.image_files for c in chars)))),
             [],
+            "",
         )
         result.append(char)
         result_map[char.id] = char
@@ -281,6 +284,7 @@ def main():
             "",
             [file],
             [],
+            "",
         )
         result.append(char)
         result_map[file] = file
