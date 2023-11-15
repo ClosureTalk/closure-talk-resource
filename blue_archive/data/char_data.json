@@ -116,6 +116,7 @@
   },
   {
     "aka": [
+      "お祭り委員",
       "ウェイター",
       "カイザーの営業マン",
       "カフェのオーナー",
@@ -198,6 +199,20 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0032"
     ],
     "personal_name": "アオイ",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "Arata",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0236"
+    ],
+    "personal_name": "アラタ",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },
@@ -297,6 +312,8 @@
       "PMC幹部",
       "オートマタ兵士A",
       "オートマタ兵士B",
+      "チンピラA",
+      "チンピラB",
       "デカグラマトンオートマタ",
       "ブラックストーン傭兵",
       "ロボット",
@@ -559,6 +576,7 @@
   {
     "aka": [
       "「海の家」の店主",
+      "お祭り審査委員",
       "お節丸社長",
       "かわいそうな客A",
       "かわいそうな市民",
@@ -1201,6 +1219,25 @@
     "personal_name_ruby": ""
   },
   {
+    "aka": [
+      "百鬼夜行サークル部員A",
+      "百鬼夜行サークル部員B"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "Hyakkiyako_Club_Member",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0149",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0150",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0156"
+    ],
+    "personal_name": "百鬼夜行サークル部員",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
     "aka": [],
     "char_id": -1,
     "family_name": "",
@@ -1557,6 +1594,20 @@
     ],
     "personal_name": "カズサ",
     "personal_name_kr": "카즈사",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "桐生",
+    "family_name_kr": "",
+    "family_name_ruby": "きりゅう",
+    "id": "Kikyou",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0225"
+    ],
+    "personal_name": "キキョウ",
+    "personal_name_kr": "",
     "personal_name_ruby": ""
   },
   {
@@ -2167,6 +2218,7 @@
   {
     "aka": [
       "冷たそうな少女",
+      "百花繚乱部員",
       "？？？"
     ],
     "char_id": -1,
@@ -2421,6 +2473,7 @@
       "会場のお客さんA",
       "商人C",
       "商会長",
+      "工芸品店の店主",
       "待っている客B",
       "怪しい客",
       "成金ゲスト",
@@ -2627,6 +2680,20 @@
     ],
     "personal_name": "レイサ",
     "personal_name_kr": "레이사",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "不破",
+    "family_name_kr": "",
+    "family_name_ruby": "ふわ",
+    "id": "Renge",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0224"
+    ],
+    "personal_name": "レンゲ",
+    "personal_name_kr": "",
     "personal_name_ruby": ""
   },
   {
@@ -3196,7 +3263,9 @@
     "personal_name_ruby": ""
   },
   {
-    "aka": [],
+    "aka": [
+      "使用人"
+    ],
     "char_id": -1,
     "family_name": "",
     "family_name_kr": "",
@@ -3570,6 +3639,22 @@
     ],
     "personal_name": "ヨシミ",
     "personal_name_kr": "요시미",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": 10081,
+    "family_name": "勘解由小路",
+    "family_name_kr": "카데노코지",
+    "family_name_ruby": "かでのこうじ",
+    "id": "Yukari",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0147",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0161",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0161_Collection"
+    ],
+    "personal_name": "ユカリ",
+    "personal_name_kr": "유카리",
     "personal_name_ruby": ""
   },
   {

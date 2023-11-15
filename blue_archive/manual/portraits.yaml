@@ -288,3 +288,9 @@
   images:
   - NPC_Portrait_NP0143
   id: BlackMarket_Member
+- name: 百鬼夜行サークル部員
+  images:
+  - NPC_Portrait_NP0150
+  - NPC_Portrait_NP0149
+  - NPC_Portrait_NP0156
+  id: Hyakkiyako_Club_Member

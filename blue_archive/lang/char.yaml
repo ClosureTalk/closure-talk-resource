@@ -61,6 +61,14 @@
     ko: ''
     zh-cn: 扇喜 葵
     zh-tw: 扇喜 葵
+- id: Arata
+  name:
+    en: Arata
+    ja: アラタ
+    ko: ''
+    zh-cn: 新
+    zh-tw: 新
+  short_name: null
 - id: arius_student
   name:
     en: Arius Student
@@ -457,6 +465,14 @@
     ko: 타카나시 호시노
     zh-cn: 小鸟游 星野
     zh-tw: 小鳥游 星野
+- id: Hyakkiyako_Club_Member
+  name:
+    en: Hyakkiyako Club Member
+    ja: 百鬼夜行サークル部員
+    ko: ''
+    zh-cn: 百鬼夜行社团部员
+    zh-tw: 百鬼夜行社團部員
+  short_name: null
 - id: Ibuki
   name:
     en: Ibuki
@@ -620,6 +636,14 @@
     ko: 쿄야마 카즈사
     zh-cn: 杏山 和纱
     zh-tw: 杏山 千紗
+- id: Kikyou
+  name:
+    en: Kiryuu Kikyou
+    ja: 桐生 キキョウ
+    ko: ''
+    zh-cn: 桐生 桔梗
+    zh-tw: 桐生 桔梗
+  short_name: null
 - id: Kirara
   name:
     en: Kirara
@@ -1086,6 +1110,14 @@
     ko: 우자와 레이사
     zh-cn: 宇泽 玲纱
     zh-tw: 宇澤 澪紗
+- id: Renge
+  name:
+    en: Fuwa Renge
+    ja: 不破 レンゲ
+    ko: ''
+    zh-cn: 不破 莲华
+    zh-tw: 不破 蓮華
+  short_name: null
 - id: Rin
   name:
     en: Nanagami Rin
@@ -1478,6 +1510,14 @@
     ko: 이바라기 요시미
     zh-cn: 伊原木 好美
     zh-tw: 伊原木 喜美
+- id: Yukari
+  name:
+    en: Kadenokouji Yukari
+    ja: 勘解由小路 ユカリ
+    ko: 카데노코지 유카리
+    zh-cn: 勘解由小路 紫
+    zh-tw: 勘解由小路 紫
+  short_name: null
 - id: Yukino
   name:
     en: Shichido Yukino
