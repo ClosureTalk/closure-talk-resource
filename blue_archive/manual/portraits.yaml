@@ -294,3 +294,11 @@
   - NPC_Portrait_NP0149
   - NPC_Portrait_NP0156
   id: Hyakkiyako_Club_Member
+- name: 幻魎百物語
+  images:
+  - NPC_Portrait_NP0160
+  id: genryou_hyakumonogatari
+- name: 無貌の形代
+  images:
+  - NPC_Portrait_NP0163
+  id: mubou_katashiro

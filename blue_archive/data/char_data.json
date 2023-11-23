@@ -162,6 +162,7 @@
       "社長",
       "競売人",
       "職員",
+      "観光客A",
       "謎のパティシエ",
       "講師",
       "警備員",
@@ -601,6 +602,8 @@
       "商人A",
       "商人B",
       "商店の主人",
+      "商店街の住人A",
+      "商店街の住人B",
       "善良な市民",
       "地域商人会の青年",
       "地域商人会長",
@@ -855,6 +858,20 @@
       "UIs/01_Common/01_Character/NPC_Portrait_GenbuStore_SG"
     ],
     "personal_name": "玄武商会のメンバー",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "genryou_hyakumonogatari",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0160"
+    ],
+    "personal_name": "幻魎百物語",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },
@@ -1220,6 +1237,9 @@
   },
   {
     "aka": [
+      "百鬼夜行の生徒A",
+      "百鬼夜行の生徒B",
+      "百鬼夜行の生徒C",
       "百鬼夜行サークル部員A",
       "百鬼夜行サークル部員B"
     ],
@@ -1598,16 +1618,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
+    "char_id": 10083,
     "family_name": "桐生",
-    "family_name_kr": "",
+    "family_name_kr": "키류",
     "family_name_ruby": "きりゅう",
     "id": "Kikyou",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0225"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0225",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0225_Collection"
     ],
     "personal_name": "キキョウ",
-    "personal_name_kr": "",
+    "personal_name_kr": "키쿄",
     "personal_name_ruby": ""
   },
   {
@@ -1683,6 +1704,20 @@
     ],
     "personal_name": "ココナ",
     "personal_name_kr": "코코나",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "Kokuriko",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0226"
+    ],
+    "personal_name": "コクリコ",
+    "personal_name_kr": "",
     "personal_name_ruby": ""
   },
   {
@@ -2185,6 +2220,20 @@
   },
   {
     "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "mubou_katashiro",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0163"
+    ],
+    "personal_name": "無貌の形代",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
     "char_id": 13006,
     "family_name": "浅黄",
     "family_name_kr": "아사기",
@@ -2482,6 +2531,7 @@
       "猫田",
       "管理人",
       "老人",
+      "観光客B",
       "通行人A",
       "鏡もち伯爵"
     ],
@@ -2684,16 +2734,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
+    "char_id": 10082,
     "family_name": "不破",
-    "family_name_kr": "",
+    "family_name_kr": "후와",
     "family_name_ruby": "ふわ",
     "id": "Renge",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0224"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0224",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0224_Collection"
     ],
     "personal_name": "レンゲ",
-    "personal_name_kr": "",
+    "personal_name_kr": "렌게",
     "personal_name_ruby": ""
   },
   {
@@ -3080,6 +3131,22 @@
     ],
     "personal_name": "シュン",
     "personal_name_kr": "슌",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [
+      "？？？"
+    ],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "Shuro",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0227"
+    ],
+    "personal_name": "シュロ",
+    "personal_name_kr": "",
     "personal_name_ruby": ""
   },
   {
@@ -3650,6 +3717,7 @@
     "id": "Yukari",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0147",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0148",
       "UIs/01_Common/01_Character/Student_Portrait_CH0161",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0161_Collection"
     ],

@@ -319,6 +319,14 @@
     zh-tw: 玄武商會成員
   short_name:
     en: Genbustore Member
+- id: genryou_hyakumonogatari
+  name:
+    en: Genryou Hyakumonogatari
+    ja: 幻魎百物語
+    ko: ''
+    zh-cn: 幻魉百物语
+    zh-tw: 幻魎百物語
+  short_name: null
 - id: genryuumon_student
   name:
     en: Genryuumon Student
@@ -679,6 +687,14 @@
     ko: 스노하라 코코나
     zh-cn: 春原 心奈
     zh-tw: 春原 心菜
+- id: Kokuriko
+  name:
+    en: Kokuriko
+    ja: コクリコ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Kotama
   name:
     en: Otose Kotama
@@ -898,6 +914,14 @@
     ko: ''
     zh-cn: 由良木 桃香
     zh-tw: 由良木 桃香
+- id: mubou_katashiro
+  name:
+    en: Mubou Katashiro
+    ja: 無貌の形代
+    ko: ''
+    zh-cn: 无貌的人偶
+    zh-tw: 無貌的人偶
+  short_name: null
 - id: Mutsuki
   name:
     en: Asagi Mutsuki
@@ -1285,6 +1309,14 @@
     ko: 스노하라 슌
     zh-cn: 春原 瞬
     zh-tw: 春原 旬
+- id: Shuro
+  name:
+    en: Shuro
+    ja: シュロ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Sisterhood
   name:
     en: Sisterhood
