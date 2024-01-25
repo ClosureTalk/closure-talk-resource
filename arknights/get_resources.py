@@ -15,7 +15,8 @@ from utils.web_utils import download_json
 
 use_local_tables = False
 script_dir = Path(__file__).parent
-github_repo = "Kengxxiao/ArknightsGameData"
+github_repo_cn = "Kengxxiao/ArknightsGameData"
+github_repo_intl = "Kengxxiao/ArknightsGameData_YoStar"
 
 langs = ["zh-cn", "ja", "en", "ko", "zh-tw"]
 lang_keys = {
@@ -42,7 +43,10 @@ def get_github_versions() -> dict[str, str]:
         "EN": "us",
     }
     result = {}
-    commits = requests.get(f"https://api.github.com/repos/{github_repo}/commits").json()
+    commits = (
+        requests.get(f"https://api.github.com/repos/{github_repo_intl}/commits").json() +
+        requests.get(f"https://api.github.com/repos/{github_repo_cn}/commits").json()
+    )
     for commit in commits:
         msg = commit["commit"]["message"]
         for key, lang in update_res_keys.items():
@@ -88,7 +92,9 @@ class ArknightsResourceProcessor(ResourceProcessor):
                     table = read_json(local_file, None)
                 else:
                     logging.info(f"Download {lang} table {name}")
-                    url = f"https://github.com/{github_repo}/blob/master/{lang_keys[lang]}/gamedata/excel/{name}?raw=true"
+                    github_repo = github_repo_cn if lang == "zh-cn" else github_repo_intl
+                    github_branch = "master" if lang == "zh-cn" else "main"
+                    url = f"https://github.com/{github_repo}/blob/{github_branch}/{lang_keys[lang]}/gamedata/excel/{name}?raw=true"
                     table = download_json(url)
 
                 if "enemyData" in table:
