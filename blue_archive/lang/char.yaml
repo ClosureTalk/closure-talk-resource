@@ -1,3 +1,11 @@
+- id: ain
+  name:
+    en: Ain
+    ja: アイン
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Airi
   name:
     en: Kurimura Airi
@@ -483,8 +491,8 @@
   short_name: null
 - id: Ibuki
   name:
-    en: Ibuki
-    ja: イブキ
+    en: Tanga Ibuki
+    ja: 丹花 イブキ
     ko: ''
     zh-cn: 伊吹
     zh-tw: 伊吹
@@ -1060,6 +1068,14 @@
     ko: ''
     zh-cn: 音葵
     zh-tw: 音葵
+- id: ouru
+  name:
+    en: Ouru
+    ja: オウル
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: pandemonium_student
   name:
     en: Pandemonium Student
@@ -1324,6 +1340,14 @@
     ko: ''
     zh-cn: 修女会
     zh-tw: 修女會
+- id: sofu
+  name:
+    en: Sofu
+    ja: ソフ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Sora
   name:
     en: Sora

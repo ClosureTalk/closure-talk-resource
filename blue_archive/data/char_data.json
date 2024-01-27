@@ -1,6 +1,20 @@
 [
   {
     "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "ain",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0129"
+    ],
+    "personal_name": "アイン",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
     "char_id": 23000,
     "family_name": "栗村",
     "family_name_kr": "쿠리무라",
@@ -74,7 +88,9 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0019",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0111",
       "UIs/01_Common/01_Character/Student_Portrait_Ako",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Ako_Collection"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0231",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Ako_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0231_Collection"
     ],
     "personal_name": "アコ",
     "personal_name_kr": "아코",
@@ -535,6 +551,7 @@
     "id": "Chihiro",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0160",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0234",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0160_Collection"
     ],
     "personal_name": "チヒロ",
@@ -733,6 +750,7 @@
     "family_name_ruby": "いずみもと",
     "id": "Eimi",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0219",
       "UIs/01_Common/01_Character/Student_Portrait_Eimi",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Eimi_Collection"
     ],
@@ -972,7 +990,9 @@
     "family_name_ruby": "おまがり",
     "id": "Hare",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0233",
       "UIs/01_Common/01_Character/Student_Portrait_Hare",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0233_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hare_Collection"
     ],
     "personal_name": "ハレ",
@@ -1144,6 +1164,7 @@
     "id": "Himari",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0112",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0161",
       "UIs/01_Common/01_Character/Student_Portrait_CH0159",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0159_Collection"
     ],
@@ -1162,8 +1183,10 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0009",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0017",
       "UIs/01_Common/01_Character/Student_Portrait_CH0063",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0230",
       "UIs/01_Common/01_Character/Student_Portrait_Hina",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0063_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0230_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Hina_Collection"
     ],
     "personal_name": "ヒナ",
@@ -1251,7 +1274,9 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0149",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0150",
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0156"
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0152",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0156",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0157"
     ],
     "personal_name": "百鬼夜行サークル部員",
     "personal_name_kr": "",
@@ -1259,16 +1284,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_kr": "",
-    "family_name_ruby": "",
+    "char_id": 16014,
+    "family_name": "丹花",
+    "family_name_kr": "탄가",
+    "family_name_ruby": "たんが",
     "id": "Ibuki",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_Ibuki"
+      "UIs/01_Common/01_Character/Student_Portrait_Ibuki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Ibuki_Collection"
     ],
     "personal_name": "イブキ",
-    "personal_name_kr": "",
+    "personal_name_kr": "이부키",
     "personal_name_ruby": ""
   },
   {
@@ -1728,7 +1754,9 @@
     "family_name_ruby": "おとせ",
     "id": "Kotama",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0232",
       "UIs/01_Common/01_Character/Student_Portrait_Kotama",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0232_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kotama_Collection"
     ],
     "personal_name": "コタマ",
@@ -1849,6 +1877,7 @@
     "family_name_ruby": "こぬり",
     "id": "Maki",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0235",
       "UIs/01_Common/01_Character/Student_Portrait_Maki",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Maki_Collection"
     ],
@@ -1858,16 +1887,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
+    "char_id": 20033,
     "family_name": "羽沼",
-    "family_name_kr": "",
+    "family_name_kr": "하누마",
     "family_name_ruby": "はぬま",
     "id": "Makoto",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0079"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0079",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0079_Collection"
     ],
     "personal_name": "マコト",
-    "personal_name_kr": "",
+    "personal_name_kr": "마코토",
     "personal_name_ruby": ""
   },
   {
@@ -2581,6 +2611,20 @@
     "personal_name_ruby": ""
   },
   {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "ouru",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0131"
+    ],
+    "personal_name": "オウル",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
     "aka": [
       "ゲヘナ寮長",
       "万魔殿の部員A",
@@ -3170,6 +3214,20 @@
       "UIs/01_Common/01_Character/NPC_Portrait_NP0025"
     ],
     "personal_name": "シスターフッド",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "sofu",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0130"
+    ],
+    "personal_name": "ソフ",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },

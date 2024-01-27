@@ -19,7 +19,33 @@
 - name: チナツ
   images:
     - UIs/01_Common/14_CharacterCollect/Student_Portrait_Chinatsu_Collection
-    - Student_Portrait_Yuuka_Small
+- name: エイミ
+  images:
+    - Student_Portrait_CH0219
+- name: ヒナ
+  images:
+    - Student_Portrait_CH0230
+- name: アコ
+  images:
+    - Student_Portrait_CH0231
+- name: コタマ
+  images:
+    - Student_Portrait_CH0232
+- name: ハレ
+  images:
+    - Student_Portrait_CH0233
+- name: チヒロ
+  images:
+    - Student_Portrait_CH0234
+- name: チヒロ
+  images:
+    - Student_Portrait_CH0234
+- name: マキ
+  images:
+    - Student_Portrait_CH0235
+- name: ヒマリ
+  images:
+    - NPC_Portrait_NP0161
 
 - name: ？？？？
   id: special_error
@@ -291,8 +317,10 @@
 - name: 百鬼夜行サークル部員
   images:
   - NPC_Portrait_NP0150
+  - NPC_Portrait_NP0152
   - NPC_Portrait_NP0149
   - NPC_Portrait_NP0156
+  - NPC_Portrait_NP0157
   id: Hyakkiyako_Club_Member
 - name: 幻魎百物語
   images:
@@ -302,3 +330,15 @@
   images:
   - NPC_Portrait_NP0163
   id: mubou_katashiro
+- name: アイン
+  images:
+  - NPC_Portrait_NP0129
+  id: ain
+- name: ソフ
+  images:
+  - NPC_Portrait_NP0130
+  id: sofu
+- name: オウル
+  images:
+  - NPC_Portrait_NP0131
+  id: ouru
