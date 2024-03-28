@@ -68,6 +68,7 @@ def generate_manual_data(result: list[CharData]):
 
         if is_student:
             manual_profiles.append(OmegaConf.structured(ManualProfile("", "", char.personal_name)))
+            manual_portraits.append(OmegaConf.structured(ManualPortrait("", [char.personal_name], "")))
         else:
             images = [f.split("/")[-1] if f.startswith("UIs/01_Common/01_Character") else f for f in char.image_files]
             manual_portraits.append(OmegaConf.structured(ManualPortrait(

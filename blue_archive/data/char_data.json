@@ -55,7 +55,8 @@
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Akari",
       "UIs/01_Common/01_Character/Student_Portrait_CH0196",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Akari_Collection"
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Akari_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0196_Collection"
     ],
     "personal_name": "アカリ",
     "personal_name_kr": "아카리",
@@ -213,7 +214,8 @@
     "family_name_ruby": "おき",
     "id": "Aoi",
     "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0032"
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0032",
+      "UIs/01_Common/14_CharacterCollect/NPC_Portrait_NP0032_Collection"
     ],
     "personal_name": "アオイ",
     "personal_name_kr": "",
@@ -277,8 +279,10 @@
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_Aru",
       "UIs/01_Common/01_Character/Student_Portrait_Aru_Newyear",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0240",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Aru_Collection",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Aru_Newyear_Collection"
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Aru_Newyear_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0240_Collection"
     ],
     "personal_name": "アル",
     "personal_name_kr": "아루",
@@ -436,6 +440,20 @@
     "family_name": "",
     "family_name_kr": "",
     "family_name_ruby": "",
+    "id": "basement_dweller",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0165"
+    ],
+    "personal_name": "地下生活者",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
     "id": "beatrice",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0029"
@@ -539,6 +557,20 @@
       "UIs/02_Tactics/06_Raid/Portrait_Raidboss_Chesed"
     ],
     "personal_name": "ケセド",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "元宮",
+    "family_name_kr": "",
+    "family_name_ruby": "もとみや",
+    "id": "Chiaki",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0238"
+    ],
+    "personal_name": "チアキ",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },
@@ -710,6 +742,20 @@
       "UIs/01_Common/01_Character/NPC_Portrait_Fuuki_Normal1"
     ],
     "personal_name": "風紀委員",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "don_arancino",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0180"
+    ],
+    "personal_name": "ドン・アランチーノ",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },
@@ -1008,6 +1054,8 @@
     "id": "Haruka",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0087",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0247",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0249",
       "UIs/01_Common/01_Character/Student_Portrait_Haruka",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0087_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Haruka_Collection"
@@ -1182,6 +1230,7 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0009",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0017",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0205",
       "UIs/01_Common/01_Character/Student_Portrait_CH0063",
       "UIs/01_Common/01_Character/Student_Portrait_CH0230",
       "UIs/01_Common/01_Character/Student_Portrait_Hina",
@@ -1248,6 +1297,8 @@
     "id": "Hoshino",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0063",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0167",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0241",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino_Robber",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino_swimsuit",
@@ -1290,6 +1341,7 @@
     "family_name_ruby": "たんが",
     "id": "Ibuki",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0254",
       "UIs/01_Common/01_Character/Student_Portrait_Ibuki",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Ibuki_Collection"
     ],
@@ -1456,6 +1508,7 @@
     "family_name_ruby": "いさみ",
     "id": "Kaede",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0256",
       "UIs/01_Common/01_Character/Student_Portrait_Kaede",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kaede_Collection"
     ],
@@ -1619,8 +1672,10 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0118",
       "UIs/01_Common/01_Character/Student_Portrait_CH0086",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0239",
       "UIs/01_Common/01_Character/Student_Portrait_Kayoko",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0086_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0239_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kayoko_Collection"
     ],
     "personal_name": "カヨコ",
@@ -1858,6 +1913,20 @@
   {
     "aka": [],
     "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "mafia",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0181"
+    ],
+    "personal_name": "マフィア",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
     "family_name": "風巻",
     "family_name_kr": "",
     "family_name_ruby": "かざまき",
@@ -1894,6 +1963,7 @@
     "id": "Makoto",
     "image_files": [
       "UIs/01_Common/01_Character/Student_Portrait_CH0079",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0253",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0079_Collection"
     ],
     "personal_name": "マコト",
@@ -2270,6 +2340,8 @@
     "family_name_ruby": "あさぎ",
     "id": "Mutsuki",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0246",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0248",
       "UIs/01_Common/01_Character/Student_Portrait_Mutsuki",
       "UIs/01_Common/01_Character/Student_Portrait_Mutsuki_Newyear",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Mutsuki_Collection",
@@ -2696,6 +2768,7 @@
     "family_name_ruby": "あさひな",
     "id": "Pina",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0257",
       "UIs/01_Common/01_Character/Student_Portrait_Pina",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Pina_Collection"
     ],
@@ -2713,7 +2786,8 @@
     "family_name_ruby": "",
     "id": "Purana",
     "image_files": [
-      "UIs/01_Common/01_Character/NPC_Portrait_NP0035"
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0035",
+      "UIs/01_Common/14_CharacterCollect/NPC_Portrait_NP0035_Collection"
     ],
     "personal_name": "プラナ",
     "personal_name_kr": "",
@@ -2744,6 +2818,20 @@
       "UIs/01_Common/01_Character/Student_Portrait_CH0166"
     ],
     "personal_name": "ラブ",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "野正",
+    "family_name_kr": "",
+    "family_name_ruby": "のまさ",
+    "id": "Rei",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0245"
+    ],
+    "personal_name": "レイ",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },
@@ -2789,6 +2877,20 @@
     ],
     "personal_name": "レンゲ",
     "personal_name_kr": "렌게",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "rickshaw_student",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0182"
+    ],
+    "personal_name": "人力車の生徒",
+    "personal_name_kr": "",
     "personal_name_ruby": ""
   },
   {
@@ -2904,6 +3006,8 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0012",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0103",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0164",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0259",
       "UIs/01_Common/01_Character/Student_Portrait_Saori",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Saori_Collection"
     ],
@@ -3564,7 +3668,9 @@
     "family_name_ruby": "かすが",
     "id": "Tsubaki",
     "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0255",
       "UIs/01_Common/01_Character/Student_Portrait_Tsubaki",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0255_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Tsubaki_Collection"
     ],
     "personal_name": "ツバキ",
@@ -3622,16 +3728,17 @@
   },
   {
     "aka": [],
-    "char_id": -1,
-    "family_name": "",
-    "family_name_kr": "",
-    "family_name_ruby": "",
+    "char_id": 10090,
+    "family_name": "里浜",
+    "family_name_kr": "사토하마",
+    "family_name_ruby": "さとはま",
     "id": "Umika",
     "image_files": [
-      "UIs/01_Common/01_Character/Student_Portrait_CH0110"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0110",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0110_Collection"
     ],
     "personal_name": "ウミカ",
-    "personal_name_kr": "",
+    "personal_name_kr": "우미카",
     "personal_name_ruby": ""
   },
   {
@@ -3794,6 +3901,21 @@
       "UIs/01_Common/01_Character/Student_Portrait_CH0171"
     ],
     "personal_name": "ユキノ",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "",
+    "family_name_kr": "",
+    "family_name_ruby": "",
+    "id": "Yume",
+    "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0166",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0157"
+    ],
+    "personal_name": "ユメ",
     "personal_name_kr": "",
     "personal_name_ruby": ""
   },

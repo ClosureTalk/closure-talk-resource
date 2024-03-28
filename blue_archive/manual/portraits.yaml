@@ -25,6 +25,7 @@
 - name: ヒナ
   images:
     - Student_Portrait_CH0230
+    - NPC_Portrait_NP0205
 - name: アコ
   images:
     - Student_Portrait_CH0231
@@ -46,6 +47,53 @@
 - name: ヒマリ
   images:
     - NPC_Portrait_NP0161
+- name: ユメ
+  images:
+  - Student_Portrait_CH0157
+  - NPC_Portrait_NP0166
+- name: チアキ
+  images:
+  - Student_Portrait_CH0238
+- name: カヨコ
+  images:
+  - Student_Portrait_CH0239
+- name: アル
+  images:
+  - Student_Portrait_CH0240
+- name: ホシノ
+  images:
+  - Student_Portrait_CH0241
+  - NPC_Portrait_NP0167
+- name: レイ
+  images:
+  - Student_Portrait_CH0245
+- name: ムツキ
+  images:
+  - Student_Portrait_CH0246
+  - Student_Portrait_CH0248
+- name: ハルカ
+  images:
+  - Student_Portrait_CH0247
+  - Student_Portrait_CH0249
+- name: マコト
+  images:
+  - Student_Portrait_CH0253
+- name: イブキ
+  images:
+  - Student_Portrait_CH0254
+- name: ツバキ
+  images:
+  - Student_Portrait_CH0255
+- name: カエデ
+  images:
+  - Student_Portrait_CH0256
+- name: フィーナ
+  images:
+  - Student_Portrait_CH0257
+- name: サオリ
+  images:
+  - Student_Portrait_CH0259
+  - NPC_Portrait_NP0164
 
 - name: ？？？？
   id: special_error
@@ -342,3 +390,19 @@
   images:
   - NPC_Portrait_NP0131
   id: ouru
+- name: 地下生活者
+  images:
+  - NPC_Portrait_NP0165
+  id: basement_dweller
+- name: ドン・アランチーノ
+  images:
+  - NPC_Portrait_NP0180
+  id: don_arancino
+- name: マフィア
+  images:
+  - NPC_Portrait_NP0181
+  id: mafia
+- name: 人力車の生徒
+  images:
+  - NPC_Portrait_NP0182
+  id: rickshaw_student

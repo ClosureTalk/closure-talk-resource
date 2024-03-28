@@ -149,6 +149,14 @@
     ko: ''
     zh-cn: 芭芭拉
     zh-tw: 芭芭拉
+- id: basement_dweller
+  name:
+    en: Basement Dweller
+    ja: 地下生活者
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: beatrice
   name:
     en: Beatrice
@@ -203,6 +211,14 @@
     ko: ''
     zh-cn: 凯塞德
     zh-tw: 凱塞德
+- id: Chiaki
+  name:
+    en: Motomiya Chiaki
+    ja: 元宮 チアキ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Chihiro
   name:
     en: Kagami Chihiro
@@ -249,6 +265,14 @@
     zh-tw: 風紀委員
   short_name:
     en: Disciplinary Committee Member
+- id: don_arancino
+  name:
+    en: Don Arancino
+    ja: ドン・アランチーノ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: drum_container
   name:
     en: Steel Drum
@@ -752,6 +776,14 @@
     ko: ''
     zh-cn: Maestro
     zh-tw: Maestro
+- id: mafia
+  name:
+    en: Mafia
+    ja: マフィア
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Mai
   name:
     en: Kazamaki Mai
@@ -1136,6 +1168,14 @@
     ko: ''
     zh-cn: ''
     zh-tw: ''
+- id: Rei
+  name:
+    en: Nomasa Rei
+    ja: 野正 レイ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Reijo
   name:
     en: Kayama Reijo
@@ -1157,6 +1197,14 @@
     ko: ''
     zh-cn: 不破 莲华
     zh-tw: 不破 蓮華
+  short_name: null
+- id: rickshaw_student
+  name:
+    en: Rickshaw Student
+    ja: 人力車の生徒
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
   short_name: null
 - id: Rin
   name:
@@ -1514,8 +1562,8 @@
     zh-tw: 古関 憂
 - id: Umika
   name:
-    en: Umika
-    ja: ウミカ
+    en: Satohama Umika
+    ja: 里浜 ウミカ
     ko: ''
     zh-cn: ''
     zh-tw: ''
@@ -1581,6 +1629,14 @@
     ko: ''
     zh-cn: 七度 雪乃
     zh-tw: 七度 雪乃
+- id: Yume
+  name:
+    en: Yume
+    ja: ユメ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Yuuka
   name:
     en: Hayase Yuuka
