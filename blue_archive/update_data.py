@@ -14,16 +14,19 @@ from utils.json_utils import read_json, write_list
 def add_manual_data(profiles: list[LocalizeCharProfile], portrait_images: defaultdict[str, set[str]]):
     root = Path(__file__).parent / "manual"
     manual_profiles: list[ManualProfile] = OmegaConf.load(root / "profiles.yaml")
+    profile_names = set((prof.PersonalNameJp for prof in profiles))
+
     for prof in manual_profiles:
         assert prof.personal_name is not None and len(prof.personal_name) > 0
+        if prof.personal_name in profile_names:
+            continue
         profiles.append(LocalizeCharProfile(
             -1,
             prof.family_name or "",
             prof.family_name_ruby or "",
             prof.personal_name,
         ))
-
-    profile_names = set((prof.PersonalNameJp for prof in profiles))
+        profile_names.add(prof.personal_name)
 
     manual_portraits: list[ManualPortrait] = OmegaConf.load(root / "portraits.yaml")
     for portrait in manual_portraits:

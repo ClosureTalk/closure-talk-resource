@@ -21,8 +21,11 @@
     "family_name_ruby": "くりむら",
     "id": "Airi",
     "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0189",
       "UIs/01_Common/01_Character/Student_Portrait_Airi",
-      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Airi_Collection"
+      "UIs/01_Common/01_Character/Student_Portrait_CH0251",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_Airi_Collection",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0251_Collection"
     ],
     "personal_name": "アイリ",
     "personal_name_kr": "아이리",
@@ -1205,6 +1208,20 @@
   },
   {
     "aka": [],
+    "char_id": -1,
+    "family_name": "橘",
+    "family_name_kr": "",
+    "family_name_ruby": "たちばな",
+    "id": "Hikari",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0242"
+    ],
+    "personal_name": "ヒカリ",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
     "char_id": 20020,
     "family_name": "明星",
     "family_name_kr": "아케보시",
@@ -1298,6 +1315,8 @@
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0063",
       "UIs/01_Common/01_Character/NPC_Portrait_NP0167",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0173",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0204",
       "UIs/01_Common/01_Character/Student_Portrait_CH0241",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino",
       "UIs/01_Common/01_Character/Student_Portrait_Hoshino_Robber",
@@ -1690,7 +1709,10 @@
     "family_name_ruby": "きょうやま",
     "id": "Kazusa",
     "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0188",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0250",
       "UIs/01_Common/01_Character/Student_Portrait_Kazusa",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0250_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Kazusa_Collection"
     ],
     "personal_name": "カズサ",
@@ -2406,7 +2428,9 @@
     "family_name_ruby": "ゆとり",
     "id": "Natsu",
     "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0190",
       "UIs/01_Common/01_Character/Student_Portrait_CH0155",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0221",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0155_Collection"
     ],
     "personal_name": "ナツ",
@@ -2501,6 +2525,7 @@
     "id": "Nonomi",
     "image_files": [
       "UIs/01_Common/01_Character/NPC_Portrait_NP0067",
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0171",
       "UIs/01_Common/01_Character/Student_Portrait_CH0092",
       "UIs/01_Common/01_Character/Student_Portrait_Nonomi",
       "UIs/01_Common/01_Character/Student_Portrait_Nonomi_Robber",
@@ -2509,6 +2534,20 @@
     ],
     "personal_name": "ノノミ",
     "personal_name_kr": "노노미",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "橘",
+    "family_name_kr": "",
+    "family_name_ruby": "たちばな",
+    "id": "Nozomi",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0243"
+    ],
+    "personal_name": "ノゾミ",
+    "personal_name_kr": "",
     "personal_name_ruby": ""
   },
   {
@@ -3492,6 +3531,20 @@
     "personal_name_ruby": ""
   },
   {
+    "aka": [],
+    "char_id": -1,
+    "family_name": "朝霧",
+    "family_name_kr": "",
+    "family_name_ruby": "あさぎり",
+    "id": "Suou",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0244"
+    ],
+    "personal_name": "スオウ",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
     "aka": [
       "使用人"
     ],
@@ -3694,6 +3747,20 @@
   },
   {
     "aka": [],
+    "char_id": -1,
+    "family_name": "椎名",
+    "family_name_kr": "",
+    "family_name_ruby": "しいな",
+    "id": "Tsumugi",
+    "image_files": [
+      "UIs/01_Common/01_Character/Student_Portrait_CH0252"
+    ],
+    "personal_name": "ツムギ",
+    "personal_name_kr": "",
+    "personal_name_ruby": ""
+  },
+  {
+    "aka": [],
     "char_id": 10013,
     "family_name": "剣先",
     "family_name_kr": "켄자키",
@@ -3866,7 +3933,10 @@
     "family_name_ruby": "いばらぎ",
     "id": "Yoshimi",
     "image_files": [
+      "UIs/01_Common/01_Character/NPC_Portrait_NP0187",
+      "UIs/01_Common/01_Character/Student_Portrait_CH0220",
       "UIs/01_Common/01_Character/Student_Portrait_Yoshimi",
+      "UIs/01_Common/14_CharacterCollect/Student_Portrait_CH0220_Collection",
       "UIs/01_Common/14_CharacterCollect/Student_Portrait_Yoshimi_Collection"
     ],
     "personal_name": "ヨシミ",

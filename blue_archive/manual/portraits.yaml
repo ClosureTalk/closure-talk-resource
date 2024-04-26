@@ -64,6 +64,8 @@
   images:
   - Student_Portrait_CH0241
   - NPC_Portrait_NP0167
+  - NPC_Portrait_NP0173
+  - NPC_Portrait_NP0204
 - name: レイ
   images:
   - Student_Portrait_CH0245
@@ -94,6 +96,37 @@
   images:
   - Student_Portrait_CH0259
   - NPC_Portrait_NP0164
+- name: ノノミ
+  images:
+  - NPC_Portrait_NP0171
+- name: ヨシミ
+  images:
+  - NPC_Portrait_NP0187
+  - Student_Portrait_CH0220
+- name: カズサ
+  images:
+  - NPC_Portrait_NP0188
+  - Student_Portrait_CH0250
+- name: アイリ
+  images:
+  - NPC_Portrait_NP0189
+  - Student_Portrait_CH0251
+- name: ナツ
+  images:
+  - NPC_Portrait_NP0190
+  - Student_Portrait_CH0221
+- name: ヒカリ
+  images:
+  - Student_Portrait_CH0242
+- name: ノゾミ
+  images:
+  - Student_Portrait_CH0243
+- name: スオウ
+  images:
+  - Student_Portrait_CH0244
+- name: ツムギ
+  images:
+  - Student_Portrait_CH0252
 
 - name: ？？？？
   id: special_error

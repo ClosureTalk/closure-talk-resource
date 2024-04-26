@@ -463,6 +463,14 @@
     ko: 아지타니 히후미
     zh-cn: 阿慈谷 日富美
     zh-tw: 阿慈谷 日步美
+- id: Hikari
+  name:
+    en: Tachibana Hikari
+    ja: 橘 ヒカリ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Himari
   name:
     en: Akeboshi Himari
@@ -1041,6 +1049,14 @@
     ko: 이자요이 노노미
     zh-cn: 十六夜 野宫
     zh-tw: 十六夜 野乃美
+- id: Nozomi
+  name:
+    en: Tachibana Nozomi
+    ja: 橘 ノゾミ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: npc_child
   name:
     en: Child
@@ -1460,6 +1476,14 @@
     ko: ''
     zh-cn: ''
     zh-tw: ''
+- id: Suou
+  name:
+    en: Asagiri Suou
+    ja: 朝霧 スオウ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: suzume_lady
   name:
     en: Suzume Lady
@@ -1546,6 +1570,14 @@
     ko: 오노 츠쿠요
     zh-cn: 大野 月咏
     zh-tw: 大野 月夜
+- id: Tsumugi
+  name:
+    en: Shiina Tsumugi
+    ja: 椎名 ツムギ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Tsurugi
   name:
     en: Kenzaki Tsurugi
