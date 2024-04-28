@@ -37,21 +37,21 @@
     zh-tw: 生活安全局
 - id: countermeasures_council
   name:
-    en: Countermeasures Council # global server -> Foreclosure Task Force
+    en: Foreclosure Task Force
     ja: 対策委員会
     ko: 대책위원회
     zh-cn: 对策委员会
     zh-tw: 對策委員會
 - id: disciplinary_committee
   name:
-    en: Disciplinary Committee # global server -> Prefect Team
+    en: Prefect Team
     ja: 風紀委員会
     ko: 선도부
     zh-cn: 风纪委员会
     zh-tw: 風紀委員會
-- id: emergency_medicine_club # global server -> Medical Emergency Club
+- id: emergency_medicine_club
   name:
-    en: Emergency Medicine Club
+    en: Medical Emergency Club
     ja: 救急医学部
     ko: 구급의학부
     zh-cn: 急救医学部
