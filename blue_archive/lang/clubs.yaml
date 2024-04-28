@@ -2,14 +2,14 @@
   name:
     en: After-School Sweets Club
     ja: 放課後スイーツ部
-    ko: 방과후 스위트부
+    ko: 방과후 디저트부
     zh-cn: 放学后的甜点部
     zh-tw: 放學後的甜點部
 - id: angel_24
   name:
     en: Angel 24
     ja: エンジェル24
-    ko: 엔젤24 편의점
+    ko: 엔젤 24
     zh-cn: 天使24
     zh-tw: 天使24
 - id: arius_squad
@@ -26,6 +26,8 @@
     ko: Cleaning & Clearing
     zh-cn: C&C
     zh-tw: C&C
+  short_name:
+    ko: C&C
 - id: community_safety_bureau
   name:
     en: Community Safety Bureau
@@ -35,19 +37,19 @@
     zh-tw: 生活安全局
 - id: countermeasures_council
   name:
-    en: Countermeasures Council
+    en: Countermeasures Council # global server -> Foreclosure Task Force
     ja: 対策委員会
     ko: 대책위원회
     zh-cn: 对策委员会
     zh-tw: 對策委員會
 - id: disciplinary_committee
   name:
-    en: Disciplinary Committee
+    en: Disciplinary Committee # global server -> Prefect Team
     ja: 風紀委員会
-    ko: 풍기위원회
+    ko: 선도부
     zh-cn: 风纪委员会
     zh-tw: 風紀委員會
-- id: emergency_medicine_club
+- id: emergency_medicine_club # global server -> Medical Emergency Club
   name:
     en: Emergency Medicine Club
     ja: 救急医学部
@@ -65,7 +67,7 @@
   name:
     en: Festival Operations Department
     ja: お祭り運営委員会
-    ko: 축제운영위원회
+    ko: 마츠리운영관리부
     zh-cn: 节庆运营委员会
     zh-tw: 節慶營運管理部
 - id: game_development_department
@@ -93,14 +95,14 @@
   name:
     en: Justice Task Force
     ja: 正義実現委員会
-    ko: 정의실현위원회
+    ko: 정의실현부
     zh-cn: 正义实现委员会
     zh-tw: 實現正義部
 - id: library_committee
   name:
     en: Library Committee
     ja: 図書委員会
-    ko: 도서위원회
+    ko: 도서부
     zh-cn: 图书委员会
     zh-tw: 圖書部
 - id: makeup_work_club
@@ -112,16 +114,16 @@
     zh-tw: 補課部
 - id: masked_swimsuit_group
   name:
-    en: Masked Swimsuit Group
+    en: Masked Swimsuit Gang
     ja: 覆面水着団
-    ko: 복면수영복단
+    ko: 수영복 복면단
     zh-cn: 蒙面泳装团
     zh-tw: 蒙面泳裝團
 - id: ninjutsu_research_department
   name:
     en: Ninjutsu Research Department
     ja: 忍術研究部
-    ko: 인술연구부
+    ko: 인법연구부
     zh-cn: 忍法研究部
     zh-tw: 忍法研究部
 - id: onsen_development_club
@@ -135,23 +137,25 @@
   name:
     en: Pandemonium Society
     ja: 万魔殿
-    ko: 판데모니움 소사이어티
+    ko: 만마전
     zh-cn: 万魔殿
     zh-tw: 萬魔殿
 - id: plum_blossom_garden
   name:
     en: Plum Blossom Garden
     ja: 訓育支援部「梅花園」
-    ko: 훈육지원부 「매화원」
+    ko: "훈육지원부 '매화원'"
     zh-cn: 梅花园
     zh-tw: 梅花園
 - id: prime_student_council
   name:
-    en: Prime Student Council
+    en: General Student Council
     ja: 連邦生徒会
-    ko: 연방학생회
+    ko: 총학생회
     zh-cn: 联邦学生会
     zh-tw: 聯邦學生會
+  short_name:
+    en: GSC
 - id: problem_solver_68
   name:
     en: Problem Solver 68
@@ -171,9 +175,9 @@
     ko: RABBIT 소대
 - id: red_winter_secretariat
   name:
-    en: Red Winter Secretariat
+    en: Red Winter Office
     ja: レッドウィンター事務局
-    ko: 레드윈터 사무국
+    ko: 붉은겨울 사무국
     zh-cn: 赤冬事务局
     zh-tw: 赤冬事務局
 - id: remedial_knights
@@ -187,7 +191,7 @@
   name:
     en: School Lunch Club
     ja: 給食部
-    ko: 급식부
+    ko: 급양부
     zh-cn: 供餐部
     zh-tw: 供給部
 - id: seminar
@@ -222,7 +226,7 @@
   name:
     en: Tea Party
     ja: ティーパーティー
-    ko: 티 파티
+    ko: 티파티
     zh-cn: 茶会
     zh-tw: 茶會
 - id: veritas
