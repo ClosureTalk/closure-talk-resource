@@ -5,6 +5,7 @@
   - Nonomi
   - Serika
   - Shiroko
+  - Yume
 - id: arius
   members:
   - Atsuko
@@ -40,6 +41,7 @@
   - Makoto
   - pandemonium_student
   - Satsuki
+  - Chiaki
 - id: hyakkiyako
   members:
   - Chise
@@ -56,6 +58,13 @@
   - Wakamo
   - Nagusa
   - Umika
+  - Arata
+  - rickshaw_student
+  - Kikyou
+  - Kokuriko
+  - Renge
+  - Shuro
+  - Yukari
 - id: millennium
   members:
   - Akane
@@ -82,6 +91,7 @@
   - millennium_student
   - Rio
   - Toki
+  - Rei
 - id: red_winter
   members:
   - Cherino
@@ -93,6 +103,8 @@
   - Meru
   - Momiji
   - royalguard_student
+  - Takane
+  - Yakumo
 - id: shanhaijing
   members:
   - Kokona
@@ -150,3 +162,22 @@
   - Kanna
   - Kirino
   - valkyrie_student
+- id: kronos
+  members:
+  - Mai
+  - Shinon
+- id: hilander
+  members:
+  - Hikari
+  - Nozomi
+  - Suou
+- id: general_student_council
+  members:
+  - student_council_president
+  - Rin
+  - Momoka
+  - Ayumu
+  - Kaya
+  - Aoi
+  - Haine
+  - Sumomo

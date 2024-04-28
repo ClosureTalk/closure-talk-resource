@@ -55,8 +55,9 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         char_data = read_json(script_dir / "data/char_data.json")
         char_data: list[CharData] = [CharData.from_dict(d) for d in char_data]
 
-        group_data: list[GroupData] = OmegaConf.load(script_dir / "manual/clubs.yaml") + \
-            OmegaConf.load(script_dir / "manual/schools.yaml")
+        club_data: list[GroupData] = OmegaConf.load(script_dir / "manual/clubs.yaml")
+        school_data: list[GroupData] = OmegaConf.load(script_dir / "manual/schools.yaml")
+        group_data = club_data + school_data
 
         with open(script_dir / "lang/char.yaml", "r", encoding="utf-8") as f:
             translations = OmegaConf.load(f)
@@ -70,7 +71,8 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
         image_config = {}
         image_mappings = get_legacy_image_mappings()
         updated_translations = False
-        chars_without_group: list[Character] = []
+        chars_without_school: list[Character] = []
+        chars_without_club: list[Character] = []
 
         for data in char_data:
             cid = data.id
@@ -135,16 +137,21 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
             char.images = sorted(char.images)
             result.append(char)
-            if len(char.searches) == 0:
-                chars_without_group.append(char)
+            if len([gp for gp in school_data if cid in gp.members]) == 0:
+                chars_without_school.append(char)
+            if len([gp for gp in club_data if cid in gp.members]) == 0:
+                chars_without_club.append(char)
 
         if updated_translations:
             with open(script_dir / "lang/char.yaml", "w", encoding="utf-8") as f:
                 f.write(OmegaConf.to_yaml(
                     sorted(translations.values(), key=lambda x: x.id.lower()), sort_keys=True))
 
-        with open(script_dir / "manual/nogroup.generated.txt", "w", encoding="utf-8") as f:
-            for char in chars_without_group:
+        with open(script_dir / "manual/noschool.generated.txt", "w", encoding="utf-8") as f:
+            for char in chars_without_school:
+                f.write(f"{char.id}\n  {char.names['ja']}\n  {char.images[0]}\n\n")
+        with open(script_dir / "manual/noclub.generated.txt", "w", encoding="utf-8") as f:
+            for char in chars_without_club:
                 f.write(f"{char.id}\n  {char.names['ja']}\n  {char.images[0]}\n\n")
 
         return result, avatar_files, image_config

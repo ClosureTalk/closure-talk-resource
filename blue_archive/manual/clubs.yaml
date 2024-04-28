@@ -53,6 +53,7 @@
   members:
   - Pina
   - Shizuko
+  - Umika
 - id: game_development_department
   members:
   - Alice
@@ -110,6 +111,8 @@
   - Iroha
   - Ibuki
   - Makoto
+  - Satsuki
+  - Chiaki
   - pandemonium_student
 - id: plum_blossom_garden
   members:
@@ -202,8 +205,6 @@
   members:
   - Akira
   - Kai
-  - Mai
-  - Shinon
 - id: npc
   members:
   - Android
@@ -255,3 +256,55 @@
   - Purejidento
   - phrenapates
   - bunny_girl
+- id: news_club
+  members:
+  - Mai
+  - Shinon
+- id: go_home_club
+  members:
+  - Erika
+  - Kirara
+- id: xuanlong_office
+  members:
+  - Kisaki
+  - Mina
+- id: chinese_alchemy_study_club
+  members:
+  - Saya
+- id: xuanwu_merchant_association
+  members:
+  - Rumi
+  - Reijo
+- id: ccc
+  members:
+  - Hikari
+  - Nozomi
+  - Suou
+- id: hyakkaryouran_conflict_resolution_council
+  members:
+  - Yukari
+  - Renge
+  - Kikyou
+  - Nagusa
+- id: street_ghost_troupe
+  members:
+  - Arata
+- id: nature_beauty_club
+  members:
+  - Shuro
+  - Kokuriko
+- id: gym_training_department
+  members:
+  - Sumire
+  - Rei
+- id: knowledge_libration_front
+  members:
+  - Meru
+  - Momiji
+- id: public_works_department
+  members:
+  - Minori
+- id: publishing_department
+  members:
+  - Yakumo
+  - Takane
