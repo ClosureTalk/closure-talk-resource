@@ -282,7 +282,7 @@
   name:
     en: Steel Drum
     ja: ドラム缶
-    ko: ''
+    ko: 드럼통
     zh-cn: 油桶
     zh-tw: 油桶
   short_name:
@@ -476,7 +476,7 @@
   name:
     en: Tachibana Hikari
     ja: 橘 ヒカリ
-    ko: ''
+    ko: 타치바나 히카리
     zh-cn: ''
     zh-tw: ''
   short_name: null
@@ -526,17 +526,19 @@
   name:
     en: Hyakkiyako Club Member
     ja: 百鬼夜行サークル部員
-    ko: ''
+    ko: 백귀야행 동아리 부원
     zh-cn: 百鬼夜行社团部员
     zh-tw: 百鬼夜行社團部員
-  short_name: null
+  short_name:
+    en: Hyakkiyako Club Member
+    ko: 백귀야행 동아리 부원
 - id: Ibuki
   name:
     en: Tanga Ibuki
     ja: 丹花 イブキ
     ko: 탄가 이부키
-    zh-cn: 伊吹
-    zh-tw: 伊吹
+    zh-cn: 丹花 伊吹
+    zh-tw: 丹花 伊吹
 - id: Ichika
   name:
     en: Nakamasa Ichika
@@ -792,14 +794,14 @@
   name:
     en: Maestro
     ja: マエストロ
-    ko: ''
+    ko: 마에스트로
     zh-cn: Maestro
     zh-tw: Maestro
 - id: mafia
   name:
     en: Mafia
     ja: マフィア
-    ko: ''
+    ko: 마피아
     zh-cn: ''
     zh-tw: ''
   short_name: null
@@ -1004,7 +1006,7 @@
   name:
     en: Goryou Nagusa
     ja: 御稜 ナグサ
-    ko: 나구사
+    ko: 고료 나구사
     zh-cn: ''
     zh-tw: ''
 - id: nameless_guardian
@@ -1069,7 +1071,7 @@
   name:
     en: Tachibana Nozomi
     ja: 橘 ノゾミ
-    ko: ''
+    ko: 타치바나 노조미
     zh-cn: ''
     zh-tw: ''
   short_name: null
@@ -1077,7 +1079,7 @@
   name:
     en: Child
     ja: 子供
-    ko: ''
+    ko: 어린이
     zh-cn: 小孩子
     zh-tw: 小孩子
 - id: npc_fisherman
@@ -1456,11 +1458,12 @@
   name:
     en: ????
     ja: ？？？？
-    ko: ''
+    ko: ????
     zh-cn: ？？？？
     zh-tw: ？？？？
   short_name:
     en: ????
+    ko: ????
 - id: student_council_president
   name:
     en: GSC President
@@ -1514,7 +1517,7 @@
   name:
     en: Asagiri Suou
     ja: 朝霧 スオウ
-    ko: ''
+    ko: 아사기리 스오우
     zh-cn: ''
     zh-tw: ''
   short_name: null
@@ -1614,7 +1617,7 @@
   name:
     en: Shiina Tsumugi
     ja: 椎名 ツムギ
-    ko: ''
+    ko: 시이나 츠무기
     zh-cn: ''
     zh-tw: ''
   short_name: null

@@ -72,20 +72,20 @@
   name:
     en: Kronos School of Journalism
     ja: クロノスジャーナリズムスクール
-    ko:
+    ko: 크로노스 스쿨
     zh-cn: 克洛诺斯新闻学院
     zh-tw: 克洛諾斯新聞學院
 - id: hilander
   name:
     en: Hilander Railroad Academy
     ja: ハイランダー鉄道学園
-    ko:
+    ko: 하이랜더 철도학원
     zh-cn: 高地铁道学园
     zh-tw: 高地鐵道學園
 - id: general_student_council
   name:
     en: General Student Council
     ja: 連邦生徒会
-    ko:
+    ko: 총학생회
     zh-cn: 联邦学生会
     zh-tw: 聯邦學生會
