@@ -204,7 +204,6 @@
 - id: new_students
   members:
   - Akira
-  - Kai
 - id: npc
   members:
   - Android
@@ -271,6 +270,7 @@
 - id: chinese_alchemy_study_club
   members:
   - Saya
+  - Kai
 - id: xuanwu_merchant_association
   members:
   - Rumi
