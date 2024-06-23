@@ -94,3 +94,9 @@ def load_excel_table_list(cls: Callable[[], T], file: str) -> list[T]:
 def name_to_id(name: str) -> str:
     roma = romkan.to_roma(name)
     return roma[0].upper() + roma[1:]
+
+class SimpleCharData:
+    family_name: str
+    family_name_ruby: str
+    image_files: list[str]
+    personal_name: str
