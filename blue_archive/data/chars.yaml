@@ -99,6 +99,7 @@ Ayane:
   - Ayane_Robber_Swimsuit:UIs/01_Common/01_Character/NPC_Portrait_NP0066
   - UIs/01_Common/01_Character/NPC_Portrait_NP0108
   - UIs/01_Common/01_Character/Student_Portrait_Ayane_Robber
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0174
   personal_name: アヤネ
 Ayumu:
   family_name: 岩櫃
@@ -229,6 +230,7 @@ Fubuki:
   family_name_ruby: ねむがき
   image_files:
   - Fubuki:UIs/01_Common/01_Character/Student_Portrait_CH0141
+  - UIs/01_Common/01_Character/Student_Portrait_CH0261
   personal_name: フブキ
 Furanshisu:
   family_name: ''
@@ -385,6 +387,7 @@ Hoshino:
   - UIs/01_Common/01_Character/Student_Portrait_CH0241
   - UIs/01_Common/01_Character/Student_Portrait_Hoshino
   - UIs/01_Common/01_Character/Student_Portrait_Hoshino_Robber
+  - UIs/01_Common/01_Character/Student_Portrait_CH0258
   personal_name: ホシノ
 Hyakkiyako_Club_Member:
   family_name: ''
@@ -509,6 +512,7 @@ Kanna:
   image_files:
   - Kanna:UIs/01_Common/01_Character/Student_Portrait_CH0170
   - UIs/01_Common/01_Character/NPC_Portrait_NP0105
+  - UIs/01_Common/01_Character/Student_Portrait_CH0260
   personal_name: カンナ
 Karin:
   family_name: 角楯
@@ -564,6 +568,7 @@ Kirino:
   family_name_ruby: なかつかさ
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Kirino
+  - UIs/01_Common/01_Character/Student_Portrait_CH0262
   personal_name: キリノ
 Kisaki:
   family_name: 竜華
@@ -859,6 +864,8 @@ Nonomi:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0171
   - UIs/01_Common/01_Character/Student_Portrait_Nonomi
   - UIs/01_Common/01_Character/Student_Portrait_Nonomi_Robber
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0176
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0195
   personal_name: ノノミ
 Nozomi:
   family_name: 橘
@@ -915,6 +922,7 @@ Rabu:
   family_name_ruby: こまかぜ
   image_files:
   - Rabu:UIs/01_Common/01_Character/Student_Portrait_CH0166
+  - UIs/01_Common/01_Character/Student_Portrait_CH0279
   personal_name: ラブ
 Rei:
   family_name: 野正
@@ -1024,6 +1032,7 @@ Serika:
   - UIs/01_Common/01_Character/Student_Portrait_Serika_Newyear
   - UIs/01_Common/01_Character/Student_Portrait_Serika_Robber
   - UIs/01_Common/01_Character/Student_Portrait_Serika_Shibaseki
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0175
   personal_name: セリカ
 Serina:
   family_name: 鷲見
@@ -1076,6 +1085,7 @@ Shiroko:
   - UIs/01_Common/01_Character/Student_Portrait_CH0199
   - UIs/01_Common/01_Character/Student_Portrait_Shiroko
   - UIs/01_Common/01_Character/Student_Portrait_Shiroko_Robber
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0172
   personal_name: シロコ
 Shizuko:
   family_name: 河和
@@ -1149,6 +1159,8 @@ Suou:
   family_name_ruby: あさぎり
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0244
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0177
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0178
   personal_name: スオウ
 Suzumi:
   family_name: 守月

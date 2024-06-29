@@ -1,5 +1,6 @@
 import glob
 from pathlib import Path
+import shutil
 from typing import Dict, List, Tuple
 
 from omegaconf import OmegaConf
@@ -47,6 +48,9 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
 
     def get_chars(self) -> Tuple[List[Character], Dict[str, Path]]:
         res_root = self.res_root / "assets"
+        chars_res_root = res_root / "UIs/01_Common/01_Character"
+        unused_char_files = set([f.stem for f in chars_res_root.glob("*.png") if not f.stem.strip().endswith("_Small")])
+        unused_char_files.remove("Student_Portrait_Serika_Shibasek")
 
         chars: dict[str, SimpleCharData] = OmegaConf.load(script_dir / "data/chars.yaml")
 
@@ -102,6 +106,9 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
                 char.images.append(name)
                 avatar_files[name] = img_file
 
+                if img_file.stem in unused_char_files:
+                    unused_char_files.remove(img_file.stem)
+
             char.images = sorted(char.images)
             result.append(char)
             if len([gp for gp in school_data if cid in gp.members]) == 0:
@@ -113,6 +120,17 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
             with open(script_dir / "lang/char.yaml", "w", encoding="utf-8") as f:
                 f.write(OmegaConf.to_yaml(
                     sorted(translations.values(), key=lambda x: x.id.lower()), sort_keys=True))
+
+        if len(unused_char_files) > 0:
+            print("Unused char files:")
+            for file in sorted(unused_char_files):
+                print(f"  {file}")
+                if len(unused_char_files) < 50:
+                    src = chars_res_root / f"{file}.png"
+                    dst = script_dir.parent / f"scripts/ba_unused/{file}.png"
+                    dst.parent.mkdir(exist_ok=True)
+                    if not dst.exists():
+                        shutil.copy2(src, dst)
 
         result = sorted(result, key=lambda ch: ch.id.lower())
         return result, avatar_files, image_config
