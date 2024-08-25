@@ -27,6 +27,14 @@
     ko: 와니부치 아카리
     zh-cn: 鳄渊 亚伽里
     zh-tw: 鰐渕 亞伽里
+- id: Akemi
+  name:
+    en: Kurihama Akemi
+    ja: 栗浜 アケミ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Akira
   name:
     en: Kiyosumi Akira
@@ -579,6 +587,15 @@
     ko: 제너럴
     zh-cn: 上将
     zh-tw: 上將
+- id: jingju_student
+  name:
+    en: Peking Opera Student
+    ja: 京劇部員
+    ko: ''
+    zh-cn: 京剧部成员
+    zh-tw: 京劇部成員
+  short_name:
+    en: Peking Opera Student
 - id: Junko
   name:
     en: Akashi Junko
@@ -609,6 +626,13 @@
     ko: 이사미 카에데
     zh-cn: 勇美 枫
     zh-tw: 勇美 楓
+- id: Kaguya
+  name:
+    en: Urushibara Kaguya
+    ja: 漆原 カグヤ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
 - id: Kaho
   name:
     en: Kuwakami Kaho
@@ -1187,6 +1211,15 @@
     ko: 아사히나 피나
     zh-cn: 朝比奈 菲娜
     zh-tw: 朝比奈 菲娜
+- id: Professor
+  name:
+    en: Smiling Professor
+    ja: ニヤニヤ教授
+    ko: ''
+    zh-cn: 笑面教授
+    zh-tw: 笑面教授
+  short_name:
+    en: Smiling Professor
 - id: Purana
   name:
     en: Purana
@@ -1679,6 +1712,13 @@
     zh-tw: 打工傭兵
   short_name:
     en: Yoheki
+- id: Yonoka
+  name:
+    en: Yonoka
+    ja: コノカ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
 - id: Yoshimi
   name:
     en: Ibaragi Yoshimi

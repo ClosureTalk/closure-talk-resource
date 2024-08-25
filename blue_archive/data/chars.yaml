@@ -20,6 +20,12 @@ Akari:
   - UIs/01_Common/01_Character/Student_Portrait_Akari
   - UIs/01_Common/01_Character/Student_Portrait_CH0196
   personal_name: アカリ
+Akemi:
+  family_name: 栗浜
+  family_name_ruby: くりはま
+  image_files:
+  - UIs/01_Common/01_Character/Student_Portrait_CH0265
+  personal_name: アケミ
 Akira:
   family_name: 清澄
   family_name_ruby: きよすみ
@@ -90,6 +96,7 @@ Atsuko:
   - Atsuko_Masked:UIs/01_Common/01_Character/NPC_Portrait_NP0021
   - UIs/01_Common/01_Character/NPC_Portrait_NP0077
   - UIs/01_Common/01_Character/Student_Portrait_Atsuko
+  - UIs/01_Common/01_Character/Student_Portrait_CH0267
   personal_name: アツコ
 Ayane:
   family_name: 奥空
@@ -147,6 +154,7 @@ Cherino:
   image_files:
   - Cherino_Hotspring:UIs/01_Common/01_Character/Student_Portrait_CH0164
   - UIs/01_Common/01_Character/Student_Portrait_Cherino
+  - UIs/01_Common/01_Character/Student_Portrait_CH0278
   personal_name: チェリノ
 Chesed:
   family_name: ''
@@ -191,6 +199,7 @@ Citizen:
   - UIs/01_Common/01_Character/NPC_Portrait_Citizen_animal7
   - UIs/01_Common/01_Character/NPC_Portrait_NP0135
   - UIs/01_Common/01_Character/NPC_Portrait_NP0136
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0203
   personal_name: キヴォトス市民
 Dekaruto:
   family_name: ''
@@ -368,6 +377,7 @@ Hiyori:
   family_name_ruby: つちなが
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Hiyori
+  - UIs/01_Common/01_Character/Student_Portrait_CH0269
   personal_name: ヒヨリ
 Hod:
   family_name: ''
@@ -388,6 +398,9 @@ Hoshino:
   - UIs/01_Common/01_Character/Student_Portrait_Hoshino
   - UIs/01_Common/01_Character/Student_Portrait_Hoshino_Robber
   - UIs/01_Common/01_Character/Student_Portrait_CH0258
+  - UIs/01_Common/01_Character/Student_Portrait_CH0258_01
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0179
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0186
   personal_name: ホシノ
 Hyakkiyako_Club_Member:
   family_name: ''
@@ -484,6 +497,14 @@ Kaho:
   image_files:
   - Kaho:UIs/01_Common/01_Character/Student_Portrait_CH0107
   personal_name: カホ
+Kaguya:
+  family_name: 漆原
+  family_name_ruby: うるしばら
+  image_files:
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0242
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0243
+  - UIs/01_Common/01_Character/Student_Portrait_CH0272
+  personal_name: カグヤ
 Kai:
   family_name: 申谷
   family_name_ruby: しんたに
@@ -673,6 +694,7 @@ Marina:
   family_name_ruby: いけくら
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Marina
+  - UIs/01_Common/01_Character/Student_Portrait_CH0270
   personal_name: マリナ
 Mashiro:
   family_name: 静山
@@ -753,6 +775,7 @@ Misaki:
   family_name_ruby: いましの
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Misaki
+  - UIs/01_Common/01_Character/Student_Portrait_CH0268
   personal_name: ミサキ
 Miyako:
   family_name: 月雪
@@ -990,6 +1013,8 @@ Saori:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0164
   - UIs/01_Common/01_Character/Student_Portrait_CH0259
   - UIs/01_Common/01_Character/Student_Portrait_Saori
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0230
+  - UIs/01_Common/01_Character/Student_Portrait_CH0266
   personal_name: サオリ
 SatenRuiko:
   family_name: 佐天
@@ -1086,6 +1111,9 @@ Shiroko:
   - UIs/01_Common/01_Character/Student_Portrait_Shiroko
   - UIs/01_Common/01_Character/Student_Portrait_Shiroko_Robber
   - UIs/01_Common/01_Character/NPC_Portrait_NP0172
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0231
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0232
+  - UIs/01_Common/01_Character/Student_Portrait_CH0263
   personal_name: シロコ
 Shizuko:
   family_name: 河和
@@ -1257,6 +1285,12 @@ Yakumo:
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0228
   personal_name: ヤクモ
+Yonoka:
+  family_name: ''
+  family_name_ruby: ''
+  image_files:
+  - UIs/01_Common/01_Character/Student_Portrait_CH0264
+  personal_name: コノカ
 Yoshimi:
   family_name: 伊原木
   family_name_ruby: いばらぎ
@@ -1302,6 +1336,12 @@ Yuzu:
   - UIs/01_Common/01_Character/Student_Portrait_CH0203
   - UIs/01_Common/01_Character/Student_Portrait_Yuzu
   personal_name: ユズ
+Professor:
+  family_name: ''
+  family_name_ruby: ''
+  image_files:
+  - UIs/01_Common/01_Character/Student_Portrait_CH0277
+  personal_name: ニヤニヤ教授
 ain:
   family_name: ''
   family_name_ruby: ''
@@ -1558,3 +1598,10 @@ yoheki_student:
   - UIs/01_Common/01_Character/NPC_Portrait_Yoheki_Normal1
   - UIs/01_Common/01_Character/Student_Portrait_Yoheki_redwinter1
   personal_name: 傭兵バイト
+jingju_student:
+  family_name: ''
+  family_name_ruby: ''
+  image_files:
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0207
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0208
+  personal_name: 京劇部員

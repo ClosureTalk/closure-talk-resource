@@ -205,6 +205,7 @@
   members:
   - Akira
   - Kai
+  - Akemi
 - id: npc
   members:
   - Android
@@ -308,3 +309,7 @@
   members:
   - Yakumo
   - Takane
+- id: jingju_club
+  members:
+  - Kaguya
+  - jingju_student

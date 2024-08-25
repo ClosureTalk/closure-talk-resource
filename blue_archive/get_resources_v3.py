@@ -19,19 +19,19 @@ from utils.resource_utils import ResourceProcessor
 script_dir = Path(__file__).parent
 
 
-def get_default_lang_data(data: SimpleCharData) -> CharLangData:
+def get_default_lang_data(cid: str, data: SimpleCharData) -> CharLangData:
     if len(data.family_name) > 0:
         jp_name = f"{data.family_name} {data.personal_name}"
-        if len(data.personal_name_ruby) > 0:
-            en_name = f"{name_to_id(data.family_name_ruby)} {name_to_id(data.personal_name_ruby)}"
+        if len(data.family_name_ruby) > 0:
+            en_name = f"{name_to_id(data.family_name_ruby)} {name_to_id(data.personal_name)}"
         else:
-            en_name = f"{name_to_id(data.family_name_ruby)} {data.id}"
+            en_name = f"{name_to_id(data.family_name_ruby)} {cid}"
     else:
         jp_name = data.personal_name
-        en_name = " ".join([s[0].upper() + s[1:] for s in data.id.split("_") if s != "npc"])
+        en_name = " ".join([s[0].upper() + s[1:] for s in cid.split("_") if s != "npc"])
 
     return OmegaConf.structured(CharLangData(
-        data.id,
+        cid,
         {
             "ja": jp_name,
             "en": en_name,
@@ -72,7 +72,7 @@ class BlueArchiveResourceProcessor(ResourceProcessor):
             trans = translations.get(cid)
             if trans is None:
                 print(f"New translation: {cid}")
-                trans = translations[cid] = get_default_lang_data(data)
+                trans = translations[cid] = get_default_lang_data(cid, data)
                 updated_translations = True
 
             # Get short_name by splitting full name, unless manually translated
