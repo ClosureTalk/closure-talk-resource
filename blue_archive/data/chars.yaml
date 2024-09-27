@@ -596,6 +596,7 @@ Kisaki:
   family_name_ruby: りゅうげ
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0139
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0216
   personal_name: キサキ
 Koharu:
   family_name: 下江
@@ -989,6 +990,7 @@ Rumi:
   family_name_ruby: あけしろ
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0135
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0233
   personal_name: ルミ
 Saki:
   family_name: 空井
