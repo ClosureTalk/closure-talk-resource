@@ -7,7 +7,7 @@ from PIL import Image
 def scale_and_crop(img: Image, size: int, config: dict[str, Any]) -> Image:
     w, h = img.width, img.height
     scale = size / min(w, h)
-    img = img.resize((int(np.round(w*scale)), int(np.round(h*scale))), resample=Image.ANTIALIAS)
+    img = img.resize((int(np.round(w*scale)), int(np.round(h*scale))), resample=Image.Resampling.LANCZOS)
 
     w, h = img.width, img.height
     img = np.array(img)
