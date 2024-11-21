@@ -5,6 +5,7 @@ Airi:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0189
   - UIs/01_Common/01_Character/Student_Portrait_Airi
   - UIs/01_Common/01_Character/Student_Portrait_CH0251
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0227
   personal_name: アイリ
 Akane:
   family_name: 室笠
@@ -107,6 +108,7 @@ Ayane:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0108
   - UIs/01_Common/01_Character/Student_Portrait_Ayane_Robber
   - UIs/01_Common/01_Character/NPC_Portrait_NP0174
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0218
   personal_name: アヤネ
 Ayumu:
   family_name: 岩櫃
@@ -240,6 +242,7 @@ Fubuki:
   image_files:
   - Fubuki:UIs/01_Common/01_Character/Student_Portrait_CH0141
   - UIs/01_Common/01_Character/Student_Portrait_CH0261
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0219
   personal_name: フブキ
 Furanshisu:
   family_name: ''
@@ -424,6 +427,7 @@ Ichika:
   family_name_ruby: なかまさ
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0071
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0222
   personal_name: イチカ
 Iori:
   family_name: 銀鏡
@@ -571,6 +575,7 @@ Kazusa:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0188
   - UIs/01_Common/01_Character/Student_Portrait_CH0250
   - UIs/01_Common/01_Character/Student_Portrait_Kazusa
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0226
   personal_name: カズサ
 Kikyou:
   family_name: 桐生
@@ -590,6 +595,7 @@ Kirino:
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Kirino
   - UIs/01_Common/01_Character/Student_Portrait_CH0262
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0220
   personal_name: キリノ
 Kisaki:
   family_name: 竜華
@@ -689,6 +695,7 @@ Mari:
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0186
   - UIs/01_Common/01_Character/Student_Portrait_Mari
+  - UIs/01_Common/01_Character/Student_Portrait_CH0273
   personal_name: マリー
 Marina:
   family_name: 池倉
@@ -757,6 +764,7 @@ Mine:
   family_name_ruby: あおもり
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_CH0152
+  - UIs/01_Common/01_Character/Student_Portrait_CH0275
   personal_name: ミネ
 Minori:
   family_name: 安守
@@ -846,6 +854,7 @@ Natsu:
   - Natsu:UIs/01_Common/01_Character/Student_Portrait_CH0155
   - UIs/01_Common/01_Character/NPC_Portrait_NP0190
   - UIs/01_Common/01_Character/Student_Portrait_CH0221
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0228
   personal_name: ナツ
 Neru:
   family_name: 美甘
@@ -1005,6 +1014,7 @@ Sakurako:
   image_files:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0090
   - UIs/01_Common/01_Character/Student_Portrait_Sakurako
+  - UIs/01_Common/01_Character/Student_Portrait_CH0274
   personal_name: サクラコ
 Saori:
   family_name: 錠前
@@ -1060,6 +1070,7 @@ Serika:
   - UIs/01_Common/01_Character/Student_Portrait_Serika_Robber
   - UIs/01_Common/01_Character/Student_Portrait_Serika_Shibaseki
   - UIs/01_Common/01_Character/NPC_Portrait_NP0175
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0217
   personal_name: セリカ
 Serina:
   family_name: 鷲見
@@ -1226,6 +1237,7 @@ Tomoe:
   family_name_ruby: さしろ
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Tomoe
+  - UIs/01_Common/01_Character/Student_Portrait_CH0271
   personal_name: トモエ
 Tsubaki:
   family_name: 春日
@@ -1252,6 +1264,7 @@ Tsurugi:
   image_files:
   - Tsurugi_Swimsuit:UIs/01_Common/01_Character/Student_Portrait_CH0060
   - UIs/01_Common/01_Character/Student_Portrait_Tsurugi
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0223
   personal_name: ツルギ
 Ui:
   family_name: 古関
@@ -1272,6 +1285,7 @@ Utaha:
   image_files:
   - UIs/01_Common/01_Character/Student_Portrait_Utaha
   - Utaha_Cheer:UIs/01_Common/01_Character/Student_Portrait_CH0182
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0221
   personal_name: ウタハ
 Wakamo:
   family_name: 狐坂
@@ -1300,6 +1314,7 @@ Yoshimi:
   - UIs/01_Common/01_Character/NPC_Portrait_NP0187
   - UIs/01_Common/01_Character/Student_Portrait_CH0220
   - UIs/01_Common/01_Character/Student_Portrait_Yoshimi
+  - UIs/01_Common/01_Character/NPC_Portrait_NP0225
   personal_name: ヨシミ
 Yukari:
   family_name: 勘解由小路
