@@ -132,13 +132,21 @@ class ArknightsResourceProcessor(ResourceProcessor):
 
             # E2 and skins
             used_files = set()
-            for file in (f for f in sprite_files if f.stem.startswith(k) and f.stem != k):
+            def add_sprite_file(file: Path):
                 if file.stem in used_files:
-                    continue
+                    return
                 used_files.add(file.stem)
                 img_name = os.path.splitext(os.path.split(file)[1])[0]
                 avatar_files[img_name] = file
                 ch.images.append(img_name)
+            for file in (f for f in sprite_files if f.stem.startswith(k) and f.stem != k):
+                add_sprite_file(file)
+
+            # special handle: amiya
+            if k == "char_002_amiya":
+                alts = ["char_1001_amiya2", "char_1037_amiya3", "npc_1295_amiya"]
+                for file in (f for f in sprite_files if any(f.stem.startswith(alt) and f.stem != alt for alt in alts)):
+                    add_sprite_file(file)
 
             characters.append(ch)
 
