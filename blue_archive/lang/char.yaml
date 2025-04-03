@@ -862,6 +862,14 @@
     ko: 이케쿠라 마리나
     zh-cn: 池仓 玛丽娜
     zh-tw: 池倉 瑪麗娜
+- id: marukuto
+  name:
+    en: Marukuto
+    ja: マルクト
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: Mashiro
   name:
     en: Shizuyama Mashiro
@@ -942,6 +950,14 @@
     ko: 야스모리 미노리
     zh-cn: 安守 实梨
     zh-tw: 安守 實里
+- id: Mirai
+  name:
+    en: Mirai
+    ja: ミライ
+    ko: ''
+    zh-cn: ''
+    zh-tw: ''
+  short_name: null
 - id: MisakaMikoto
   name:
     en: Misaka Mikoto
